@@ -1,0 +1,276 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/article_ask.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/img/call_phone.png'\nimport _imports_1 from '/img/network_registration.png'\nimport _imports_2 from '/img/ask_online.png'\n\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'article_ask',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-f7efc5b8><div class=\"article_ask\" data-v-f7efc5b8><div class=\"call_phone\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-f7efc5b8> 免费拨打 </div><div class=\"network_registration\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-f7efc5b8> 网络挂号</div><div class=\"ask_online\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-f7efc5b8> 在线咨询</div></div></div>`)\n}\n}\n\n})",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n        <div class=\"article_ask\">\r\n            <div class=\"call_phone\" @click=\"call_phone\">\r\n                <img src=\"/img/call_phone.png\" />\r\n                免费拨打\r\n            </div>\r\n            <div class=\"network_registration\" @click=\"network_registration\">\r\n                <img src=\"/img/network_registration.png\" />\r\n                网络挂号</div>\r\n            <div class=\"ask_online\" @click=\"ask_online\">\r\n                <img src=\"/img/ask_online.png\" />\r\n                在线咨询</div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.article_ask {\r\n    width: 70%;\r\n    margin: auto;\r\n    display: flex;\r\n    font-size: 1.2rem;\r\n    height: 45px;\r\n    line-height: 45px;\r\n    margin-bottom: 2rem;\r\n    img {\r\n        height: 24px;\r\n        width: 20px;\r\n        margin-right: 0.5rem;\r\n    }\r\n\r\n    .call_phone,\r\n    .network_registration,\r\n    .ask_online {\r\n        width: 18%;\r\n        margin-right: 15%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        color: white;\r\n        border-radius: 10px;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .call_phone {\r\n        background-color: #FFAB19;\r\n    }\r\n\r\n    .network_registration {\r\n        background-color: #721B0E;\r\n    }\r\n\r\n    .ask_online {\r\n        background-color: #A9907A;\r\n    }\r\n\r\n}</style>"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;;AAiBwB,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACjD,CAAC,CAAC;AACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1F,CAAC,CAAC;AACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1F,CAAC,CAAC;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707894015,
+      "end": 1709707894015,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/img/call_phone.png\";\nimport _imports_1 from \"/img/network_registration.png\";\nimport _imports_2 from \"/img/ask_online.png\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"article_ask\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const call_phone = () => {\n      window.location.href = \"tel://023-86868333\";\n    };\n    const network_registration = () => {\n      window.location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    const ask_online = () => {\n      window.location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_attrs)} data-v-f7efc5b8><div class=\"article_ask\" data-v-f7efc5b8><div class=\"call_phone\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-f7efc5b8> 免费拨打 </div><div class=\"network_registration\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_1)} data-v-f7efc5b8> 网络挂号</div><div class=\"ask_online\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_2)} data-v-f7efc5b8> 在线咨询</div></div></div>`);\n    };\n  }\n});\n",
+      "start": 1709707894015,
+      "end": 1709707894179,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/img/call_phone.png'\nimport _imports_1 from '/img/network_registration.png'\nimport _imports_2 from '/img/ask_online.png'\n\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'article_ask',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<div${\n    _ssrRenderAttrs(_attrs)\n  } data-v-f7efc5b8><div class=\"article_ask\" data-v-f7efc5b8><div class=\"call_phone\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } data-v-f7efc5b8> 免费拨打 </div><div class=\"network_registration\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } data-v-f7efc5b8> 网络挂号</div><div class=\"ask_online\" data-v-f7efc5b8><img${\n    _ssrRenderAttr(\"src\", _imports_2)\n  } data-v-f7efc5b8> 在线咨询</div></div></div>`)\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,iBAAiB,gBAAgB,kBAAkB,uBAAuB;AACnF,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AAIvB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,MAAM,SAAS;AAEjB,UAAM,aAAa,MAAM;AACrB,aAAO,SAAS,OAAO;AAAA,IAC3B;AACA,UAAM,uBAAuB,MAAM;AAC/B,aAAO,SAAS,OAAM;AAAA,IAC1B;AACA,UAAM,aAAa,MAAM;AACrB,aAAO,SAAS,OAAM;AAAA,IAC1B;AAEA,WAAO,CAAC,MAAU,OAAW,SAAa,WAAgB;AACxD,YAAM,OACJ,gBAAgB,MAAM,CACxB,yGACE,eAAe,OAAO,UAAU,CAClC,sFACE,eAAe,OAAO,UAAU,CAClC,2EACE,eAAe,OAAO,UAAU,CAClC,0CAA0C;AAAA,IAC5C;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894179,
+      "end": 1709707894179,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707894179,
+      "end": 1709707894180,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/img/call_phone.png\";\nimport _imports_1 from \"/img/network_registration.png\";\nimport _imports_2 from \"/img/ask_online.png\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"article_ask\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const call_phone = () => {\n      (void 0).location.href = \"tel://023-86868333\";\n    };\n    const network_registration = () => {\n      (void 0).location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    const ask_online = () => {\n      (void 0).location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<div${_ssrRenderAttrs(_attrs)} data-v-f7efc5b8><div class=\"article_ask\" data-v-f7efc5b8><div class=\"call_phone\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_0)} data-v-f7efc5b8> 免费拨打 </div><div class=\"network_registration\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_1)} data-v-f7efc5b8> 网络挂号</div><div class=\"ask_online\" data-v-f7efc5b8><img${_ssrRenderAttr(\"src\", _imports_2)} data-v-f7efc5b8> 在线咨询</div></div></div>`);\n    };\n  }\n});\n",
+      "start": 1709707894180,
+      "end": 1709707894369,
+      "order": "normal",
+      "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"E:/cqmbyy/zypc/components/article_ask.vue?vue&type=script&setup=true&lang.ts\"],\n  \"sourcesContent\": [\"import { defineComponent as _defineComponent } from \\\"vue\\\";\\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\";\\nimport _imports_0 from \\\"/img/call_phone.png\\\";\\nimport _imports_1 from \\\"/img/network_registration.png\\\";\\nimport _imports_2 from \\\"/img/ask_online.png\\\";\\nexport default /* @__PURE__ */ _defineComponent({\\n  __name: \\\"article_ask\\\",\\n  __ssrInlineRender: true,\\n  setup(__props) {\\n    const call_phone = () => {\\n      window.location.href = \\\"tel://023-86868333\\\";\\n    };\\n    const network_registration = () => {\\n      window.location.href = \\\"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\\\";\\n    };\\n    const ask_online = () => {\\n      window.location.href = \\\"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\\\";\\n    };\\n    return (_ctx, _push, _parent, _attrs) => {\\n      _push(`<div${_ssrRenderAttrs(_attrs)} data-v-f7efc5b8><div class=\\\"article_ask\\\" data-v-f7efc5b8><div class=\\\"call_phone\\\" data-v-f7efc5b8><img${_ssrRenderAttr(\\\"src\\\", _imports_0)} data-v-f7efc5b8> 免费拨打 </div><div class=\\\"network_registration\\\" data-v-f7efc5b8><img${_ssrRenderAttr(\\\"src\\\", _imports_1)} data-v-f7efc5b8> 网络挂号</div><div class=\\\"ask_online\\\" data-v-f7efc5b8><img${_ssrRenderAttr(\\\"src\\\", _imports_2)} data-v-f7efc5b8> 在线咨询</div></div></div>`);\\n    };\\n  }\\n});\\n\"],\n  \"mappings\": \"AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,iBAAiB,gBAAgB,kBAAkB,uBAAuB;AACnF,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,eAA+B,iCAAiB;AAAA,EAC9C,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,MAAM,SAAS;AACb,UAAM,aAAa,MAAM;AACvB,eAAO,SAAS,OAAO;AAAA,IACzB;AACA,UAAM,uBAAuB,MAAM;AACjC,eAAO,SAAS,OAAO;AAAA,IACzB;AACA,UAAM,aAAa,MAAM;AACvB,eAAO,SAAS,OAAO;AAAA,IACzB;AACA,WAAO,CAAC,MAAM,OAAO,SAAS,WAAW;AACvC,YAAM,OAAO,gBAAgB,MAAM,CAAC,yGAAyG,eAAe,OAAO,UAAU,CAAC,sFAAsF,eAAe,OAAO,UAAU,CAAC,2EAA2E,eAAe,OAAO,UAAU,CAAC,0CAA0C;AAAA,IAC7b;AAAA,EACF;AACF,CAAC;\",\n  \"names\": []\n}\n"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707894369,
+      "end": 1709707894369,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894370,
+      "end": 1709707894370,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894370,
+      "end": 1709707894370,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894370,
+      "end": 1709707894376,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894370,
+      "end": 1709707894376,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894377,
+      "end": 1709707894377,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894377,
+      "end": 1709707894377,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894377,
+      "end": 1709707894377,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894377,
+      "end": 1709707894377,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707894377,
+      "end": 1709707894382,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707894382,
+      "end": 1709707894382,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707894383,
+      "end": 1709707894385,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707894385,
+      "end": 1709707894385,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707894386,
+      "end": 1709707894388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894389,
+      "end": 1709707894389,
+      "order": "normal"
+    }
+  ]
+}

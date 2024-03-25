@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/sidebars.vue?vue&type=style&index=0&scoped=6a916765&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.sidebar{\r\n    position: fixed;\r\n    bottom:20rem;\r\n    right: 2rem;\r\n    z-index: 999;\r\n    .sidebars{\r\n        display: flex;\r\n        flex-direction: column;\r\n        .sidebars_item1,\r\n        .sidebars_item2,\r\n        .sidebars_item3,\r\n        .sidebars_item4{\r\n            height: 50px;\r\n            width: 50px;\r\n            background-color: #EFEFEF;\r\n            margin-top: 0.8rem;\r\n            border-radius: 0.5rem;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n        }\r\n        .sidebars_item1_text,.sidebars_item2_text{\r\n            display: flex;\r\n            justify-content: center;\r\n            text-align: center  ;\r\n            font-size: 1.1rem;\r\n            color: #EFEFEF;\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item3:hover{\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item4{\r\n            cursor: pointer;\r\n        }\r\n    }\r\n}\r\n.wx_code{\r\n    position: fixed;\r\n    bottom: 22rem;\r\n    right: 6rem;\r\n    z-index: 999;\r\n}\r\n:deep(.el-backtop){\r\n        bottom:16rem !important;\r\n        right: 2rem !important;\r\n        z-index: 999;\r\n        color: #721B0E;\r\n        }\r\n",
+      "start": 1709707894063,
+      "end": 1709707894063,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/sidebars.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/components/sidebars.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"sidebar\">\r\n      <div class=\"sidebars\">\r\n        <div class=\"sidebars_item1\" >\r\n            <div   v-show=\"!isHovering1\" @mouseover=\"isHovering1 = true\" @mouseleave=\"isHovering1 = false\">\r\n                <img src=\"/img/sidebar1.png\"/>\r\n            </div>\r\n            <div  v-show=\"isHovering1\"  @mouseover=\"isHovering1 = true\" @mouseleave=\"isHovering1 = false\" class=\"sidebars_item1_text\" @click=\"sidebars_item1\">\r\n                预约挂号\r\n            </div>\r\n        </div>\r\n        <div class=\"sidebars_item2\">\r\n            <div   v-show=\"!isHovering2\" @mouseover=\"isHovering2 = true\" @mouseleave=\"isHovering2 = false\">\r\n                <img src=\"/img/sidebar2.png\"/>\r\n            </div>\r\n            <div   v-show=\"isHovering2\" @mouseover=\"isHovering2 = true\" @mouseleave=\"isHovering2 = false\" class=\"sidebars_item2_text\" @click=\"sidebars_item2\">\r\n                电话咨询\r\n            </div>\r\n        </div>\r\n        <div class=\"sidebars_item3\"  @mouseover=\"isHovering3 = true\" @mouseleave=\"isHovering3 = false\">\r\n            <img v-show=\"!isHovering3\" src=\"/img/sidebar3_1.png\"/>\r\n            <img v-show=\"isHovering3\" src=\"/img/sidebar3_2.png\"/>\r\n        </div>\r\n        <div class=\"wx_code\"  v-show=\"isHovering3\"  @mouseover=\"isHovering3 = true\" @mouseleave=\"isHovering3 = false\"  >\r\n        <img src=\"/img/wx_code.png\"/>\r\n      </div>\r\n        <div class=\"sidebars_item4\" @click=\"sidebars_item1\">\r\n            <img src=\"/img/sidebar4.png\"/>\r\n        </div>\r\n        <el-backtop class=\"backtop\" />\r\n      </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\n    const isHovering1=ref(false)\r\n    const isHovering2=ref(false)\r\n    const isHovering3=ref(false)\r\n    const sidebars_item1=()=>{\r\n        window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n    }\r\n    const sidebars_item2=()=>{\r\n        window.location.href = 'tel://023-86868333';\r\n    }\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.sidebar{\r\n    position: fixed;\r\n    bottom:20rem;\r\n    right: 2rem;\r\n    z-index: 999;\r\n    .sidebars{\r\n        display: flex;\r\n        flex-direction: column;\r\n        .sidebars_item1,\r\n        .sidebars_item2,\r\n        .sidebars_item3,\r\n        .sidebars_item4{\r\n            height: 50px;\r\n            width: 50px;\r\n            background-color: #EFEFEF;\r\n            margin-top: 0.8rem;\r\n            border-radius: 0.5rem;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n        }\r\n        .sidebars_item1_text,.sidebars_item2_text{\r\n            display: flex;\r\n            justify-content: center;\r\n            text-align: center  ;\r\n            font-size: 1.1rem;\r\n            color: #EFEFEF;\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item3:hover{\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item4{\r\n            cursor: pointer;\r\n        }\r\n    }\r\n}\r\n.wx_code{\r\n    position: fixed;\r\n    bottom: 22rem;\r\n    right: 6rem;\r\n    z-index: 999;\r\n}\r\n:deep(.el-backtop){\r\n        bottom:16rem !important;\r\n        right: 2rem !important;\r\n        z-index: 999;\r\n        color: #721B0E;\r\n        }\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894064,
+      "end": 1709707894064,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894064,
+      "end": 1709707894064,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894065,
+      "end": 1709707894066,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894065,
+      "end": 1709707894066,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707894066,
+      "end": 1709707894066,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".sidebar{bottom:20rem;position:fixed;right:2rem;z-index:999}.sidebar .sidebars{display:flex;flex-direction:column}.sidebar .sidebars .sidebars_item1,.sidebar .sidebars .sidebars_item2,.sidebar .sidebars .sidebars_item3,.sidebar .sidebars .sidebars_item4{align-items:center;background-color:#efefef;border-radius:.5rem;display:flex;height:50px;justify-content:center;margin-top:.8rem;width:50px}.sidebar .sidebars .sidebars_item1_text,.sidebar .sidebars .sidebars_item2_text{background-color:#721b0e;color:#efefef;cursor:pointer;display:flex;font-size:1.1rem;justify-content:center;text-align:center}.sidebar .sidebars .sidebars_item3:hover{background-color:#721b0e;cursor:pointer}.sidebar .sidebars .sidebars_item4{cursor:pointer}.wx_code{bottom:22rem;position:fixed;right:6rem;z-index:999}:deep(.el-backtop){bottom:16rem!important;color:#721b0e;right:2rem!important;z-index:999}",
+      "start": 1709707894066,
+      "end": 1709707894078,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/components/sidebars.vue",
+        "mappings": "AACA,SAEI,aADA,eAEA,WACA,YAJJ,mBAMQ,aACA,sBAPR,4IAmBY,mBALA,yBAEA,oBACA,aALA,YAMA,uBAHA,iBAFA,WAbZ,gFA2BY,yBADA,cAEA,eANA,aAGA,iBAFA,uBACA,kBAxBZ,yCA+BY,yBACA,eAhCZ,mCAmCY,eAIZ,SAEI,aADA,eAEA,WACA,YAEJ,mBACQ,uBAGA,cAFA,qBACA",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/sidebars.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707894078,
+      "end": 1709707894078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707894079,
+      "end": 1709707894079,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707894079,
+      "end": 1709707894079,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".sidebar[data-v-6a916765]{bottom:20rem;position:fixed;right:2rem;z-index:999}.sidebar .sidebars[data-v-6a916765]{display:flex;flex-direction:column}.sidebar .sidebars .sidebars_item1[data-v-6a916765],.sidebar .sidebars .sidebars_item2[data-v-6a916765],.sidebar .sidebars .sidebars_item3[data-v-6a916765],.sidebar .sidebars .sidebars_item4[data-v-6a916765]{align-items:center;background-color:#efefef;border-radius:.5rem;display:flex;height:50px;justify-content:center;margin-top:.8rem;width:50px}.sidebar .sidebars .sidebars_item1_text[data-v-6a916765],.sidebar .sidebars .sidebars_item2_text[data-v-6a916765]{background-color:#721b0e;color:#efefef;cursor:pointer;display:flex;font-size:1.1rem;justify-content:center;text-align:center}.sidebar .sidebars .sidebars_item3[data-v-6a916765]:hover{background-color:#721b0e;cursor:pointer}.sidebar .sidebars .sidebars_item4[data-v-6a916765]{cursor:pointer}.wx_code[data-v-6a916765]{bottom:22rem;position:fixed;right:6rem;z-index:999}[data-v-6a916765] .el-backtop{bottom:16rem!important;color:#721b0e;right:2rem!important;z-index:999}",
+      "start": 1709707894079,
+      "end": 1709707894081,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/components/sidebars.vue",
+        "mappings": "AAAA,0BAAS,YAAY,CAAC,cAAc,CAAC,UAAU,CAAC,WAAW,CAAC,oCAAmB,YAAY,CAAC,qBAAqB,CAAC,gNAA4I,kBAAkB,CAAC,wBAAwB,CAAC,mBAAmB,CAAC,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,UAAU,CAAC,kHAAgF,wBAAwB,CAAC,aAAa,CAAC,cAAc,CAAC,YAAY,CAAC,gBAAgB,CAAC,sBAAsB,CAAC,iBAAiB,CAAC,0DAAyC,wBAAwB,CAAC,cAAc,CAAC,oDAAmC,cAAc,CAAC,0BAAS,YAAY,CAAC,cAAc,CAAC,UAAU,CAAC,WAAW,CAAC,8BAAmB,sBAAsB,CAAC,aAAa,CAAC,oBAAoB,CAAC,WAAW",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/sidebars.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707894081,
+      "end": 1709707894081,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707894083,
+      "end": 1709707894088,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707894089,
+      "end": 1709707894089,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707894089,
+      "end": 1709707894089,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707894089,
+      "end": 1709707894089,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707894090,
+      "end": 1709707894090,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707894090,
+      "end": 1709707894090,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707894090,
+      "end": 1709707894091,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707894091,
+      "end": 1709707894091,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707894091,
+      "end": 1709707894091,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894092,
+      "end": 1709707894092,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894092,
+      "end": 1709707894093,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894092,
+      "end": 1709707894093,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707894093,
+      "end": 1709707894093,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707894093,
+      "end": 1709707894093,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707894093,
+      "end": 1709707894093,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707894094,
+      "end": 1709707894094,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707894094,
+      "end": 1709707894094,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894094,
+      "end": 1709707894094,
+      "order": "normal"
+    }
+  ]
+}

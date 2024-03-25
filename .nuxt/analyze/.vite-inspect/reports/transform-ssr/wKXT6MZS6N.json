@@ -1,0 +1,264 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/request/request.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import axios from 'axios'\r\n// import router from '../routes/index'\r\n// 创建axios实例\r\nconst requests = axios.create({\r\n    baseURL: 'http://localhost:3001',// 本地地址\r\n    //baseURL: 'http://api.cqmbyy.com',// 服务器地址\r\n    timeout: 80000, // 请求超时时间(毫秒)\r\n    withCredentials: false,// 异步请求携带cookie\r\n})\r\n\r\n// requests请求拦截器\r\nrequests.interceptors.request.use(\r\n      config => {\r\n        return config\r\n      },\r\n    error => {\r\n        // 对请求错误做些什么\r\n        Promise.reject(error)\r\n    }\r\n)\r\n// response 响应拦截器\r\nrequests.interceptors.response.use(\r\n    response => {\r\n        // 对响应数据做点什么\r\n        return response.data\r\n    },\r\n    error => {\r\n        // 对响应错误做点什么\r\n        return Promise.reject(error)\r\n    }\r\n)\r\nexport default requests",
+      "start": 1709707894618,
+      "end": 1709707894698,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707894698,
+      "end": 1709707894698,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import axios from \"axios\";\nconst requests = axios.create({\n  baseURL: \"http://localhost:3001\",\n  // 本地地址\n  //baseURL: 'http://api.cqmbyy.com',// 服务器地址\n  timeout: 8e4,\n  // 请求超时时间(毫秒)\n  withCredentials: false\n  // 异步请求携带cookie\n});\nrequests.interceptors.request.use(\n  (config) => {\n    return config;\n  },\n  (error) => {\n    Promise.reject(error);\n  }\n);\nrequests.interceptors.response.use(\n  (response) => {\n    return response.data;\n  },\n  (error) => {\n    return Promise.reject(error);\n  }\n);\nexport default requests;\n",
+      "start": 1709707894698,
+      "end": 1709707894729,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/request/request.ts"
+        ],
+        "sourcesContent": [
+          "import axios from 'axios'\r\n// import router from '../routes/index'\r\n// 创建axios实例\r\nconst requests = axios.create({\r\n    baseURL: 'http://localhost:3001',// 本地地址\r\n    //baseURL: 'http://api.cqmbyy.com',// 服务器地址\r\n    timeout: 80000, // 请求超时时间(毫秒)\r\n    withCredentials: false,// 异步请求携带cookie\r\n})\r\n\r\n// requests请求拦截器\r\nrequests.interceptors.request.use(\r\n      config => {\r\n        return config\r\n      },\r\n    error => {\r\n        // 对请求错误做些什么\r\n        Promise.reject(error)\r\n    }\r\n)\r\n// response 响应拦截器\r\nrequests.interceptors.response.use(\r\n    response => {\r\n        // 对响应数据做点什么\r\n        return response.data\r\n    },\r\n    error => {\r\n        // 对响应错误做点什么\r\n        return Promise.reject(error)\r\n    }\r\n)\r\nexport default requests"
+        ],
+        "mappings": "AAAA,OAAO,WAAW;AAGlB,MAAM,WAAW,MAAM,OAAO;AAAA,EAC1B,SAAS;AAAA;AAAA;AAAA,EAET,SAAS;AAAA;AAAA,EACT,iBAAiB;AAAA;AACrB,CAAC;AAGD,SAAS,aAAa,QAAQ;AAAA,EACxB,YAAU;AACR,WAAO;AAAA,EACT;AAAA,EACF,WAAS;AAEL,YAAQ,OAAO,KAAK;AAAA,EACxB;AACJ;AAEA,SAAS,aAAa,SAAS;AAAA,EAC3B,cAAY;AAER,WAAO,SAAS;AAAA,EACpB;AAAA,EACA,WAAS;AAEL,WAAO,QAAQ,OAAO,KAAK;AAAA,EAC/B;AACJ;AACA,eAAe;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707894729,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707894730,
+      "end": 1709707894730,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707894731,
+      "end": 1709707894731,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707894731,
+      "end": 1709707894731,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707894731,
+      "end": 1709707894731,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707894731,
+      "end": 1709707894731,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894731,
+      "end": 1709707894731,
+      "order": "normal"
+    }
+  ]
+}

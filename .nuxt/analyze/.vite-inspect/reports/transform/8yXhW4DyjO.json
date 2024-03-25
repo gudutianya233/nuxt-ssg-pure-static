@@ -1,0 +1,229 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n        <div>\r\n      <Head>\r\n      <Title>重庆铭博医院简介-重庆铭博中医肿瘤医院</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院简介，重庆铭博中医肿瘤医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院历史悠久、底蕴深厚。坚持“传承创新、中西并重”的发展理念，重点建设中医、中医肿瘤科、中医疑难综合科等核心的多学科诊疗平台，更好地为患者服务。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"hosptial_bg\">\r\n            <img src=\"/img/hosptial_bg.jpg\" alt=\"\">\r\n        </div>\r\n        <div class=\"hosptial\">\r\n            <div class=\"hosptial_bg2\">\r\n                <img src=\"/img/hosptial_bg2.png\" alt=\"\">\r\n            </div>\r\n            <div class=\"hosptial_keyword\">\r\n                <div class=\"hosptial_keywords\" v-for=\"item in keywords\">\r\n                    <div class=\"hosptial_keyword_img\"> <img src=\"/img/hosptial_keyword.png\" /></div>\r\n                    <div class=\"hosptial_keyword_text\"><span>{{ item.name }}</span></div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_honor\">\r\n            <div class=\"hosptial_honor_title\">\r\n                <img src=\"/img/hosptial_honor.png\" />\r\n            </div>\r\n            <div class=\"hosptial_honor_img\">\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor1.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor2.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor3.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor4.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor5.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor6.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor7.jpg' /></div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_environment\">\r\n            <div class=\"hosptial_environment_title\">\r\n                <img src=\"/img/hosptial_environment.png\" />\r\n            </div>\r\n            <div class=\"hosptial_environment_img\">\r\n                <swiper :modules=\"modules\" :loop=\"true\" :space-between=\"20\" :slides-per-view=\"4\" :slides-per-group=\"1\"\r\n                    :loop-fill-group-with-blank=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                    :autoplay=\"{ delay: 2000, disableOnInteraction: false }\">\r\n                    <swiper-slide v-for=\"item in hosptial_show\" :key=\"item.id\">\r\n                        <div class=\"hosptial_show\">\r\n                            <img :src=\"item.url\" />\r\n                        </div>\r\n                    </swiper-slide>\r\n                    <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n                </swiper>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_service\">\r\n            <div class=\"hosptial_service_title\">\r\n                <img src=\"/img/hosptial_service.png\" />\r\n            </div>\r\n            <div class=\"hosptial_service_body\">\r\n                <div class=\"hosptial_service_body_item\" v-for=\"item in hosptial_service\" :key=\"item.id\">\r\n                    <span>{{ item.name }}</span>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_target\">\r\n            <div class=\"hosptial_target_body\">\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target1.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital training</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院愿景</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>以\"优质的服务\"</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>显著的疗效\"服务于民\"</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target2.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital concept</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院使命</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>关爱生命促进健康</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>传承创新造福社会</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target3.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>bbusiness purpose</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>经营宗旨</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>弘扬重庆铭博医院</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>服务大众健康</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target4.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital values</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院价值观</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>坚持\"传承创新“</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>\"中西并重\"</span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_swiper\">\r\n            <swiper :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 2000, disableOnInteraction: true }\">\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner1.jpg\" />\r\n                </swiper-slide>\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner4.jpg\" />\r\n                </swiper-slide>\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner2.jpg\" />\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { Pagination, Autoplay } from 'swiper'\r\nimport { Swiper, SwiperSlide } from 'vue-awesome-swiper'\r\nimport 'swiper/swiper-bundle.css'\r\nimport 'swiper/css/pagination'\r\nconst modules = [Pagination, Autoplay]\r\nconst keywords = [\r\n    { id: 1, name: '一切以患者为中心' },\r\n    { id: 2, name: '医保定点单位' },\r\n    { id: 3, name: '远程会诊 智慧药房' },\r\n    { id: 4, name: '特色科室 以名医带动名科' },\r\n    { id: 5, name: '国际医疗新模式  吸引高端学科人才' },\r\n    { id: 6, name: '国际国内先进设备 高品质医疗服务保障' },\r\n    { id: 7, name: '温馨舒适就医环境' },\r\n]\r\nconst hosptial_show = [\r\n    { id: 1, url: '/img/yyhj1.jpg' },\r\n    { id: 2, url: '/img/yyhj2.jpg' },\r\n    { id: 3, url: '/img/yyhj3.jpg' },\r\n    { id: 4, url: '/img/yyhj4.jpg' },\r\n    { id: 5, url: '/img/yyhj5.jpg' },\r\n    { id: 6, url: '/img/yyhj6.jpg' },\r\n    { id: 7, url: '/img/yyhj7.jpg' },\r\n    { id: 8, url: '/img/yyhj8.jpg' },\r\n    { id: 9, url: '/img/yyhj9.jpg' },\r\n    { id: 10, url: '/img/yyhj10.jpg' },\r\n    { id: 11, url: '/img/yyhj11.jpg' },\r\n    { id: 12, url: '/img/yyhj12.jpg' },\r\n    { id: 13, url: '/img/yyhj13.jpg' },\r\n    { id: 14, url: '/img/yyhj14.jpg' },\r\n]\r\nconst hosptial_service = [\r\n    { id: 1, name: '医保惠民政策' },\r\n    { id: 1, name: '中西医结合' },\r\n    { id: 1, name: '一对一问诊' },\r\n    { id: 1, name: '预约制服务' },\r\n    { id: 1, name: '家属可陪同' },\r\n    { id: 1, name: '诊后回访' },\r\n]\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-top: 1rem;\r\n    display: flex;\r\n\r\n    .hosptial_bg2 {\r\n        width: 50%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n\r\n        img {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n    }\r\n\r\n    .hosptial_keyword {\r\n        width: 40%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        padding-left: 10%;\r\n\r\n        .hosptial_keywords {\r\n            display: flex;\r\n            height: 13%;\r\n            width: 100%;\r\n            text-align: left;\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n        .hosptial_keyword_img {\r\n            width: 10%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n\r\n        .hosptial_keyword_text {\r\n            width: 80%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_honor {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_honor_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_honor_img {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        margin-top: 1rem;\r\n       .hosptial_honor_imgs {\r\n        width: 25%;\r\n        height: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-bottom: 2rem;\r\n            img {\r\n                height: 70%;\r\n                width: 50%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_environment {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_environment_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_environment_img {\r\n        margin: auto;\r\n        height: 300px;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-top: 1rem;\r\n\r\n        .hosptial_show {\r\n            height: 300px;\r\n            width: 100%;\r\n\r\n            img {\r\n                width: 100%;\r\n                height: 100%;\r\n                object-fit: cover;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_service {\r\n    margin-top: 2rem;\r\n\r\n    .hosptial_service_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_service_body {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        width: 80%;\r\n        margin: auto;\r\n\r\n        .hosptial_service_body_item {\r\n            height: 130px;\r\n            width: 20%;\r\n            margin-right: 5%;\r\n            margin-top: 2rem;\r\n            background-image: url(/img/hosptial_service_bg.png);\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            color: #721b0e;\r\n            font-size: 2rem;\r\n\r\n            &:hover {\r\n                color: white;\r\n                background-color: #721b0e;\r\n            }\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.hosptial_target_body {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 80%;\r\n    margin: auto;\r\n    height: 250px;\r\n    margin-top: 3rem;\r\n\r\n    .hosptial_target_body_item {\r\n        height: 130px;\r\n        width: 20%;\r\n        margin-right: 5%;\r\n        margin-top: 2rem;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        flex-direction: column;\r\n\r\n        .hosptial_target_body_item1 {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            margin-top: 1rem;\r\n        }\r\n\r\n        .hosptial_target_body_item2 {\r\n            color: #721b0e;\r\n            text-transform: capitalize;\r\n            margin-top: 1rem;\r\n            font-size: 1.5rem;\r\n        }\r\n\r\n        .hosptial_target_body_item3 {\r\n            margin-top: 0.5rem;\r\n            margin-bottom: 0.5rem;\r\n            font-size: 2rem;\r\n        }\r\n\r\n        .hosptial_target_body_item4,\r\n        .hosptial_target_body_item5 {\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.hosptial_swiper {\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    width: 80%;\r\n    height: 20%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}</style>",
+      "start": 1709707868776,
+      "end": 1709707869118,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707869118,
+      "end": 1709707869118,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/index.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/index.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/index.vue?vue&type=style&index=0&scoped=c9a02a16&lang.less\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-c9a02a16\"]]);\n",
+      "start": 1709707869118,
+      "end": 1709707869691,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707869692,
+      "end": 1709707869692,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707869692,
+      "end": 1709707869692,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707869693,
+      "end": 1709707869693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707869693,
+      "end": 1709707869693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707869694,
+      "end": 1709707869694,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707869698,
+      "end": 1709707869698,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707869699,
+      "end": 1709707869704,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707869705,
+      "end": 1709707869705,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "export { default } from \"E:/cqmbyy/zypc/pages/index.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
+      "start": 1709707869709,
+      "end": 1709707869710,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707869717,
+      "end": 1709707869717,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707869718,
+      "end": 1709707869718,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707869718,
+      "end": 1709707869718,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707869720,
+      "end": 1709707869721,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707869721,
+      "end": 1709707869721,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707869722,
+      "end": 1709707869726,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707869726,
+      "end": 1709707869726,
+      "order": "normal"
+    }
+  ]
+}

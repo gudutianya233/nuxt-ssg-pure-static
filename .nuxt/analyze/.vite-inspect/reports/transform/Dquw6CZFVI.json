@@ -1,0 +1,227 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/article/doctor_detail/[id].vue?vue&type=style&index=0&scoped=b98e3ad8&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.doctor_detail_bg {\r\nheight: 500px;\r\nwidth: 100%;\r\n\r\nimg {\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\nmargin-bottom: 2rem;\r\n}\r\n\r\n.doctor {\r\nwidth: 70%;\r\nmargin: auto;\r\npadding-bottom: 2rem;\r\n\r\n.doctors {\r\n    width: 100%;\r\n    display: flex;\r\n\r\n    .doctors_img {\r\n        height: 100%;\r\n        width: 40%;\r\n\r\n        img {\r\n            height: 100%;\r\n            width: 100%;\r\n            border-radius: 2rem;\r\n        }\r\n    }\r\n\r\n    .doctors_information {\r\n        width: 50%;\r\n        margin-left: 5%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        text-align: left;\r\n\r\n        .doctors_information_name {\r\n            font-size: 3rem;\r\n            color: #721B0E;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .doctors_information_registration_cost {\r\n            font-size: 2rem;\r\n            color: black;\r\n            font-weight: bold;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .doctors_information_overview_content {\r\n            font-size: 1.5rem;\r\n            color: black;\r\n            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\r\n            padding: 0.5rem;\r\n            img{\r\n                height: 100%;\r\n                width: 100%;\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n}\r\n\r\n.proficient {\r\nwidth: 70%;\r\nmargin: auto;\r\nfont-size: 3rem;\r\ncolor: #721B0E;\r\nmargin-bottom: 2rem;\r\n}\r\n.proficient_text{\r\nwidth: 70%;\r\nmargin: auto;\r\nfont-size: 1.5rem;\r\ntext-align: left;\r\nmargin-bottom: 2rem;\r\n}\r\n",
+      "start": 1709707872042,
+      "end": 1709707872042
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707872043,
+      "end": 1709707872043,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707872043,
+      "end": 1709707872043,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707872043,
+      "end": 1709707872044,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".doctor_detail_bg{height:500px;margin-bottom:2rem;width:100%}.doctor_detail_bg img{height:100%;width:100%}.doctor{margin:auto;padding-bottom:2rem;width:70%}.doctor .doctors{display:flex;width:100%}.doctor .doctors .doctors_img{height:100%;width:40%}.doctor .doctors .doctors_img img{border-radius:2rem;height:100%;width:100%}.doctor .doctors .doctors_information{display:flex;flex-direction:column;margin-left:5%;text-align:left;width:50%}.doctor .doctors .doctors_information .doctors_information_name{color:#721b0e;font-size:3rem;margin-bottom:1rem}.doctor .doctors .doctors_information .doctors_information_registration_cost{color:#000;font-size:2rem;font-weight:700;margin-bottom:1rem}.doctor .doctors .doctors_information .doctors_information_overview_content{color:#000;font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;font-size:1.5rem;padding:.5rem}.doctor .doctors .doctors_information .doctors_information_overview_content img{height:100%;width:100%}.proficient{color:#721b0e;font-size:3rem}.proficient,.proficient_text{margin:auto auto 2rem;width:70%}.proficient_text{font-size:1.5rem;text-align:left}",
+      "start": 1709707872044,
+      "end": 1709707872064,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707872064,
+      "end": 1709707872064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707872064,
+      "end": 1709707872064,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707872065,
+      "end": 1709707872065,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".doctor_detail_bg[data-v-b98e3ad8]{height:500px;margin-bottom:2rem;width:100%}.doctor_detail_bg img[data-v-b98e3ad8]{height:100%;width:100%}.doctor[data-v-b98e3ad8]{margin:auto;padding-bottom:2rem;width:70%}.doctor .doctors[data-v-b98e3ad8]{display:flex;width:100%}.doctor .doctors .doctors_img[data-v-b98e3ad8]{height:100%;width:40%}.doctor .doctors .doctors_img img[data-v-b98e3ad8]{border-radius:2rem;height:100%;width:100%}.doctor .doctors .doctors_information[data-v-b98e3ad8]{display:flex;flex-direction:column;margin-left:5%;text-align:left;width:50%}.doctor .doctors .doctors_information .doctors_information_name[data-v-b98e3ad8]{color:#721b0e;font-size:3rem;margin-bottom:1rem}.doctor .doctors .doctors_information .doctors_information_registration_cost[data-v-b98e3ad8]{color:#000;font-size:2rem;font-weight:700;margin-bottom:1rem}.doctor .doctors .doctors_information .doctors_information_overview_content[data-v-b98e3ad8]{color:#000;font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;font-size:1.5rem;padding:.5rem}.doctor .doctors .doctors_information .doctors_information_overview_content img[data-v-b98e3ad8]{height:100%;width:100%}.proficient[data-v-b98e3ad8]{color:#721b0e;font-size:3rem}.proficient[data-v-b98e3ad8],.proficient_text[data-v-b98e3ad8]{margin:auto auto 2rem;width:70%}.proficient_text[data-v-b98e3ad8]{font-size:1.5rem;text-align:left}",
+      "start": 1709707872065,
+      "end": 1709707872067,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707872067,
+      "end": 1709707872067,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872068,
+      "end": 1709707872068,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707872068,
+      "end": 1709707872068,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707872072,
+      "end": 1709707872072,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707872073,
+      "end": 1709707872073,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872074,
+      "end": 1709707872074,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707872074,
+      "end": 1709707872074,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707872075,
+      "end": 1709707872075,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707872075,
+      "end": 1709707872075,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707872075,
+      "end": 1709707872075,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707872086,
+      "end": 1709707872087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707872087,
+      "end": 1709707872087,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707872088,
+      "end": 1709707872088,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707872088,
+      "end": 1709707872088,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707872088,
+      "end": 1709707872088,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707872089,
+      "end": 1709707872089,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707872089,
+      "end": 1709707872089,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707872089,
+      "end": 1709707872089,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707872089,
+      "end": 1709707872089,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707872089,
+      "end": 1709707872090,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707872090,
+      "end": 1709707872090,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707872090,
+      "end": 1709707872090,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707872090,
+      "end": 1709707872090,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707872090,
+      "end": 1709707872090,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707872090,
+      "end": 1709707872090,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707872091,
+      "end": 1709707872091,
+      "order": "normal"
+    }
+  ]
+}

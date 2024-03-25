@@ -1,0 +1,220 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/footers.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"footer\">\r\n        <div class=\"footer_1\">\r\n            <div class=\"footer_1_logo1\">\r\n                <img src=\"/img/footer1_1.png\" />\r\n            </div>\r\n            <div class=\"footer_1_logo2\">\r\n                <img src=\"/img/footer1_2.png\" />\r\n            </div>\r\n        </div>\r\n        <div class=\"footer_2\">\r\n            <div class=\"footer_2_title\">\r\n                <div class=\"footer_2_title_text1\"><span>&nbsp;&nbsp;&nbsp;&nbsp;快速导航&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n                <div class=\"footer_2_title_text2\"><span>&nbsp;&nbsp;&nbsp;&nbsp;预约通道&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n                <div class=\"footer_2_title_text3\"><span>&nbsp;&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n            </div>\r\n            <div class=\"footer_2_body\">\r\n                <div class=\"footer_2_body_1\">\r\n                    <div class=\"navigation\">医院介绍</div>\r\n                    <div class=\"navigation\">走进铭博</div>\r\n                    <div class=\"navigation\">专家团队</div>\r\n                    <div class=\"navigation\">新闻报道</div>\r\n                    <div class=\"navigation\">来源路线</div>\r\n                </div>\r\n                <div class=\"footer_2_body_2\">\r\n                    <div class=\"appointment_information_main\">\r\n                        <div class=\"appointment_information_main_one\">\r\n                            <div class=\"appointment_information_main_one_name\">\r\n                                <span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_one_text\">\r\n                                <input v-model=\"appointment_name\" placeholder=\"请输入就诊人姓名\" class=\"inputs\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_two\">\r\n                            <div class=\"appointment_information_main_two_sex\">\r\n                                <span>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_two_sex_status\">\r\n                                <select v-model=\"sex\">\r\n                                    <option v-for=\"item in sex_options\" :key=\"item.value\" :label=\"item.label\"\r\n                                        :value=\"item.value\">\r\n                                    </option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_three\">\r\n                            <div class=\"appointment_information_main_three_phone\">\r\n                                <span>联系电话&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_three_number\">\r\n                                <input v-model=\"appointment_phone\" placeholder=\"请输入联系电话\" class=\"inputs\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_four\">\r\n                            <div class=\"appointment_information_main_four_describe\">\r\n                                <span>病情描述&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_four_text\">\r\n                                <textarea rows=\"4\" cols=\"20\" v-model=\"appointment_describe\" class=\"inputs\"></textarea>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_five\">\r\n                            <div class=\"appointment_information_main_five_reset\">\r\n                                <span class=\"reset\" @click=\"appointmentReset\">重新填写</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_five_submit\">\r\n                                <span class=\"submit\" @click=\"appointmentSubmit\">确认提交</span>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"footer_2_body_3\">\r\n                    <div class=\"contact\">\r\n                        <img src=\"/img/wx.png\"/>\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        医院地址:\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        重庆市渝北区洪湖西路18号\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        联系电话:\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        023-86868333(中医)\r\n                    </div>\r\n                    <div class=\"adress\" @click=\"icp\" style=\"cursor: pointer;\">\r\n                        备案号:渝ICP备17008606号-17\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { ref } from 'vue';\r\nimport { ElLoading, ElMessage } from 'element-plus'\r\nimport {submitAppointment} from '~/request/index'\r\n//预约挂号姓名\r\nconst appointment_name = ref('')\r\n//预约挂号性别\r\nconst sex = ref('男')\r\n//下拉选项\r\nconst sex_options = [\r\n    {\r\n        value: '男',\r\n        label: '男',\r\n    },\r\n    {\r\n        value: '女',\r\n        label: '女',\r\n    },\r\n]\r\n//预约联系电话\r\nconst appointment_phone = ref('')\r\n//病情描述\r\nconst appointment_describe = ref('')\r\n//重置预约信息\r\nconst appointmentReset = () => {\r\n    appointment_name.value = ''\r\n    appointment_phone.value = ''\r\n    appointment_describe.value = ''\r\n}\r\ntype Appointment = {\r\n    name: string;\r\n    phone: string;\r\n    describe: string;\r\n    sex: string;\r\n}\r\n//提交预约信息\r\nconst appointmentSubmit = async () => {\r\n    //验证数据是否有空\r\n    if (appointment_name.value != '' && appointment_phone.value != '' && appointment_describe.value != '') {\r\n        //验证手机号\r\n        if (!phone_verify(appointment_phone.value)) {\r\n            ElMessage({\r\n                message: `手机号码不正确`,\r\n                type: 'error',\r\n            })\r\n        }\r\n        else {\r\n            //提交预约信息的加载loading\r\n            const loading = ElLoading.service({\r\n                lock: true,\r\n                text: '正在提交...',\r\n                background: 'rgba(0, 0, 0, 0.7)',\r\n            })\r\n            const appointment: Partial<Appointment> = {}\r\n            appointment.name = appointment_name.value\r\n            appointment.phone = appointment_phone.value\r\n            appointment.describe = appointment_describe.value\r\n            appointment.sex = sex.value\r\n            const res = await submitAppointment(appointment, 'zypc.cqmbyy.com')\r\n            if (res.code == 200 && res.data) {\r\n                //关闭loading\r\n                loading.close()\r\n                ElMessage({\r\n                    message: `提交成功`,\r\n                    type: 'success',\r\n                })\r\n                appointmentReset()\r\n            } else {\r\n                ElMessage({\r\n                    message: `${res.message}`,\r\n                    type: 'error',\r\n                })\r\n            }\r\n        }\r\n    }\r\n    else {\r\n        ElMessage({\r\n            message: `有信息未填写`,\r\n            type: 'error',\r\n        })\r\n    }\r\n}\r\n//验证手机号码合理\r\nconst phone_verify = (number: string) => {\r\n    const reg = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\\d{8}$/;\r\n    return reg.test(number);\r\n}\r\nconst icp=()=>{\r\n     window.location.href =\"https://beian.miit.gov.cn/\"\r\n}\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.footer {\r\n    height: 500px;\r\n    width: 100%;\r\n    display: flex;\r\n    background-color: #721b0e;\r\n\r\n    .footer_1 {\r\n        width: 30%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 1.5rem;\r\n\r\n        .footer_1_logo1 {\r\n            margin-bottom: 3rem;\r\n        }\r\n    }\r\n\r\n    .footer_2 {\r\n        width: 70%;\r\n\r\n        .footer_2_title {\r\n            display: flex;\r\n            height: 20%;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            line-height: 80px;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            span {\r\n                padding-bottom: 1rem;\r\n                border-bottom: 1px solid white;\r\n            }\r\n\r\n            .footer_2_title_text1 {\r\n                width: 30%;\r\n            }\r\n\r\n            .footer_2_title_text2,\r\n            .footer_2_title_text3 {\r\n                width: 35%;\r\n\r\n            }\r\n        }\r\n\r\n        .footer_2_body {\r\n            height: 80%;\r\n            display: flex;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            .footer_2_body_1 {\r\n                width: 30%;\r\n                height: 100%;\r\n                display: flex;\r\n                flex-direction: column;\r\n\r\n                .navigation {\r\n                    height: 15%;\r\n                    justify-content: center;\r\n                    align-items: center;\r\n                    display: flex;\r\n                }\r\n            }\r\n\r\n            .footer_2_body_2,\r\n            .footer_2_body_3 {\r\n                width: 35%;\r\n                height: 100%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.appointment_information_main {\r\n    display: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n    font-size: 1.5rem;\r\n\r\n    .appointment_information_main_one,\r\n    .appointment_information_main_two,\r\n    .appointment_information_main_three {\r\n        height: 15%;\r\n        line-height: 2rem;\r\n        display: flex;\r\n    }\r\n\r\n    .appointment_information_main_one_name,\r\n    .appointment_information_main_two_sex,\r\n    .appointment_information_main_three_phone,\r\n    .appointment_information_main_four_describe {\r\n        width: 30%;\r\n    }\r\n\r\n    .appointment_information_main_five {\r\n        display: flex;\r\n\r\n        div {\r\n            width: 50%;\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.appointment_information_main_one_text input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_one_text input {\r\n    font-size: 1rem;\r\n\r\n}\r\n\r\n.appointment_information_main_three_number input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_three_number input {\r\n    font-size: 1rem;\r\n}\r\n\r\n.appointment_information_main_four {\r\n    display: flex;\r\n    height: 30%;\r\n\r\n    .inputs {\r\n        height: 90%;\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.appointment_information_main_four textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_two_sex_status select:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_five {\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    color: white;\r\n}\r\n\r\n.reset {\r\n    background-color: #909399;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.submit {\r\n    background-color: #409EFF;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.appointment_information_footer {\r\n    font-size: 0.95rem;\r\n    padding: 1rem;\r\n}\r\n.adress{margin-top: 0.5rem;}</style>\r\n",
+      "start": 1709707874200,
+      "end": 1709707874410,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707874410,
+      "end": 1709707874410,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/components/footers.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/components/footers.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/components/footers.vue?vue&type=style&index=0&scoped=f11d4b88&lang.less\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-f11d4b88\"]]);\n",
+      "start": 1709707874410,
+      "end": 1709707874911,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707874911,
+      "end": 1709707874911,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707874911,
+      "end": 1709707874911,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707874911,
+      "end": 1709707874911,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707874911,
+      "end": 1709707874912,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707874918,
+      "end": 1709707874943,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707874943,
+      "end": 1709707874943,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707874943,
+      "end": 1709707874943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707874944,
+      "end": 1709707874944,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707874944,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707874945,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707874945,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707874945,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707874945,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707874945,
+      "end": 1709707874945,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707874946,
+      "end": 1709707874946,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707874946,
+      "end": 1709707874946,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707874946,
+      "end": 1709707874947,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707874948,
+      "end": 1709707874948,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707874948,
+      "end": 1709707874949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707874949,
+      "end": 1709707874949,
+      "order": "normal"
+    }
+  ]
+}

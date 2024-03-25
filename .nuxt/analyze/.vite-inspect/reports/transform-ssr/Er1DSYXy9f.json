@@ -1,0 +1,256 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div  v-if=\"hospitalDynamics\">\r\n    <Head>\r\n  <Title>{{ hospitalDynamics.title }}</Title>\r\n  <Meta name=\"keywords\" content=\"重庆铭博医院官方动态,重庆铭博医院最新动态\" />\r\n  <Meta name=\"description\" :content=\"hospitalDynamics.titles\" />\r\n  </Head>\r\n</div>\r\n<div>\r\n    <div class=\"hospital_dynamics\" v-if=\"hospitalDynamics\">\r\n        <div class=\"hospital_dynamics_title\">\r\n            <h2>{{ hospitalDynamics.title }}</h2>\r\n        </div>\r\n       <ArticleAsk></ArticleAsk>\r\n        <div class=\"hospital_dynamics_titles\">{{ hospitalDynamics.titles }}</div>  \r\n        <div class=\"hospital_dynamics_text\" v-html=\" hospitalDynamics.content\"></div>  \r\n    </div>\r\n\r\n\r\n \r\n\r\n</div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { HospitalDevelopment } from '~/entities/hospitalDevelopment';\r\nconst route = useRoute()\r\nconst hospitalId = route.params.id\r\nconst hospitalDynamics: Ref<HospitalDevelopment | null> = ref(null);\r\n\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst { data } = await useAsyncData( \r\n() => $fetch(`${baseURL}/hospital/getWelfareActivities`, { params: { id: hospitalId } })\r\n)\r\nonMounted(() => {\r\nconst res=JSON.stringify(data.value)\r\nhospitalDynamics.value=JSON.parse(res).data[0]\r\n})\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.hospital_dynamics{\r\nwidth: 80%;\r\nmargin: auto;\r\ntext-align: center;\r\ndisplay: flex;\r\nflex-direction: column;\r\n.hospital_dynamics_titles{\r\n    text-align: left;\r\n}\r\n}\r\n</style>",
+      "start": 1709707890948,
+      "end": 1709707891147,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891147,
+      "end": 1709707891147,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891147,
+      "end": 1709707891147,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891147,
+      "end": 1709707891147,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891147,
+      "end": 1709707891147,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707891148,
+      "end": 1709707891148,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707891148,
+      "end": 1709707891148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707891148,
+      "end": 1709707891148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707891148,
+      "end": 1709707891148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707891148,
+      "end": 1709707891148,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue?vue&type=style&index=0&scoped=5b9d62e6&lang.less\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/article/welfare_activities_detail/[id].vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-5b9d62e6\"]]);\n",
+      "start": 1709707891148,
+      "end": 1709707891197,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707891198,
+      "end": 1709707891198,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891198,
+      "end": 1709707891198,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707891200,
+      "end": 1709707891209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707891209,
+      "end": 1709707891209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707891211,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707891213,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707891213,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891214,
+      "end": 1709707891214,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891214,
+      "end": 1709707891214,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891214,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891214,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707891218,
+      "end": 1709707891218,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707891223,
+      "end": 1709707891223,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707891223,
+      "end": 1709707891223,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707891223,
+      "end": 1709707891226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707891226,
+      "end": 1709707891226,
+      "order": "normal"
+    }
+  ]
+}

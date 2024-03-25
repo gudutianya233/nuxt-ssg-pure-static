@@ -1,0 +1,220 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/enter_hospital.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院-重庆铭博中医院</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院，重庆铭博中医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院作为“互联网+智慧医疗”领域先行者，依托寻医问药网提供的全国优质医疗资源，以互联网技术赋能线下医疗，开启智慧医疗新格局。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"enter_hosptial_bg\">\r\n            <img src=\"/img/enter_hosptial_bg.jpg\" alt=\"\">\r\n        </div>\r\n        <div class=\"enter_hosptial_img\">\r\n            <img src=\"/img/enter_hosptial_img.png\" />\r\n        </div>\r\n        <div>\r\n            <div class=\"hosptial_navigation\">\r\n                <div class=\"hosptial_navigation1\">\r\n                    <div class=\"hosptial_navigations\" @click=\"changeContentAndBackground(1)\"\r\n                        :class=\"{ active: activeNavigation === 1 }\">铭博动态</div>\r\n                </div>\r\n                <div class=\"hosptial_navigation2\">\r\n                    <div class=\"hosptial_navigations\" @click=\"changeContentAndBackground(2)\"\r\n                        :class=\"{ active: activeNavigation === 2 }\">养生科普</div>\r\n                </div>\r\n                <div class=\"hosptial_navigation3\">\r\n                    <div class=\"hosptial_navigations\" @click=\"changeContentAndBackground(3)\"\r\n                        :class=\"{ active: activeNavigation === 3 }\"> 关于铭博</div>\r\n                </div>\r\n            </div>\r\n            <div class=\"relational_information\">\r\n                <!-- 医院动态 -->\r\n                <div v-show=\"activeNavigation === 1\" >\r\n                    <div  class=\"relational_information_content\" v-for=\"item in HospitalDevelopment_list\" :key=\"item.id\">\r\n                        <div  class=\"relational_information_content_title\" >\r\n                           <img src=\"/img/hosptial_keyword.png\"/><span>{{ item.title }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_title\"  @click=\"hospital_dynamics(item.id)\">\r\n                            <span >{{ item.titles }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_seek\">\r\n                            <div @click=\"hospital_dynamics(item.id)\">【详情】</div>\r\n                            <div><img src=\"/img/ask_seek.png\"  @click=\"ask_seek\"/></div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"pagination\">\r\n                        共{{ HospitalDevelopment_total }}篇文章 \r\n                        第{{ HospitalDevelopment_page }} / {{ Math.ceil(HospitalDevelopment_total / HospitalDevelopment_perPage) }}页\r\n                        <a   v-if=\"HospitalDevelopment_page > 1\" @click=\"HospitalDevelopment_page--, getHospitalDevelopment()\">上一页</a>\r\n                        <a  v-if=\"HospitalDevelopment_page < Math.ceil(HospitalDevelopment_total / HospitalDevelopment_perPage)\"\r\n                         @click=\"HospitalDevelopment_page++, getHospitalDevelopment()\">下一页</a>\r\n                    </div>\r\n                </div>\r\n                <!-- 养生科普 -->\r\n                <div v-show=\"activeNavigation === 2\">\r\n                    <div  class=\"relational_information_content\" v-for=\"item in HealthPopularization_list\" :key=\"item.id\">\r\n                        <div  class=\"relational_information_content_title\" >\r\n                           <img src=\"/img/hosptial_keyword.png\"/><span>{{ item.title }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_title\"  @click=\"health_popularization(item.id)\">\r\n                            <span >{{ item.titles }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_seek\">\r\n                            <div @click=\"health_popularization(item.id)\">【详情】</div>\r\n                            <div><img src=\"/img/ask_seek.png\"  @click=\"ask_seek\"/></div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"pagination\">\r\n                        共{{ HealthPopularization_total }}篇文章 \r\n                        第{{ HealthPopularization_page }} / {{ Math.ceil(HealthPopularization_total / HealthPopularization_perPage) }}页\r\n                        <a   v-if=\"HealthPopularization_page > 1\" @click=\"HealthPopularization_page--, getHealthPopularizations()\">上一页</a>\r\n                        <a  v-if=\"HealthPopularization_page < Math.ceil(HealthPopularization_total / HealthPopularization_perPage)\"\r\n                         @click=\"HealthPopularization_page++, getHealthPopularizations()\">下一页</a>\r\n                    </div>\r\n                </div>\r\n                <!-- 关于铭博 -->\r\n                <div v-show=\"activeNavigation === 3\">\r\n                    <div  class=\"relational_information_content\" v-for=\"item in AboutHospital_list\" :key=\"item.id\">\r\n                        <div  class=\"relational_information_content_title\" >\r\n                           <img src=\"/img/hosptial_keyword.png\"/><span>{{ item.title }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_title\"  @click=\"about_hospital(item.id)\">\r\n                            <span >{{ item.titles }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_seek\">\r\n                            <div @click=\"about_hospital(item.id)\">【详情】</div>\r\n                            <div><img src=\"/img/ask_seek.png\"  @click=\"ask_seek\"/></div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"pagination\">\r\n                        共{{ AboutHospital_total }}篇文章 \r\n                        第{{ AboutHospital_page }} / {{ Math.ceil(AboutHospital_total / AboutHospital_perPage) }}页\r\n                        <a   v-if=\"AboutHospital_page > 1\" @click=\"AboutHospital_page--, getAboutHospitals()\">上一页</a>\r\n                        <a  v-if=\"AboutHospital_page < Math.ceil(AboutHospital_total / AboutHospital_perPage)\"\r\n                         @click=\"AboutHospital_page++, getAboutHospitals()\">下一页</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n \r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { HospitalDevelopment } from '~/entities/hospitalDevelopment';\r\nimport { useRouter } from 'vue-router'\r\nconst HospitalDevelopment_page=ref(1)//页码\r\nconst HospitalDevelopment_perPage = ref(4) // 每页显示的文章数\r\nconst HospitalDevelopment_total = ref(0) // 总文章数\r\nconst HealthPopularization_page=ref(1)//页码\r\nconst HealthPopularization_perPage = ref(4) // 每页显示的文章数\r\nconst HealthPopularization_total = ref(0) // 总文章数\r\nconst AboutHospital_page=ref(1)//页码\r\nconst AboutHospital_perPage = ref(4) // 每页显示的文章数\r\nconst AboutHospital_total = ref(0) // 总文章数\r\nconst router = useRouter()\r\nconst activeNavigation = ref(1)\r\nconst changeContentAndBackground = (index: number) => {\r\n    activeNavigation.value = index;\r\n}\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst HospitalDevelopment_list: Ref<HospitalDevelopment[]> = ref([])\r\nconst { data: data1 } = await useAsyncData( \r\n    () =>$fetch(`${baseURL}/hospital/getHospitalDevelopments`,\r\n    {\r\n        method: 'POST',\r\n        body: {\r\n            page: HospitalDevelopment_page.value,\r\n            pageSize: HospitalDevelopment_perPage.value,\r\n        }\r\n    }\r\n    )\r\n)\r\nconst getHospitalDevelopment=async ()=>{\r\n await $fetch(`${baseURL}/hospital/getHospitalDevelopments`, {\r\n        method: 'POST',\r\n        body: {\r\n          page: HospitalDevelopment_page.value,\r\n          pageSize: HospitalDevelopment_perPage.value,\r\n        },\r\n      }).then(res => {\r\n        HospitalDevelopment_list.value = (res as any).data;\r\n        HospitalDevelopment_total.value = (res as any).total;\r\n      })\r\n    \r\n}\r\nconst HealthPopularization_list: Ref<HospitalDevelopment[]> = ref([])\r\nconst { data: data2 } = await useAsyncData( \r\n    () =>$fetch(`${baseURL}/hospital/getHealthPopularizations`,\r\n    {\r\n        method: 'POST',\r\n        body: {\r\n            page: HealthPopularization_page.value,\r\n            pageSize: HealthPopularization_perPage.value,\r\n        }\r\n    }\r\n    )\r\n)\r\nconst getHealthPopularizations=async ()=>{\r\n     await $fetch(`${baseURL}/hospital/getHealthPopularizations`, {\r\n        method: 'POST',\r\n        body: {\r\n          page: HealthPopularization_page.value,\r\n          pageSize: HealthPopularization_perPage.value,\r\n        },\r\n      }).then(res => {\r\n        HealthPopularization_list.value = (res as any).data;\r\n        HealthPopularization_total.value = (res as any).total;\r\n      })\r\n    \r\n}\r\nconst AboutHospital_list: Ref<HospitalDevelopment[]> = ref([])\r\nconst { data: data3 } = await useAsyncData( \r\n    () =>$fetch(`${baseURL}/hospital/getAboutHospitals`,\r\n    {\r\n        method: 'POST',\r\n        body: {\r\n            page: AboutHospital_page.value,\r\n            pageSize: AboutHospital_perPage.value,\r\n        }\r\n    }\r\n    )\r\n)\r\nconst getAboutHospitals=async ()=>{\r\nawait $fetch(`${baseURL}/hospital/getAboutHospitals`, {\r\n        method: 'POST',\r\n        body: {\r\n          page: AboutHospital_page.value,\r\n          pageSize: AboutHospital_perPage.value,\r\n        },\r\n      }).then(res => {\r\n        AboutHospital_list.value = (res as any).data;\r\n        AboutHospital_total.value = (res as any).total;\r\n      })\r\n}\r\n\r\nonMounted(() => {\r\n   const res1=JSON.stringify(data1.value)\r\n   HospitalDevelopment_list.value=JSON.parse(res1).data\r\n   HospitalDevelopment_total.value=JSON.parse(res1).total\r\n   const res2=JSON.stringify(data2.value)\r\n   HealthPopularization_list.value=JSON.parse(res2).data\r\n   HealthPopularization_total.value=JSON.parse(res2).total\r\n   const res3=JSON.stringify(data3.value)\r\n   AboutHospital_list.value=JSON.parse(res3).data\r\n   AboutHospital_total.value=JSON.parse(res3).total\r\n})\r\n\r\nconst ask_seek=()=>{\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n\r\nconst hospital_dynamics=(id:number)=>{\r\n    router.push({ path: `/article/hospital_dynamics/${id}`})\r\n} \r\nconst health_popularization=(id:number)=>{\r\n    router.push({ path: `/article/health_popularization/${id}`})\r\n} \r\nconst about_hospital=(id:number)=>{\r\n    router.push({ path: `/article/about_hospital/${id}`})\r\n} \r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.enter_hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.enter_hosptial_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_navigation {\r\n    display: flex;\r\n    width: 100%;\r\n    margin-top: 2rem;\r\n    margin-bottom: 2rem;\r\n    .hosptial_navigation1,\r\n    .hosptial_navigation2,\r\n    .hosptial_navigation3 {\r\n        width: 33%;\r\n        font-size: 1.5rem;\r\n        text-align: center;\r\n        display: flex;\r\n        justify-content: center;\r\n\r\n        .hosptial_navigations {\r\n            width: 50%;\r\n            height: 4rem;\r\n            line-height: 4rem;\r\n            background-image: url('/img/enter_hosptial.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .active {\r\n            background-image: url('/img/enter_hosptial_active.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            color: white;\r\n        }\r\n    }\r\n}\r\n\r\n.relational_information_content {\r\n    height: auto;\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    padding: 2rem;\r\n    background-image: url('/img/information_content_bg.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    padding-left: 5rem;\r\n    padding-right: 5rem;\r\n    .relational_information_content_title{\r\n        text-align: left;\r\n        display: flex;\r\n        padding-left: 0.8rem;\r\n        img{\r\n            height: 2rem;\r\n            width: 2rem;\r\n            margin-right: 1rem;\r\n        }\r\n        span{\r\n            cursor: pointer;\r\n            font-size:1.5rem;\r\n            color: black;\r\n        }       \r\n    }\r\n    .relational_information_content_seek{\r\n        cursor: pointer;\r\n        margin-top: 1rem;\r\n            font-size:1.5rem;\r\n            color: #721B0E;\r\n        display: flex; \r\n        justify-content: space-between\r\n    }\r\n}\r\n.pagination{\r\n    text-align: right;\r\n    width: 90%;\r\n    margin-bottom: 2rem;\r\n}\r\n</style>",
+      "start": 1709707868951,
+      "end": 1709707869183,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707869183,
+      "end": 1709707869183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707869183,
+      "end": 1709707869183,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707869183,
+      "end": 1709707869183,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707869183,
+      "end": 1709707869183,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707869184,
+      "end": 1709707869184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707869184,
+      "end": 1709707869184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707869184,
+      "end": 1709707869184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/enter_hospital.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/enter_hospital.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/enter_hospital.vue?vue&type=style&index=0&scoped=de5025e1&lang.less\";\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-de5025e1\"]]);\n",
+      "start": 1709707869184,
+      "end": 1709707869691,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707869692,
+      "end": 1709707869692,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707869692,
+      "end": 1709707869692,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707869692,
+      "end": 1709707869693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707869693,
+      "end": 1709707869693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707869694,
+      "end": 1709707869694,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707869695,
+      "end": 1709707869695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707869696,
+      "end": 1709707869696,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707869697,
+      "end": 1709707869697,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707869697,
+      "end": 1709707869698,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707869699,
+      "end": 1709707869704,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707869705,
+      "end": 1709707869705,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707869708,
+      "end": 1709707869710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707869716,
+      "end": 1709707869717,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707869717,
+      "end": 1709707869718,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707869718,
+      "end": 1709707869718,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707869719,
+      "end": 1709707869721,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707869721,
+      "end": 1709707869721,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707869722,
+      "end": 1709707869726,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707869726,
+      "end": 1709707869726,
+      "order": "normal"
+    }
+  ]
+}

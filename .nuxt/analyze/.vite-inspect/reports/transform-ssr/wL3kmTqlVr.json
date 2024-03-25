@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/footers.vue?vue&type=style&index=0&scoped=f11d4b88&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.footer {\r\n    height: 500px;\r\n    width: 100%;\r\n    display: flex;\r\n    background-color: #721b0e;\r\n\r\n    .footer_1 {\r\n        width: 30%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 1.5rem;\r\n\r\n        .footer_1_logo1 {\r\n            margin-bottom: 3rem;\r\n        }\r\n    }\r\n\r\n    .footer_2 {\r\n        width: 70%;\r\n\r\n        .footer_2_title {\r\n            display: flex;\r\n            height: 20%;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            line-height: 80px;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            span {\r\n                padding-bottom: 1rem;\r\n                border-bottom: 1px solid white;\r\n            }\r\n\r\n            .footer_2_title_text1 {\r\n                width: 30%;\r\n            }\r\n\r\n            .footer_2_title_text2,\r\n            .footer_2_title_text3 {\r\n                width: 35%;\r\n\r\n            }\r\n        }\r\n\r\n        .footer_2_body {\r\n            height: 80%;\r\n            display: flex;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            .footer_2_body_1 {\r\n                width: 30%;\r\n                height: 100%;\r\n                display: flex;\r\n                flex-direction: column;\r\n\r\n                .navigation {\r\n                    height: 15%;\r\n                    justify-content: center;\r\n                    align-items: center;\r\n                    display: flex;\r\n                }\r\n            }\r\n\r\n            .footer_2_body_2,\r\n            .footer_2_body_3 {\r\n                width: 35%;\r\n                height: 100%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.appointment_information_main {\r\n    display: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n    font-size: 1.5rem;\r\n\r\n    .appointment_information_main_one,\r\n    .appointment_information_main_two,\r\n    .appointment_information_main_three {\r\n        height: 15%;\r\n        line-height: 2rem;\r\n        display: flex;\r\n    }\r\n\r\n    .appointment_information_main_one_name,\r\n    .appointment_information_main_two_sex,\r\n    .appointment_information_main_three_phone,\r\n    .appointment_information_main_four_describe {\r\n        width: 30%;\r\n    }\r\n\r\n    .appointment_information_main_five {\r\n        display: flex;\r\n\r\n        div {\r\n            width: 50%;\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.appointment_information_main_one_text input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_one_text input {\r\n    font-size: 1rem;\r\n\r\n}\r\n\r\n.appointment_information_main_three_number input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_three_number input {\r\n    font-size: 1rem;\r\n}\r\n\r\n.appointment_information_main_four {\r\n    display: flex;\r\n    height: 30%;\r\n\r\n    .inputs {\r\n        height: 90%;\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.appointment_information_main_four textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_two_sex_status select:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_five {\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    color: white;\r\n}\r\n\r\n.reset {\r\n    background-color: #909399;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.submit {\r\n    background-color: #409EFF;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.appointment_information_footer {\r\n    font-size: 0.95rem;\r\n    padding: 1rem;\r\n}\r\n.adress{margin-top: 0.5rem;}",
+      "start": 1709707894029,
+      "end": 1709707894029,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/footers.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/components/footers.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"footer\">\r\n        <div class=\"footer_1\">\r\n            <div class=\"footer_1_logo1\">\r\n                <img src=\"/img/footer1_1.png\" />\r\n            </div>\r\n            <div class=\"footer_1_logo2\">\r\n                <img src=\"/img/footer1_2.png\" />\r\n            </div>\r\n        </div>\r\n        <div class=\"footer_2\">\r\n            <div class=\"footer_2_title\">\r\n                <div class=\"footer_2_title_text1\"><span>&nbsp;&nbsp;&nbsp;&nbsp;快速导航&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n                <div class=\"footer_2_title_text2\"><span>&nbsp;&nbsp;&nbsp;&nbsp;预约通道&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n                <div class=\"footer_2_title_text3\"><span>&nbsp;&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;&nbsp;</span></div>\r\n            </div>\r\n            <div class=\"footer_2_body\">\r\n                <div class=\"footer_2_body_1\">\r\n                    <div class=\"navigation\">医院介绍</div>\r\n                    <div class=\"navigation\">走进铭博</div>\r\n                    <div class=\"navigation\">专家团队</div>\r\n                    <div class=\"navigation\">新闻报道</div>\r\n                    <div class=\"navigation\">来源路线</div>\r\n                </div>\r\n                <div class=\"footer_2_body_2\">\r\n                    <div class=\"appointment_information_main\">\r\n                        <div class=\"appointment_information_main_one\">\r\n                            <div class=\"appointment_information_main_one_name\">\r\n                                <span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_one_text\">\r\n                                <input v-model=\"appointment_name\" placeholder=\"请输入就诊人姓名\" class=\"inputs\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_two\">\r\n                            <div class=\"appointment_information_main_two_sex\">\r\n                                <span>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_two_sex_status\">\r\n                                <select v-model=\"sex\">\r\n                                    <option v-for=\"item in sex_options\" :key=\"item.value\" :label=\"item.label\"\r\n                                        :value=\"item.value\">\r\n                                    </option>\r\n                                </select>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_three\">\r\n                            <div class=\"appointment_information_main_three_phone\">\r\n                                <span>联系电话&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_three_number\">\r\n                                <input v-model=\"appointment_phone\" placeholder=\"请输入联系电话\" class=\"inputs\">\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_four\">\r\n                            <div class=\"appointment_information_main_four_describe\">\r\n                                <span>病情描述&nbsp;:</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_four_text\">\r\n                                <textarea rows=\"4\" cols=\"20\" v-model=\"appointment_describe\" class=\"inputs\"></textarea>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"appointment_information_main_five\">\r\n                            <div class=\"appointment_information_main_five_reset\">\r\n                                <span class=\"reset\" @click=\"appointmentReset\">重新填写</span>\r\n                            </div>\r\n                            <div class=\"appointment_information_main_five_submit\">\r\n                                <span class=\"submit\" @click=\"appointmentSubmit\">确认提交</span>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"footer_2_body_3\">\r\n                    <div class=\"contact\">\r\n                        <img src=\"/img/wx.png\"/>\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        医院地址:\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        重庆市渝北区洪湖西路18号\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        联系电话:\r\n                    </div>\r\n                    <div class=\"adress\">\r\n                        023-86868333(中医)\r\n                    </div>\r\n                    <div class=\"adress\" @click=\"icp\" style=\"cursor: pointer;\">\r\n                        备案号:渝ICP备17008606号-17\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { ref } from 'vue';\r\nimport { ElLoading, ElMessage } from 'element-plus'\r\nimport {submitAppointment} from '~/request/index'\r\n//预约挂号姓名\r\nconst appointment_name = ref('')\r\n//预约挂号性别\r\nconst sex = ref('男')\r\n//下拉选项\r\nconst sex_options = [\r\n    {\r\n        value: '男',\r\n        label: '男',\r\n    },\r\n    {\r\n        value: '女',\r\n        label: '女',\r\n    },\r\n]\r\n//预约联系电话\r\nconst appointment_phone = ref('')\r\n//病情描述\r\nconst appointment_describe = ref('')\r\n//重置预约信息\r\nconst appointmentReset = () => {\r\n    appointment_name.value = ''\r\n    appointment_phone.value = ''\r\n    appointment_describe.value = ''\r\n}\r\ntype Appointment = {\r\n    name: string;\r\n    phone: string;\r\n    describe: string;\r\n    sex: string;\r\n}\r\n//提交预约信息\r\nconst appointmentSubmit = async () => {\r\n    //验证数据是否有空\r\n    if (appointment_name.value != '' && appointment_phone.value != '' && appointment_describe.value != '') {\r\n        //验证手机号\r\n        if (!phone_verify(appointment_phone.value)) {\r\n            ElMessage({\r\n                message: `手机号码不正确`,\r\n                type: 'error',\r\n            })\r\n        }\r\n        else {\r\n            //提交预约信息的加载loading\r\n            const loading = ElLoading.service({\r\n                lock: true,\r\n                text: '正在提交...',\r\n                background: 'rgba(0, 0, 0, 0.7)',\r\n            })\r\n            const appointment: Partial<Appointment> = {}\r\n            appointment.name = appointment_name.value\r\n            appointment.phone = appointment_phone.value\r\n            appointment.describe = appointment_describe.value\r\n            appointment.sex = sex.value\r\n            const res = await submitAppointment(appointment, 'zypc.cqmbyy.com')\r\n            if (res.code == 200 && res.data) {\r\n                //关闭loading\r\n                loading.close()\r\n                ElMessage({\r\n                    message: `提交成功`,\r\n                    type: 'success',\r\n                })\r\n                appointmentReset()\r\n            } else {\r\n                ElMessage({\r\n                    message: `${res.message}`,\r\n                    type: 'error',\r\n                })\r\n            }\r\n        }\r\n    }\r\n    else {\r\n        ElMessage({\r\n            message: `有信息未填写`,\r\n            type: 'error',\r\n        })\r\n    }\r\n}\r\n//验证手机号码合理\r\nconst phone_verify = (number: string) => {\r\n    const reg = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\\d{8}$/;\r\n    return reg.test(number);\r\n}\r\nconst icp=()=>{\r\n     window.location.href =\"https://beian.miit.gov.cn/\"\r\n}\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.footer {\r\n    height: 500px;\r\n    width: 100%;\r\n    display: flex;\r\n    background-color: #721b0e;\r\n\r\n    .footer_1 {\r\n        width: 30%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 1.5rem;\r\n\r\n        .footer_1_logo1 {\r\n            margin-bottom: 3rem;\r\n        }\r\n    }\r\n\r\n    .footer_2 {\r\n        width: 70%;\r\n\r\n        .footer_2_title {\r\n            display: flex;\r\n            height: 20%;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            line-height: 80px;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            span {\r\n                padding-bottom: 1rem;\r\n                border-bottom: 1px solid white;\r\n            }\r\n\r\n            .footer_2_title_text1 {\r\n                width: 30%;\r\n            }\r\n\r\n            .footer_2_title_text2,\r\n            .footer_2_title_text3 {\r\n                width: 35%;\r\n\r\n            }\r\n        }\r\n\r\n        .footer_2_body {\r\n            height: 80%;\r\n            display: flex;\r\n            color: white;\r\n            font-size: 1.5rem;\r\n            justify-content: center;\r\n            align-items: center;\r\n            text-align: center;\r\n\r\n            .footer_2_body_1 {\r\n                width: 30%;\r\n                height: 100%;\r\n                display: flex;\r\n                flex-direction: column;\r\n\r\n                .navigation {\r\n                    height: 15%;\r\n                    justify-content: center;\r\n                    align-items: center;\r\n                    display: flex;\r\n                }\r\n            }\r\n\r\n            .footer_2_body_2,\r\n            .footer_2_body_3 {\r\n                width: 35%;\r\n                height: 100%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.appointment_information_main {\r\n    display: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n    font-size: 1.5rem;\r\n\r\n    .appointment_information_main_one,\r\n    .appointment_information_main_two,\r\n    .appointment_information_main_three {\r\n        height: 15%;\r\n        line-height: 2rem;\r\n        display: flex;\r\n    }\r\n\r\n    .appointment_information_main_one_name,\r\n    .appointment_information_main_two_sex,\r\n    .appointment_information_main_three_phone,\r\n    .appointment_information_main_four_describe {\r\n        width: 30%;\r\n    }\r\n\r\n    .appointment_information_main_five {\r\n        display: flex;\r\n\r\n        div {\r\n            width: 50%;\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.appointment_information_main_one_text input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_one_text input {\r\n    font-size: 1rem;\r\n\r\n}\r\n\r\n.appointment_information_main_three_number input:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_three_number input {\r\n    font-size: 1rem;\r\n}\r\n\r\n.appointment_information_main_four {\r\n    display: flex;\r\n    height: 30%;\r\n\r\n    .inputs {\r\n        height: 90%;\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.appointment_information_main_four textarea:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_two_sex_status select:focus {\r\n    outline: none;\r\n}\r\n\r\n.appointment_information_main_five {\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    color: white;\r\n}\r\n\r\n.reset {\r\n    background-color: #909399;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.submit {\r\n    background-color: #409EFF;\r\n    padding: 0.6rem;\r\n    border-radius: 1rem;\r\n}\r\n\r\n.appointment_information_footer {\r\n    font-size: 0.95rem;\r\n    padding: 1rem;\r\n}\r\n.adress{margin-top: 0.5rem;}</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894030,
+      "end": 1709707894030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894030,
+      "end": 1709707894030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894030,
+      "end": 1709707894030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894030,
+      "end": 1709707894030,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707894030,
+      "end": 1709707894030,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".footer{background-color:#721b0e;display:flex;height:500px;width:100%}.footer .footer_1{align-items:center;display:flex;flex-direction:column;justify-content:center;padding:1.5rem;width:30%}.footer .footer_1 .footer_1_logo1{margin-bottom:3rem}.footer .footer_2{width:70%}.footer .footer_2 .footer_2_title{align-items:center;color:#fff;display:flex;font-size:1.5rem;height:20%;justify-content:center;line-height:80px;text-align:center}.footer .footer_2 .footer_2_title span{border-bottom:1px solid #fff;padding-bottom:1rem}.footer .footer_2 .footer_2_title .footer_2_title_text1{width:30%}.footer .footer_2 .footer_2_title .footer_2_title_text2,.footer .footer_2 .footer_2_title .footer_2_title_text3{width:35%}.footer .footer_2 .footer_2_body{align-items:center;color:#fff;display:flex;font-size:1.5rem;height:80%;justify-content:center;text-align:center}.footer .footer_2 .footer_2_body .footer_2_body_1{display:flex;flex-direction:column;height:100%;width:30%}.footer .footer_2 .footer_2_body .footer_2_body_1 .navigation{align-items:center;display:flex;height:15%;justify-content:center}.footer .footer_2 .footer_2_body .footer_2_body_2,.footer .footer_2 .footer_2_body .footer_2_body_3{height:100%;width:35%}.appointment_information_main{display:flex;flex-direction:column;font-size:1.5rem;height:100%}.appointment_information_main .appointment_information_main_one,.appointment_information_main .appointment_information_main_three,.appointment_information_main .appointment_information_main_two{display:flex;height:15%;line-height:2rem}.appointment_information_main .appointment_information_main_four_describe,.appointment_information_main .appointment_information_main_one_name,.appointment_information_main .appointment_information_main_three_phone,.appointment_information_main .appointment_information_main_two_sex{width:30%}.appointment_information_main .appointment_information_main_five{display:flex}.appointment_information_main .appointment_information_main_five div{width:50%}.appointment_information_main_one_text input:focus{outline:none}.appointment_information_main_one_text input{font-size:1rem}.appointment_information_main_three_number input:focus{outline:none}.appointment_information_main_three_number input{font-size:1rem}.appointment_information_main_four{display:flex;height:30%}.appointment_information_main_four .inputs{font-size:1.5rem;height:90%}.appointment_information_main_four textarea:focus,.appointment_information_main_two_sex_status select:focus{outline:none}.appointment_information_main_five{color:#fff;margin-bottom:1rem;margin-top:1rem}.reset{background-color:#909399}.reset,.submit{border-radius:1rem;padding:.6rem}.submit{background-color:#409eff}.appointment_information_footer{font-size:.95rem;padding:1rem}.adress{margin-top:.5rem}",
+      "start": 1709707894030,
+      "end": 1709707894048,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/components/footers.vue",
+        "mappings": "AACA,QAII,yBADA,aAFA,aACA,WAFJ,kBAWQ,mBAHA,aACA,sBACA,uBAEA,eALA,UAPR,kCAeY,mBAfZ,kBAoBQ,UApBR,kCA6BY,mBAJA,WAFA,aAGA,iBAFA,WAIA,uBADA,iBAGA,kBA9BZ,uCAkCgB,6BADA,oBAjChB,wDAsCgB,UAtChB,gHA2CgB,UA3ChB,iCAsDY,mBAHA,WADA,aAEA,iBAHA,WAIA,uBAEA,kBAvDZ,kDA4DgB,aACA,sBAFA,YADA,UA1DhB,8DAkEoB,mBACA,aAHA,WACA,uBAjEpB,oGA0EgB,YADA,UAOhB,8BACI,aACA,sBAEA,iBADA,YAHJ,kMAWQ,aAFA,WACA,iBAVR,2RAkBQ,UAlBR,iEAsBQ,aAtBR,qEAyBY,UAMZ,mDACI,aAGJ,6CACI,eAIJ,uDACI,aAGJ,iDACI,eAGJ,mCACI,aACA,WAFJ,2CAMQ,iBADA,WASR,4GACI,aAGJ,mCAGI,WADA,mBADA,gBAKJ,OACI,yBAKJ,eAHI,mBADA,cAIJ,QACI,yBAKJ,gCACI,iBACA,aAEJ,QAAQ",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/footers.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707894048,
+      "end": 1709707894048,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707894049,
+      "end": 1709707894049,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707894049,
+      "end": 1709707894049,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".footer[data-v-f11d4b88]{background-color:#721b0e;display:flex;height:500px;width:100%}.footer .footer_1[data-v-f11d4b88]{align-items:center;display:flex;flex-direction:column;justify-content:center;padding:1.5rem;width:30%}.footer .footer_1 .footer_1_logo1[data-v-f11d4b88]{margin-bottom:3rem}.footer .footer_2[data-v-f11d4b88]{width:70%}.footer .footer_2 .footer_2_title[data-v-f11d4b88]{align-items:center;color:#fff;display:flex;font-size:1.5rem;height:20%;justify-content:center;line-height:80px;text-align:center}.footer .footer_2 .footer_2_title span[data-v-f11d4b88]{border-bottom:1px solid #fff;padding-bottom:1rem}.footer .footer_2 .footer_2_title .footer_2_title_text1[data-v-f11d4b88]{width:30%}.footer .footer_2 .footer_2_title .footer_2_title_text2[data-v-f11d4b88],.footer .footer_2 .footer_2_title .footer_2_title_text3[data-v-f11d4b88]{width:35%}.footer .footer_2 .footer_2_body[data-v-f11d4b88]{align-items:center;color:#fff;display:flex;font-size:1.5rem;height:80%;justify-content:center;text-align:center}.footer .footer_2 .footer_2_body .footer_2_body_1[data-v-f11d4b88]{display:flex;flex-direction:column;height:100%;width:30%}.footer .footer_2 .footer_2_body .footer_2_body_1 .navigation[data-v-f11d4b88]{align-items:center;display:flex;height:15%;justify-content:center}.footer .footer_2 .footer_2_body .footer_2_body_2[data-v-f11d4b88],.footer .footer_2 .footer_2_body .footer_2_body_3[data-v-f11d4b88]{height:100%;width:35%}.appointment_information_main[data-v-f11d4b88]{display:flex;flex-direction:column;font-size:1.5rem;height:100%}.appointment_information_main .appointment_information_main_one[data-v-f11d4b88],.appointment_information_main .appointment_information_main_three[data-v-f11d4b88],.appointment_information_main .appointment_information_main_two[data-v-f11d4b88]{display:flex;height:15%;line-height:2rem}.appointment_information_main .appointment_information_main_four_describe[data-v-f11d4b88],.appointment_information_main .appointment_information_main_one_name[data-v-f11d4b88],.appointment_information_main .appointment_information_main_three_phone[data-v-f11d4b88],.appointment_information_main .appointment_information_main_two_sex[data-v-f11d4b88]{width:30%}.appointment_information_main .appointment_information_main_five[data-v-f11d4b88]{display:flex}.appointment_information_main .appointment_information_main_five div[data-v-f11d4b88]{width:50%}.appointment_information_main_one_text input[data-v-f11d4b88]:focus{outline:none}.appointment_information_main_one_text input[data-v-f11d4b88]{font-size:1rem}.appointment_information_main_three_number input[data-v-f11d4b88]:focus{outline:none}.appointment_information_main_three_number input[data-v-f11d4b88]{font-size:1rem}.appointment_information_main_four[data-v-f11d4b88]{display:flex;height:30%}.appointment_information_main_four .inputs[data-v-f11d4b88]{font-size:1.5rem;height:90%}.appointment_information_main_four textarea[data-v-f11d4b88]:focus,.appointment_information_main_two_sex_status select[data-v-f11d4b88]:focus{outline:none}.appointment_information_main_five[data-v-f11d4b88]{color:#fff;margin-bottom:1rem;margin-top:1rem}.reset[data-v-f11d4b88]{background-color:#909399}.reset[data-v-f11d4b88],.submit[data-v-f11d4b88]{border-radius:1rem;padding:.6rem}.submit[data-v-f11d4b88]{background-color:#409eff}.appointment_information_footer[data-v-f11d4b88]{font-size:.95rem;padding:1rem}.adress[data-v-f11d4b88]{margin-top:.5rem}",
+      "start": 1709707894049,
+      "end": 1709707894053,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/components/footers.vue",
+        "mappings": "AAAA,yBAAQ,wBAAwB,CAAC,YAAY,CAAC,YAAY,CAAC,UAAU,CAAC,mCAAkB,kBAAkB,CAAC,YAAY,CAAC,qBAAqB,CAAC,sBAAsB,CAAC,cAAc,CAAC,SAAS,CAAC,mDAAkC,kBAAkB,CAAC,mCAAkB,SAAS,CAAC,mDAAkC,kBAAkB,CAAC,UAAU,CAAC,YAAY,CAAC,gBAAgB,CAAC,UAAU,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,iBAAiB,CAAC,wDAAuC,4BAA4B,CAAC,mBAAmB,CAAC,yEAAwD,SAAS,CAAC,kJAAgH,SAAS,CAAC,kDAAiC,kBAAkB,CAAC,UAAU,CAAC,YAAY,CAAC,gBAAgB,CAAC,UAAU,CAAC,sBAAsB,CAAC,iBAAiB,CAAC,mEAAkD,YAAY,CAAC,qBAAqB,CAAC,WAAW,CAAC,SAAS,CAAC,+EAA8D,kBAAkB,CAAC,YAAY,CAAC,UAAU,CAAC,sBAAsB,CAAC,sIAAoG,WAAW,CAAC,SAAS,CAAC,+CAA8B,YAAY,CAAC,qBAAqB,CAAC,gBAAgB,CAAC,WAAW,CAAC,qPAAkM,YAAY,CAAC,UAAU,CAAC,gBAAgB,CAAC,+VAA2R,SAAS,CAAC,kFAAiE,YAAY,CAAC,sFAAqE,SAAS,CAAC,oEAAmD,YAAY,CAAC,8DAA6C,cAAc,CAAC,wEAAuD,YAAY,CAAC,kEAAiD,cAAc,CAAC,oDAAmC,YAAY,CAAC,UAAU,CAAC,4DAA2C,gBAAgB,CAAC,UAAU,CAAC,8IAA4G,YAAY,CAAC,oDAAmC,UAAU,CAAC,kBAAkB,CAAC,eAAe,CAAC,wBAAO,wBAAwB,CAAC,iDAAe,kBAAkB,CAAC,aAAa,CAAC,yBAAQ,wBAAwB,CAAC,iDAAgC,gBAAgB,CAAC,YAAY,CAAC,yBAAQ,gBAAgB",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/footers.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707894053,
+      "end": 1709707894054,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894054,
+      "end": 1709707894054,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894054,
+      "end": 1709707894054,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894054,
+      "end": 1709707894054,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894054,
+      "end": 1709707894056,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707894058,
+      "end": 1709707894058,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894059,
+      "end": 1709707894059,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707894060,
+      "end": 1709707894077,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707894078,
+      "end": 1709707894078,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707894078,
+      "end": 1709707894078,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707894079,
+      "end": 1709707894079,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707894079,
+      "end": 1709707894079,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707894079,
+      "end": 1709707894079,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707894081,
+      "end": 1709707894081,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707894081,
+      "end": 1709707894081,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894082,
+      "end": 1709707894082,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894082,
+      "end": 1709707894083,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894083,
+      "end": 1709707894083,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894083,
+      "end": 1709707894083,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707894083,
+      "end": 1709707894083,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707894084,
+      "end": 1709707894084,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707894084,
+      "end": 1709707894084,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707894084,
+      "end": 1709707894084,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707894085,
+      "end": 1709707894085,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894085,
+      "end": 1709707894085,
+      "order": "normal"
+    }
+  ]
+}

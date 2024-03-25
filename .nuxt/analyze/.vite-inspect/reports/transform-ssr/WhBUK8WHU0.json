@@ -1,0 +1,252 @@
+{
+  "resolvedId": "virtual:nuxt:E:/cqmbyy/zypc/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as _91id_93Kmxp0BsyqjMeta } from \"E:/cqmbyy/zypc/pages/article/about_hospital/[id].vue?macro=true\";\nimport { default as _91id_93Hak4cgtbSfMeta } from \"E:/cqmbyy/zypc/pages/article/doctor_detail/[id].vue?macro=true\";\nimport { default as _91id_93264J8hYF4hMeta } from \"E:/cqmbyy/zypc/pages/article/health_popularization/[id].vue?macro=true\";\nimport { default as _91id_93KkflyskxUBMeta } from \"E:/cqmbyy/zypc/pages/article/hospital_dynamics/[id].vue?macro=true\";\nimport { default as _91id_93el1C4nUMvuMeta } from \"E:/cqmbyy/zypc/pages/article/media_coverage_detail/[id].vue?macro=true\";\nimport { default as _91id_93Er1DSYXy9fMeta } from \"E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue?macro=true\";\nimport { default as doctor_teamHjh1Tt08DQMeta } from \"E:/cqmbyy/zypc/pages/doctor_team.vue?macro=true\";\nimport { default as enter_hospitalanP6DFmoESMeta } from \"E:/cqmbyy/zypc/pages/enter_hospital.vue?macro=true\";\nimport { default as hospital_introduce23yHFxBQdHMeta } from \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?macro=true\";\nimport { default as hospital_routeSyeFCrM9ofMeta } from \"E:/cqmbyy/zypc/pages/hospital_route.vue?macro=true\";\nimport { default as index3N1JdzULyDMeta } from \"E:/cqmbyy/zypc/pages/index.vue?macro=true\";\nimport { default as media_coveragedlUIasm2YvMeta } from \"E:/cqmbyy/zypc/pages/media_coverage.vue?macro=true\";\nimport { default as welfare_activitiesgamksJTyoLMeta } from \"E:/cqmbyy/zypc/pages/welfare_activities.vue?macro=true\";\nexport default [\n  {\n    name: _91id_93Kmxp0BsyqjMeta?.name ?? \"article-about_hospital-id\",\n    path: _91id_93Kmxp0BsyqjMeta?.path ?? \"/article/about_hospital/:id()\",\n    meta: _91id_93Kmxp0BsyqjMeta || {},\n    alias: _91id_93Kmxp0BsyqjMeta?.alias || [],\n    redirect: _91id_93Kmxp0BsyqjMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/about_hospital/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: _91id_93Hak4cgtbSfMeta?.name ?? \"article-doctor_detail-id\",\n    path: _91id_93Hak4cgtbSfMeta?.path ?? \"/article/doctor_detail/:id()\",\n    meta: _91id_93Hak4cgtbSfMeta || {},\n    alias: _91id_93Hak4cgtbSfMeta?.alias || [],\n    redirect: _91id_93Hak4cgtbSfMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/doctor_detail/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: _91id_93264J8hYF4hMeta?.name ?? \"article-health_popularization-id\",\n    path: _91id_93264J8hYF4hMeta?.path ?? \"/article/health_popularization/:id()\",\n    meta: _91id_93264J8hYF4hMeta || {},\n    alias: _91id_93264J8hYF4hMeta?.alias || [],\n    redirect: _91id_93264J8hYF4hMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/health_popularization/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: _91id_93KkflyskxUBMeta?.name ?? \"article-hospital_dynamics-id\",\n    path: _91id_93KkflyskxUBMeta?.path ?? \"/article/hospital_dynamics/:id()\",\n    meta: _91id_93KkflyskxUBMeta || {},\n    alias: _91id_93KkflyskxUBMeta?.alias || [],\n    redirect: _91id_93KkflyskxUBMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/hospital_dynamics/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: _91id_93el1C4nUMvuMeta?.name ?? \"article-media_coverage_detail-id\",\n    path: _91id_93el1C4nUMvuMeta?.path ?? \"/article/media_coverage_detail/:id()\",\n    meta: _91id_93el1C4nUMvuMeta || {},\n    alias: _91id_93el1C4nUMvuMeta?.alias || [],\n    redirect: _91id_93el1C4nUMvuMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/media_coverage_detail/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: _91id_93Er1DSYXy9fMeta?.name ?? \"article-welfare_activities_detail-id\",\n    path: _91id_93Er1DSYXy9fMeta?.path ?? \"/article/welfare_activities_detail/:id()\",\n    meta: _91id_93Er1DSYXy9fMeta || {},\n    alias: _91id_93Er1DSYXy9fMeta?.alias || [],\n    redirect: _91id_93Er1DSYXy9fMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/article/welfare_activities_detail/[id].vue\").then(m => m.default || m)\n  },\n  {\n    name: doctor_teamHjh1Tt08DQMeta?.name ?? \"doctor_team\",\n    path: doctor_teamHjh1Tt08DQMeta?.path ?? \"/doctor_team\",\n    meta: doctor_teamHjh1Tt08DQMeta || {},\n    alias: doctor_teamHjh1Tt08DQMeta?.alias || [],\n    redirect: doctor_teamHjh1Tt08DQMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/doctor_team.vue\").then(m => m.default || m)\n  },\n  {\n    name: enter_hospitalanP6DFmoESMeta?.name ?? \"enter_hospital\",\n    path: enter_hospitalanP6DFmoESMeta?.path ?? \"/enter_hospital\",\n    meta: enter_hospitalanP6DFmoESMeta || {},\n    alias: enter_hospitalanP6DFmoESMeta?.alias || [],\n    redirect: enter_hospitalanP6DFmoESMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/enter_hospital.vue\").then(m => m.default || m)\n  },\n  {\n    name: hospital_introduce23yHFxBQdHMeta?.name ?? \"hospital_introduce\",\n    path: hospital_introduce23yHFxBQdHMeta?.path ?? \"/hospital_introduce\",\n    meta: hospital_introduce23yHFxBQdHMeta || {},\n    alias: hospital_introduce23yHFxBQdHMeta?.alias || [],\n    redirect: hospital_introduce23yHFxBQdHMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/hospital_introduce.vue\").then(m => m.default || m)\n  },\n  {\n    name: hospital_routeSyeFCrM9ofMeta?.name ?? \"hospital_route\",\n    path: hospital_routeSyeFCrM9ofMeta?.path ?? \"/hospital_route\",\n    meta: hospital_routeSyeFCrM9ofMeta || {},\n    alias: hospital_routeSyeFCrM9ofMeta?.alias || [],\n    redirect: hospital_routeSyeFCrM9ofMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/hospital_route.vue\").then(m => m.default || m)\n  },\n  {\n    name: index3N1JdzULyDMeta?.name ?? \"index\",\n    path: index3N1JdzULyDMeta?.path ?? \"/\",\n    meta: index3N1JdzULyDMeta || {},\n    alias: index3N1JdzULyDMeta?.alias || [],\n    redirect: index3N1JdzULyDMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: media_coveragedlUIasm2YvMeta?.name ?? \"media_coverage\",\n    path: media_coveragedlUIasm2YvMeta?.path ?? \"/media_coverage\",\n    meta: media_coveragedlUIasm2YvMeta || {},\n    alias: media_coveragedlUIasm2YvMeta?.alias || [],\n    redirect: media_coveragedlUIasm2YvMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/media_coverage.vue\").then(m => m.default || m)\n  },\n  {\n    name: welfare_activitiesgamksJTyoLMeta?.name ?? \"welfare_activities\",\n    path: welfare_activitiesgamksJTyoLMeta?.path ?? \"/welfare_activities\",\n    meta: welfare_activitiesgamksJTyoLMeta || {},\n    alias: welfare_activitiesgamksJTyoLMeta?.alias || [],\n    redirect: welfare_activitiesgamksJTyoLMeta?.redirect,\n    component: () => import(\"E:/cqmbyy/zypc/pages/welfare_activities.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1709707889110,
+      "end": 1709707889110,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707889110,
+      "end": 1709707889110,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707889110,
+      "end": 1709707889110,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707889110,
+      "end": 1709707889110,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707889110,
+      "end": 1709707889110,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707889111,
+      "end": 1709707889111,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707889112,
+      "end": 1709707889112,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707889112,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707889113,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707889113,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707889113,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707889113,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707889113,
+      "end": 1709707889113,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707889114,
+      "end": 1709707889114,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707889114,
+      "end": 1709707889116,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707889116,
+      "end": 1709707889116,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707889116,
+      "end": 1709707889116,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707889116,
+      "end": 1709707889116,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707889116,
+      "end": 1709707889119,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707889116,
+      "end": 1709707889119,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707889119,
+      "end": 1709707889119,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707889119,
+      "end": 1709707889119,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707889119,
+      "end": 1709707889119,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707889119,
+      "end": 1709707889120,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707889120,
+      "end": 1709707889120,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707889120,
+      "end": 1709707889120,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707889120,
+      "end": 1709707889120,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707889121,
+      "end": 1709707889121,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707889121,
+      "end": 1709707889125,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707889125,
+      "end": 1709707889125,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/app.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\n <template>\n  <div style=\"background-image: url('/img/app_bg.jpg');\">\n <Titles></Titles>\n <NuxtPage />\n <Footers></Footers>\n <Sidebars></Sidebars>\n  </div>\n </template>\n \n <script setup lang=\"ts\">\n \n</script>\n \n \n <style lang=\"less\" scoped>\nbody {\n    margin: 0 !important;\n}\n </style>",
+      "start": 1709707871084,
+      "end": 1709707871182,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707871182,
+      "end": 1709707871182,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-3ed0e75b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { style: {\"background-image\":\"url('/img/app_bg.jpg')\"} }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Titles = _resolveComponent(\"Titles\")\n  const _component_NuxtPage = _resolveComponent(\"NuxtPage\")\n  const _component_Footers = _resolveComponent(\"Footers\")\n  const _component_Sidebars = _resolveComponent(\"Sidebars\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_Titles),\n    _createVNode(_component_NuxtPage),\n    _createVNode(_component_Footers),\n    _createVNode(_component_Sidebars)\n  ]))\n}\n\nimport \"E:/cqmbyy/zypc/app.vue?vue&type=style&index=0&scoped=3ed0e75b&lang.less\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-3ed0e75b\"]])",
+      "start": 1709707871183,
+      "end": 1709707871185,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707871185,
+      "end": 1709707871185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707871186,
+      "end": 1709707871186,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707871186,
+      "end": 1709707871186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707871186,
+      "end": 1709707871186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707871186,
+      "end": 1709707871186,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707871186,
+      "end": 1709707871186,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707871186,
+      "end": 1709707871187,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707871187,
+      "end": 1709707871187,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707871187,
+      "end": 1709707871188,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707871188,
+      "end": 1709707871188,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707871188,
+      "end": 1709707871188,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707871188,
+      "end": 1709707871188,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"E:/cqmbyy/zypc/components/titles.vue\";\nimport { default as __nuxt_component_1 } from \"E:/cqmbyy/zypc/node_modules/nuxt/dist/pages/runtime/page\";\nimport { default as __nuxt_component_2 } from \"E:/cqmbyy/zypc/components/footers.vue\";\nimport { default as __nuxt_component_3 } from \"E:/cqmbyy/zypc/components/sidebars.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-3ed0e75b\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { style: {\"background-image\":\"url('/img/app_bg.jpg')\"} }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_Titles = __nuxt_component_0\n  const _component_NuxtPage = __nuxt_component_1\n  const _component_Footers = __nuxt_component_2\n  const _component_Sidebars = __nuxt_component_3\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_Titles),\n    _createVNode(_component_NuxtPage),\n    _createVNode(_component_Footers),\n    _createVNode(_component_Sidebars)\n  ]))\n}\n\nimport \"E:/cqmbyy/zypc/app.vue?vue&type=style&index=0&scoped=3ed0e75b&lang.less\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-3ed0e75b\"]])",
+      "start": 1709707871188,
+      "end": 1709707871189,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707871189,
+      "end": 1709707871189,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707871189,
+      "end": 1709707871190,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707871190,
+      "end": 1709707871190,
+      "order": "normal"
+    }
+  ]
+}

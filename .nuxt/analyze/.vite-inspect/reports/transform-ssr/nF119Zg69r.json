@@ -1,0 +1,256 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/sidebars.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"sidebar\">\r\n      <div class=\"sidebars\">\r\n        <div class=\"sidebars_item1\" >\r\n            <div   v-show=\"!isHovering1\" @mouseover=\"isHovering1 = true\" @mouseleave=\"isHovering1 = false\">\r\n                <img src=\"/img/sidebar1.png\"/>\r\n            </div>\r\n            <div  v-show=\"isHovering1\"  @mouseover=\"isHovering1 = true\" @mouseleave=\"isHovering1 = false\" class=\"sidebars_item1_text\" @click=\"sidebars_item1\">\r\n                预约挂号\r\n            </div>\r\n        </div>\r\n        <div class=\"sidebars_item2\">\r\n            <div   v-show=\"!isHovering2\" @mouseover=\"isHovering2 = true\" @mouseleave=\"isHovering2 = false\">\r\n                <img src=\"/img/sidebar2.png\"/>\r\n            </div>\r\n            <div   v-show=\"isHovering2\" @mouseover=\"isHovering2 = true\" @mouseleave=\"isHovering2 = false\" class=\"sidebars_item2_text\" @click=\"sidebars_item2\">\r\n                电话咨询\r\n            </div>\r\n        </div>\r\n        <div class=\"sidebars_item3\"  @mouseover=\"isHovering3 = true\" @mouseleave=\"isHovering3 = false\">\r\n            <img v-show=\"!isHovering3\" src=\"/img/sidebar3_1.png\"/>\r\n            <img v-show=\"isHovering3\" src=\"/img/sidebar3_2.png\"/>\r\n        </div>\r\n        <div class=\"wx_code\"  v-show=\"isHovering3\"  @mouseover=\"isHovering3 = true\" @mouseleave=\"isHovering3 = false\"  >\r\n        <img src=\"/img/wx_code.png\"/>\r\n      </div>\r\n        <div class=\"sidebars_item4\" @click=\"sidebars_item1\">\r\n            <img src=\"/img/sidebar4.png\"/>\r\n        </div>\r\n        <el-backtop class=\"backtop\" />\r\n      </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\n    const isHovering1=ref(false)\r\n    const isHovering2=ref(false)\r\n    const isHovering3=ref(false)\r\n    const sidebars_item1=()=>{\r\n        window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n    }\r\n    const sidebars_item2=()=>{\r\n        window.location.href = 'tel://023-86868333';\r\n    }\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.sidebar{\r\n    position: fixed;\r\n    bottom:20rem;\r\n    right: 2rem;\r\n    z-index: 999;\r\n    .sidebars{\r\n        display: flex;\r\n        flex-direction: column;\r\n        .sidebars_item1,\r\n        .sidebars_item2,\r\n        .sidebars_item3,\r\n        .sidebars_item4{\r\n            height: 50px;\r\n            width: 50px;\r\n            background-color: #EFEFEF;\r\n            margin-top: 0.8rem;\r\n            border-radius: 0.5rem;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n        }\r\n        .sidebars_item1_text,.sidebars_item2_text{\r\n            display: flex;\r\n            justify-content: center;\r\n            text-align: center  ;\r\n            font-size: 1.1rem;\r\n            color: #EFEFEF;\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item3:hover{\r\n            background-color: #721B0E;\r\n            cursor: pointer;\r\n        }\r\n        .sidebars_item4{\r\n            cursor: pointer;\r\n        }\r\n    }\r\n}\r\n.wx_code{\r\n    position: fixed;\r\n    bottom: 22rem;\r\n    right: 6rem;\r\n    z-index: 999;\r\n}\r\n:deep(.el-backtop){\r\n        bottom:16rem !important;\r\n        right: 2rem !important;\r\n        z-index: 999;\r\n        color: #721B0E;\r\n        }\r\n</style>\r\n",
+      "start": 1709707892371,
+      "end": 1709707892908,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892908,
+      "end": 1709707892908,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/components/sidebars.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/components/sidebars.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/components/sidebars.vue?vue&type=style&index=0&scoped=6a916765&lang.less\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/sidebars.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-6a916765\"]]);\n",
+      "start": 1709707892908,
+      "end": 1709707893557,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893558,
+      "end": 1709707893558,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707893559,
+      "end": 1709707893591,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707893591,
+      "end": 1709707893591,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707893591,
+      "end": 1709707893591,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707893591,
+      "end": 1709707893591,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707893592,
+      "end": 1709707893592,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707893592,
+      "end": 1709707893592,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707893592,
+      "end": 1709707893593,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707893593,
+      "end": 1709707893593,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707893593,
+      "end": 1709707893593,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707893593,
+      "end": 1709707893593,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707893593,
+      "end": 1709707893593,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707893593,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707893593,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707893595,
+      "end": 1709707893595,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707893595,
+      "end": 1709707893597,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707893597,
+      "end": 1709707893597,
+      "order": "normal"
+    }
+  ]
+}

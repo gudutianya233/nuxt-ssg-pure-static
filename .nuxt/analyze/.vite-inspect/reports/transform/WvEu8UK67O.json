@@ -1,0 +1,227 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/hospital_introduce.vue?vue&type=style&index=0&scoped=4e80f72f&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.div_swiper {\r\n    display: flex;\r\n    overflow: hidden;\r\n    width: 84%;\r\n    padding-top: 1rem;\r\n    padding-right: 1rem;\r\n    margin: auto;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.information {\r\n    margin-top: 2rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    p {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.information_list {\r\n    margin-top: 1rem;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    img {\r\n        width: 25%;\r\n        height: 80%;\r\n        padding-right: 2rem;\r\n        cursor: pointer;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    margin: auto;\r\n    height: 600px;\r\n    width: 750px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    .hosptial_show {\r\n        height: 600px;\r\n        width: 750px;\r\n        img {\r\n            width: 100%;\r\n            height: 100%;\r\n            object-fit: cover;\r\n        }\r\n    }\r\n}\r\n.special_list{\r\n    display: flex;\r\n    width: 90%;\r\n    margin: auto;\r\n    justify-content: center;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    .special_lists{\r\n        width: 20%;\r\n        display: flex;\r\n        justify-content: center;\r\n         align-items: center;\r\n         background-image: url('/img/special_list_bg1.png');\r\n         background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: center center;\r\n        margin-right: 5%;\r\n        padding:1rem;\r\n         img{\r\n            height: 90%;\r\n            width: 90%;\r\n        }\r\n        &:hover {\r\n            background-image: url('/img/special_list_bg2.png');\r\n        }\r\n    }\r\n}\r\n.hospital_introduce_video{\r\n    height: 550px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    background-image: url('/img/backgroun.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    .hospital_introduce_video_title{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 30%;\r\n        width: 100%;\r\n    }\r\n    .hospital_introduce_video_body{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 70%;\r\n        width: 100%;\r\n        .hospital_introduce_video_bodys{\r\n         height: 100%;\r\n         width: 35%;\r\n         video{\r\n            height: 80%;\r\n            width: 80%;\r\n            border: 10px solid #f5f5f5;\r\n            box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n            padding: 10px;\r\n         }\r\n        }\r\n        .hospital_introduce_report_body{\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n             align-items: center;\r\n             img{\r\n                cursor: pointer;\r\n             }\r\n        }\r\n    }\r\n\r\n}\r\n",
+      "start": 1709707872091,
+      "end": 1709707872091
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707872091,
+      "end": 1709707872091,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707872092,
+      "end": 1709707872092,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707872092,
+      "end": 1709707872092,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".div_swiper{display:flex;margin:auto;overflow:hidden;padding-right:1rem;padding-top:1rem;width:84%}.div_swiper img{height:100%;width:100%}.information{align-items:center;display:flex;flex-direction:column;justify-content:center;margin-top:2rem}.information p{font-size:1.5rem}.information_list{align-items:center;display:flex;justify-content:center;margin-top:1rem}.information_list img{cursor:pointer;height:80%;padding-right:2rem;width:25%}.hosptial{align-items:center;display:flex;justify-content:center;margin:auto}.hosptial,.hosptial .hosptial_show{height:600px;width:750px}.hosptial .hosptial_show img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.special_list{display:flex;justify-content:center;margin:1rem auto;width:90%}.special_list .special_lists{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__001cae5a__);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;margin-right:5%;padding:1rem;width:20%}.special_list .special_lists img{height:90%;width:90%}.special_list .special_lists:hover{background-image:url(__VITE_PUBLIC_ASSET__41df82c8__)}.hospital_introduce_video{background-image:url(__VITE_PUBLIC_ASSET__f2ee01c6__);background-repeat:no-repeat;background-size:100% 100%;display:flex;flex-direction:column;height:550px;text-align:center;width:100%}.hospital_introduce_video .hospital_introduce_video_title{align-items:center;display:flex;height:30%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body{align-items:center;display:flex;height:70%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys{height:100%;width:35%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys video{border:10px solid #f5f5f5;box-shadow:0 0 10px rgba(0,0,0,.5);height:80%;padding:10px;width:80%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body{align-items:center;display:flex;height:100%;justify-content:space-between;width:40%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body img{cursor:pointer}",
+      "start": 1709707872092,
+      "end": 1709707872123,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707872123,
+      "end": 1709707872123,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707872124,
+      "end": 1709707872124,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707872124,
+      "end": 1709707872124,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".div_swiper[data-v-4e80f72f]{display:flex;margin:auto;overflow:hidden;padding-right:1rem;padding-top:1rem;width:84%}.div_swiper img[data-v-4e80f72f]{height:100%;width:100%}.information[data-v-4e80f72f]{align-items:center;display:flex;flex-direction:column;justify-content:center;margin-top:2rem}.information p[data-v-4e80f72f]{font-size:1.5rem}.information_list[data-v-4e80f72f]{align-items:center;display:flex;justify-content:center;margin-top:1rem}.information_list img[data-v-4e80f72f]{cursor:pointer;height:80%;padding-right:2rem;width:25%}.hosptial[data-v-4e80f72f]{align-items:center;display:flex;justify-content:center;margin:auto}.hosptial[data-v-4e80f72f],.hosptial .hosptial_show[data-v-4e80f72f]{height:600px;width:750px}.hosptial .hosptial_show img[data-v-4e80f72f]{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.special_list[data-v-4e80f72f]{display:flex;justify-content:center;margin:1rem auto;width:90%}.special_list .special_lists[data-v-4e80f72f]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__001cae5a__);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;margin-right:5%;padding:1rem;width:20%}.special_list .special_lists img[data-v-4e80f72f]{height:90%;width:90%}.special_list .special_lists[data-v-4e80f72f]:hover{background-image:url(__VITE_PUBLIC_ASSET__41df82c8__)}.hospital_introduce_video[data-v-4e80f72f]{background-image:url(__VITE_PUBLIC_ASSET__f2ee01c6__);background-repeat:no-repeat;background-size:100% 100%;display:flex;flex-direction:column;height:550px;text-align:center;width:100%}.hospital_introduce_video .hospital_introduce_video_title[data-v-4e80f72f]{align-items:center;display:flex;height:30%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body[data-v-4e80f72f]{align-items:center;display:flex;height:70%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys[data-v-4e80f72f]{height:100%;width:35%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys video[data-v-4e80f72f]{border:10px solid #f5f5f5;box-shadow:0 0 10px rgba(0,0,0,.5);height:80%;padding:10px;width:80%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body[data-v-4e80f72f]{align-items:center;display:flex;height:100%;justify-content:space-between;width:40%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body img[data-v-4e80f72f]{cursor:pointer}",
+      "start": 1709707872124,
+      "end": 1709707872127,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707872127,
+      "end": 1709707872127,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872127,
+      "end": 1709707872127,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707872127,
+      "end": 1709707872127,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707872128,
+      "end": 1709707872128,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707872129,
+      "end": 1709707872129,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707872133,
+      "end": 1709707872133,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707872133,
+      "end": 1709707872133,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707872134,
+      "end": 1709707872134,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707872134,
+      "end": 1709707872134,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707872135,
+      "end": 1709707872135,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707872135,
+      "end": 1709707872135,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707872135,
+      "end": 1709707872135,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707872135,
+      "end": 1709707872135,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707872135,
+      "end": 1709707872135,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707872136,
+      "end": 1709707872137,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707872137,
+      "end": 1709707872137,
+      "order": "normal"
+    }
+  ]
+}

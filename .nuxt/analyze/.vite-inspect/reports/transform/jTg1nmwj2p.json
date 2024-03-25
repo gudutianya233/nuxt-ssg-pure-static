@@ -1,0 +1,227 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/article_ask.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/call_phone.png'\nimport _imports_1 from '/img/network_registration.png'\nimport _imports_2 from '/img/ask_online.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-f7efc5b8\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }, null, -1))\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_1 }, null, -1))\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_2 }, null, -1))\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'article_ask',\n  setup(__props) {\n\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", { class: \"article_ask\" }, [\n      _createElementVNode(\"div\", {\n        class: \"call_phone\",\n        onClick: call_phone\n      }, [\n        _hoisted_1,\n        _createTextVNode(\" 免费拨打 \")\n      ]),\n      _createElementVNode(\"div\", {\n        class: \"network_registration\",\n        onClick: network_registration\n      }, [\n        _hoisted_2,\n        _createTextVNode(\" 网络挂号\")\n      ]),\n      _createElementVNode(\"div\", {\n        class: \"ask_online\",\n        onClick: ask_online\n      }, [\n        _hoisted_3,\n        _createTextVNode(\" 在线咨询\")\n      ])\n    ])\n  ]))\n}\n}\n\n})",
+      "start": 1709707874757,
+      "end": 1709707874757
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707874757,
+      "end": 1709707874757,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707874757,
+      "end": 1709707874757,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707874757,
+      "end": 1709707874757,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707874757,
+      "end": 1709707874757,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nimport _imports_0 from \"/img/call_phone.png\";\nimport _imports_1 from \"/img/network_registration.png\";\nimport _imports_2 from \"/img/ask_online.png\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-f7efc5b8\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_0 }, null, -1));\nconst _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_1 }, null, -1));\nconst _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ _createElementVNode(\"img\", { src: _imports_2 }, null, -1));\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"article_ask\",\n  setup(__props) {\n    const call_phone = () => {\n      window.location.href = \"tel://023-86868333\";\n    };\n    const network_registration = () => {\n      window.location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    const ask_online = () => {\n      window.location.href = \"http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn\";\n    };\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", null, [\n        _createElementVNode(\"div\", { class: \"article_ask\" }, [\n          _createElementVNode(\"div\", {\n            class: \"call_phone\",\n            onClick: call_phone\n          }, [\n            _hoisted_1,\n            _createTextVNode(\" 免费拨打 \")\n          ]),\n          _createElementVNode(\"div\", {\n            class: \"network_registration\",\n            onClick: network_registration\n          }, [\n            _hoisted_2,\n            _createTextVNode(\" 网络挂号\")\n          ]),\n          _createElementVNode(\"div\", {\n            class: \"ask_online\",\n            onClick: ask_online\n          }, [\n            _hoisted_3,\n            _createTextVNode(\" 在线咨询\")\n          ])\n        ])\n      ]);\n    };\n  }\n});\n",
+      "start": 1709707874758,
+      "end": 1709707875016,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/img/call_phone.png'\nimport _imports_1 from '/img/network_registration.png'\nimport _imports_2 from '/img/ask_online.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-f7efc5b8\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_0 }, null, -1))\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_1 }, null, -1))\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", { src: _imports_2 }, null, -1))\n\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'article_ask',\n  setup(__props) {\n\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", { class: \"article_ask\" }, [\n      _createElementVNode(\"div\", {\n        class: \"call_phone\",\n        onClick: call_phone\n      }, [\n        _hoisted_1,\n        _createTextVNode(\" 免费拨打 \")\n      ]),\n      _createElementVNode(\"div\", {\n        class: \"network_registration\",\n        onClick: network_registration\n      }, [\n        _hoisted_2,\n        _createTextVNode(\" 网络挂号\")\n      ]),\n      _createElementVNode(\"div\", {\n        class: \"ask_online\",\n        onClick: ask_online\n      }, [\n        _hoisted_3,\n        _createTextVNode(\" 在线咨询\")\n      ])\n    ])\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,mBAAmB,kBAAkB,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAC3N,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AAGvB,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,KAAK,WAAW,GAAG,MAAM,EAAE,CAAC;AAC1H,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,KAAK,WAAW,GAAG,MAAM,EAAE,CAAC;AAC1H,MAAM,aAA2B,6BAAa,MAAmB,oCAAoB,OAAO,EAAE,KAAK,WAAW,GAAG,MAAM,EAAE,CAAC;AAG1H,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,aAAa,MAAM;AACrB,aAAO,SAAS,OAAO;AAAA,IAC3B;AACA,UAAM,uBAAuB,MAAM;AAC/B,aAAO,SAAS,OAAM;AAAA,IAC1B;AACA,UAAM,aAAa,MAAM;AACrB,aAAO,SAAS,OAAM;AAAA,IAC1B;AAEA,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,MAAM;AAAA,QACrD,oBAAoB,OAAO,EAAE,OAAO,cAAc,GAAG;AAAA,UACnD,oBAAoB,OAAO;AAAA,YACzB,OAAO;AAAA,YACP,SAAS;AAAA,UACX,GAAG;AAAA,YACD;AAAA,YACA,iBAAiB,QAAQ;AAAA,UAC3B,CAAC;AAAA,UACD,oBAAoB,OAAO;AAAA,YACzB,OAAO;AAAA,YACP,SAAS;AAAA,UACX,GAAG;AAAA,YACD;AAAA,YACA,iBAAiB,OAAO;AAAA,UAC1B,CAAC;AAAA,UACD,oBAAoB,OAAO;AAAA,YACzB,OAAO;AAAA,YACP,SAAS;AAAA,UACX,GAAG;AAAA,YACD;AAAA,YACA,iBAAiB,OAAO;AAAA,UAC1B,CAAC;AAAA,QACH,CAAC;AAAA,MACH,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707875016,
+      "end": 1709707875016,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707875016,
+      "end": 1709707875016,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707875016,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707875017,
+      "end": 1709707875017,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707875017,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707875018,
+      "end": 1709707875018,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707875018,
+      "end": 1709707875019,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707875019,
+      "end": 1709707875019,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707875019,
+      "end": 1709707875019,
+      "order": "normal"
+    }
+  ]
+}

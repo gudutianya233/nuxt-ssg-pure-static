@@ -1,0 +1,274 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/hospital_introduce.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n        <div>\r\n       <Head>\r\n      <Title>重庆铭博医院-重庆中医肿瘤医院-重庆老中医</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院,重庆中医肿瘤医院,重庆肿瘤医院，重庆中医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院始终坚持发展中医中药、传统医疗项目为特色，以中医科、肿瘤科，中西医结合科为主，采用“扶正固本”的诊疗方法，汇集国内资深老中医，通过传承名老中医学术思想和临床经验，为患者提供切实有效的中医诊疗服务。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"div_swiper\">\r\n            <!-- <swiper  :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 1700, disableOnInteraction: true }\">\r\n                <swiper-slide  v-for=\"item in swiperImages\" :key=\"item.id\">\r\n                    <img :src=\"item.url\" />\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper> -->\r\n            <swiper :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\">\r\n                <swiper-slide  >\r\n                    <img src=\"/img/bann2.jpg\" />\r\n                </swiper-slide>\r\n            </swiper>\r\n        </div>\r\n        <div class=\"hospital_introduce_video\">\r\n            <div class=\"hospital_introduce_video_title\">\r\n                <img src=\"/img/hospital_introduce_video.png\" />\r\n            </div>\r\n            <div class=\"hospital_introduce_video_body\">\r\n                <div class=\"hospital_introduce_video_bodys\">\r\n                    <video src=\"/video/hospital_introduce.mp4\"  controls autoplay=\"true\" loop=\"true\"></video>\r\n                </div>\r\n                <div class=\"hospital_introduce_report_body\">\r\n                    <img src=\"/img/media_coverage.png\" @click=\"media_coverage\" />\r\n                    <img src=\"/img/welfare_activities.png\"  @click=\"welfare_activities\" />\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/information.png\" />\r\n            <p>见证传承与创新，展示中医药品牌力量</p>\r\n        </div>\r\n        <div class=\"information_list\">\r\n            <img src=\"/img/information_list1.png\" @click=\"ask\"/>\r\n            <img src=\"/img/information_list2.png\" @click=\"ask\"/>\r\n            <img src=\"/img/information_list3.png\" @click=\"ask\"/>\r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/hosptial.png\" />\r\n            <p>传承创新，中西并重;汇聚各派医生，普济重庆百姓</p>\r\n        </div>\r\n        <div class=\"hosptial\">\r\n            <swiper v-if=\"hosptial_show\" :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 2000, disableOnInteraction: false }\">\r\n                <swiper-slide v-for=\"item in hosptial_show\" :key=\"item.id\">\r\n                    <div class=\"hosptial_show\">\r\n                        <img :src=\"item.url\" />\r\n                    </div>\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper> \r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/special.png\" />\r\n            <p>传承精华，守正创新；踔厉奋发，勇毅前行</p>\r\n        </div>\r\n        <div class=\"special_list\">\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list1.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list2.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list3.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list4.jpg\" /></div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { Pagination, Autoplay } from 'swiper'\r\nimport { Swiper, SwiperSlide } from 'vue-awesome-swiper'\r\nimport { useRouter } from 'vue-router'\r\nimport 'swiper/swiper-bundle.css'\r\nimport 'swiper/css/pagination'\r\nconst router = useRouter()\r\n// import { getReleaseSwiper } from '~/request';\r\n// import type{ Swipers } from '~/entities/swiper';\r\nconst modules = [Pagination, Autoplay]\r\nconst hosptial_show = [\r\n    { id: 1, url: '/img/yyhj1.jpg' },\r\n    { id: 2, url: '/img/yyhj2.jpg' },\r\n    { id: 3, url: '/img/yyhj3.jpg' },\r\n    { id: 4, url: '/img/yyhj4.jpg' },\r\n    { id: 5, url: '/img/yyhj5.jpg' },\r\n    { id: 6, url: '/img/yyhj6.jpg' },\r\n    { id: 7, url: '/img/yyhj7.jpg' },\r\n    { id: 8, url: '/img/yyhj8.jpg' },\r\n    { id: 9, url: '/img/yyhj9.jpg' },\r\n    { id: 10, url: '/img/yyhj10.jpg' },\r\n    { id: 11, url: '/img/yyhj11.jpg' },\r\n    { id: 12, url: '/img/yyhj12.jpg' },\r\n    { id: 13, url: '/img/yyhj13.jpg' },\r\n    { id: 14, url: '/img/yyhj14.jpg' },\r\n]\r\n// //轮播图\r\n// const swiperImages: Ref<Swipers[]> = ref([]);\r\n// await useAsyncData(async () => {\r\n//     const res: any =await getReleaseSwiper()\r\n//     swiperImages.value = res.data\r\n// })\r\nconst ask=()=>{\r\n     window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n//公益活动\r\nconst welfare_activities=()=>{\r\n    router.push({ path: 'welfare_activities'})\r\n}\r\n//媒体报道\r\nconst media_coverage=()=>{\r\n    router.push({ path: 'media_coverage'})\r\n}\r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.div_swiper {\r\n    display: flex;\r\n    overflow: hidden;\r\n    width: 84%;\r\n    padding-top: 1rem;\r\n    padding-right: 1rem;\r\n    margin: auto;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.information {\r\n    margin-top: 2rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    p {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.information_list {\r\n    margin-top: 1rem;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    img {\r\n        width: 25%;\r\n        height: 80%;\r\n        padding-right: 2rem;\r\n        cursor: pointer;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    margin: auto;\r\n    height: 600px;\r\n    width: 750px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    .hosptial_show {\r\n        height: 600px;\r\n        width: 750px;\r\n        img {\r\n            width: 100%;\r\n            height: 100%;\r\n            object-fit: cover;\r\n        }\r\n    }\r\n}\r\n.special_list{\r\n    display: flex;\r\n    width: 90%;\r\n    margin: auto;\r\n    justify-content: center;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    .special_lists{\r\n        width: 20%;\r\n        display: flex;\r\n        justify-content: center;\r\n         align-items: center;\r\n         background-image: url('/img/special_list_bg1.png');\r\n         background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: center center;\r\n        margin-right: 5%;\r\n        padding:1rem;\r\n         img{\r\n            height: 90%;\r\n            width: 90%;\r\n        }\r\n        &:hover {\r\n            background-image: url('/img/special_list_bg2.png');\r\n        }\r\n    }\r\n}\r\n.hospital_introduce_video{\r\n    height: 550px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    background-image: url('/img/backgroun.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    .hospital_introduce_video_title{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 30%;\r\n        width: 100%;\r\n    }\r\n    .hospital_introduce_video_body{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 70%;\r\n        width: 100%;\r\n        .hospital_introduce_video_bodys{\r\n         height: 100%;\r\n         width: 35%;\r\n         video{\r\n            height: 80%;\r\n            width: 80%;\r\n            border: 10px solid #f5f5f5;\r\n            box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n            padding: 10px;\r\n         }\r\n        }\r\n        .hospital_introduce_report_body{\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n             align-items: center;\r\n             img{\r\n                cursor: pointer;\r\n             }\r\n        }\r\n    }\r\n\r\n}\r\n</style>",
+      "start": 1709707890782,
+      "end": 1709707891032,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707891032,
+      "end": 1709707891032,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?vue&type=style&index=0&scoped=4e80f72f&lang.less\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/hospital_introduce.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-4e80f72f\"]]);\n",
+      "start": 1709707891032,
+      "end": 1709707891120,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707891120,
+      "end": 1709707891120,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891121,
+      "end": 1709707891121,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891121,
+      "end": 1709707891121,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891121,
+      "end": 1709707891121,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891121,
+      "end": 1709707891121,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707891121,
+      "end": 1709707891121,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891121,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707891122,
+      "end": 1709707891122,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707891122,
+      "end": 1709707891123,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707891123,
+      "end": 1709707891123,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707891123,
+      "end": 1709707891123,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891123,
+      "end": 1709707891123,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891123,
+      "end": 1709707891123,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891130,
+      "end": 1709707891133,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891130,
+      "end": 1709707891133,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891133,
+      "end": 1709707891134,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891133,
+      "end": 1709707891134,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "export { default } from \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
+      "start": 1709707891135,
+      "end": 1709707891137,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "export { default } from \"E:/cqmbyy/zypc/pages/hospital_introduce.vue?macro=true&vue&type=script&setup=true&lang.ts\"",
+      "start": 1709707891135,
+      "end": 1709707891137,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA"
+      }
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707891137,
+      "end": 1709707891137,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707891137,
+      "end": 1709707891137,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707891138,
+      "end": 1709707891138,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707891139,
+      "end": 1709707891139,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707891139,
+      "end": 1709707891140,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707891140,
+      "end": 1709707891140,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/hospital_route.vue?vue&type=style&index=0&scoped=9c989769&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.hosptial_route_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial_route_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_route {\r\n    padding-top: 2rem;\r\n    padding-bottom: 2rem;\r\n    width: 50%;\r\n    margin: auto;\r\n    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\r\n    font-size: 1.2rem;\r\n    .hosptial_routes{\r\n        height: 550px;\r\n        width: 100%;\r\n        img{\r\n            height: 100%;\r\n          width: 100%;\r\n        }\r\n    }\r\n}\r\n",
+      "start": 1709707892342,
+      "end": 1709707892342,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_route.vue"
+        ],
+        "names": [],
+        "mappings": ";AA+DA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;;IAEX,CAAC,CAAC,EAAE;QACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACZ,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACf;AACJ;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AACpB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACxE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;QACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;QACb,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACX,CAAC,CAAC,CAAC;YACC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;UACd,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACb;IACJ;AACJ",
+        "file": "E:/cqmbyy/zypc/pages/hospital_route.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院地址-重庆铭博医院怎么走-重庆铭博医院位置</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院地址，重庆铭博医院怎么走,重庆铭博医院位置\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院位于重庆市渝北区洪湖西路18号附1-9号，医院坚持以“患者满意、员工满意、政府满意”为目标，充分发挥学科和人才、技术、品牌、管理等优势，倾力打造“为政府分忧、为百姓解难”的三级标准医院。\" />\r\n      </Head>\r\n    </div>\r\n    <div style=\"background-color: white;\">\r\n        <div class=\"hosptial_route_bg\">\r\n            <img src=\"/img/hosptial_route_bg.png\" alt=\"\">\r\n        </div>\r\n        <div style=\"margin-top: 2rem;\">\r\n            <ArticleAsk></ArticleAsk>\r\n        </div>\r\n        <div class=\"hosptial_route_img\">\r\n            <img src=\"/img/hosptial_route_img.png\" />\r\n        </div>\r\n        <div class=\"hosptial_route\">\r\n            <div class=\"hosptial_routes\">\r\n                <img src=\"/img/hosptial_route.png\" />\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【咨询预约】：023-86868333</div>\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【医馆地址】：重庆市渝北区洪湖西路18号</div>\r\n                <div style=\"margin-top: 0.15rem;\">重庆铭博医院“以质量为基础，以安全为前提，以技术为主导，以人性化服务为宗旨，\r\n                    以品牌经营为中心”，遵循“患者至上，医德至善，医技至精，服务至诚”的医疗精髓，谒诚为广大患者服务。</div>\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【轨道交通乘车路线】</div>\r\n                <div>\r\n                    轨道路线到站：动步公园站。请在轻轨环线【动步公园】下车，1号口出站，步行500\r\n                    米即可到达铭博医院</div>\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【公交乘车路线】</div>\r\n                <div>866路：轨道康庄站〔西湖路上丁站）~观音桥东环路</div>\r\n                <div>870路：金州大道中段~（西湖路上丁站》~陈家坪公交枢纽路</div>\r\n                <div>133路：天湖美镇·（西湖路上丁站）~三峡广场院区沙区人民医院</div>\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【自驾路线】</div>\r\n                <div>\r\n                    可直接搜索：重庆市渝北区洪湖路18号附1-9号（动步公园地铁站1号口步行460米）】</div>\r\n            </div>\r\n            <div class=\"adress_text\" style=\"margin-top: 0.5rem;\">\r\n                <div>【重要事项】</div>\r\n                <div> 前来体检请务必携带证件的原件(如身份证.护照等)</div>\r\n                <div> 体检请务必提前一日预约</div>\r\n                <div> 体检时间：上午8：00~12：00</div>\r\n                <div>周一至周天均可体检，同时法定节假日也可以体检。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.hosptial_route_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial_route_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_route {\r\n    padding-top: 2rem;\r\n    padding-bottom: 2rem;\r\n    width: 50%;\r\n    margin: auto;\r\n    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\r\n    font-size: 1.2rem;\r\n    .hosptial_routes{\r\n        height: 550px;\r\n        width: 100%;\r\n        img{\r\n            height: 100%;\r\n          width: 100%;\r\n        }\r\n    }\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892342,
+      "end": 1709707892342,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892342,
+      "end": 1709707892342,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892342,
+      "end": 1709707892342,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892342,
+      "end": 1709707892342,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892342,
+      "end": 1709707892343,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".hosptial_route_bg{height:500px;width:100%}.hosptial_route_bg img{height:100%;width:100%}.hosptial_route_img{margin-top:2rem;text-align:center}.hosptial_route{font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;font-size:1.2rem;margin:auto;padding-bottom:2rem;padding-top:2rem;width:50%}.hosptial_route .hosptial_routes{height:550px;width:100%}.hosptial_route .hosptial_routes img{height:100%;width:100%}",
+      "start": 1709707892343,
+      "end": 1709707892350,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/pages/hospital_route.vue",
+        "mappings": "AACA,mBACI,aACA,WAFJ,uBAKQ,YACA,WAIR,oBAEI,gBADA,kBAIJ,gBAKI,iEACA,iBAFA,YAFA,oBADA,iBAEA,UAHJ,iCAQQ,aACA,WATR,qCAWY,YACF",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_route.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892350,
+      "end": 1709707892350,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892350,
+      "end": 1709707892350,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892350,
+      "end": 1709707892350,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".hosptial_route_bg[data-v-9c989769]{height:500px;width:100%}.hosptial_route_bg img[data-v-9c989769]{height:100%;width:100%}.hosptial_route_img[data-v-9c989769]{margin-top:2rem;text-align:center}.hosptial_route[data-v-9c989769]{font-family:Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;font-size:1.2rem;margin:auto;padding-bottom:2rem;padding-top:2rem;width:50%}.hosptial_route .hosptial_routes[data-v-9c989769]{height:550px;width:100%}.hosptial_route .hosptial_routes img[data-v-9c989769]{height:100%;width:100%}",
+      "start": 1709707892350,
+      "end": 1709707892351,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/pages/hospital_route.vue",
+        "mappings": "AAAA,oCAAmB,YAAY,CAAC,UAAU,CAAC,wCAAuB,WAAW,CAAC,UAAU,CAAC,qCAAoB,eAAe,CAAC,iBAAiB,CAAC,iCAAgB,gEAAgE,CAAC,gBAAgB,CAAC,WAAW,CAAC,mBAAmB,CAAC,gBAAgB,CAAC,SAAS,CAAC,kDAAiC,YAAY,CAAC,UAAU,CAAC,sDAAqC,WAAW,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_route.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707892352,
+      "end": 1709707892352,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892353,
+      "end": 1709707892353,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707892353,
+      "end": 1709707892359,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707892359,
+      "end": 1709707892359,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707892359,
+      "end": 1709707892359,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707892359,
+      "end": 1709707892359,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707892360,
+      "end": 1709707892360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707892360,
+      "end": 1709707892360,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707892360,
+      "end": 1709707892360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707892360,
+      "end": 1709707892360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892361,
+      "end": 1709707892361,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707892362,
+      "end": 1709707892362,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/request/index.ts",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import request from './request'\r\nimport  type{ Res } from '../entities/axios';\r\nimport type { Swipers } from '~/entities/swiper';\r\nimport type { Appointment } from '~/entities/appointment';\r\n//首页获取轮播图\r\nexport const getReleaseSwiper = (): Promise<Res<Swipers[]>> =>\r\n    request.get('swiper/getReleaseSwiper'\r\n    ).then((res: any) => {\r\n        return res;\r\n    })\r\n        .catch((error) => {\r\n            console.log(\"error\", error);\r\n        });\r\n//提交预约信息\r\nexport const submitAppointment = (appointment:Partial<Appointment>,url:string): Promise<Res<Boolean>> =>\r\n    request.post('mail/sendMail',{appointment,url}\r\n    ).then((res: any) => {\r\n        return res;\r\n    })\r\n        .catch((error) => {\r\n            console.log(\"error\", error);\r\n        });",
+      "start": 1709707894458,
+      "end": 1709707894550,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707894550,
+      "end": 1709707894550,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import request from \"./request\";\nexport const getReleaseSwiper = () => request.get(\n  \"swiper/getReleaseSwiper\"\n).then((res) => {\n  return res;\n}).catch((error) => {\n  console.log(\"error\", error);\n});\nexport const submitAppointment = (appointment, url) => request.post(\n  \"mail/sendMail\",\n  { appointment, url }\n).then((res) => {\n  return res;\n}).catch((error) => {\n  console.log(\"error\", error);\n});\n",
+      "start": 1709707894551,
+      "end": 1709707894607,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/request/index.ts"
+        ],
+        "sourcesContent": [
+          "import request from './request'\r\nimport  type{ Res } from '../entities/axios';\r\nimport type { Swipers } from '~/entities/swiper';\r\nimport type { Appointment } from '~/entities/appointment';\r\n//首页获取轮播图\r\nexport const getReleaseSwiper = (): Promise<Res<Swipers[]>> =>\r\n    request.get('swiper/getReleaseSwiper'\r\n    ).then((res: any) => {\r\n        return res;\r\n    })\r\n        .catch((error) => {\r\n            console.log(\"error\", error);\r\n        });\r\n//提交预约信息\r\nexport const submitAppointment = (appointment:Partial<Appointment>,url:string): Promise<Res<Boolean>> =>\r\n    request.post('mail/sendMail',{appointment,url}\r\n    ).then((res: any) => {\r\n        return res;\r\n    })\r\n        .catch((error) => {\r\n            console.log(\"error\", error);\r\n        });"
+        ],
+        "mappings": "AAAA,OAAO,aAAa;AAKb,aAAM,mBAAmB,MAC5B,QAAQ;AAAA,EAAI;AACZ,EAAE,KAAK,CAAC,QAAa;AACjB,SAAO;AACX,CAAC,EACI,MAAM,CAAC,UAAU;AACd,UAAQ,IAAI,SAAS,KAAK;AAC9B,CAAC;AAEF,aAAM,oBAAoB,CAAC,aAAiC,QAC/D,QAAQ;AAAA,EAAK;AAAA,EAAgB,EAAC,aAAY,IAAG;AAC7C,EAAE,KAAK,CAAC,QAAa;AACjB,SAAO;AACX,CAAC,EACI,MAAM,CAAC,UAAU;AACd,UAAQ,IAAI,SAAS,KAAK;AAC9B,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707894607,
+      "end": 1709707894607,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707894607,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707894608,
+      "end": 1709707894608,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707894608,
+      "end": 1709707894609,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707894609,
+      "end": 1709707894609,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707894609,
+      "end": 1709707894609,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894609,
+      "end": 1709707894609,
+      "order": "normal"
+    }
+  ]
+}

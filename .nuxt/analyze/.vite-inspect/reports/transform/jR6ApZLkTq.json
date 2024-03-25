@@ -1,0 +1,218 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/node_modules/element-plus/es/utils/error.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import './types.mjs';\nimport { isString } from '@vue/shared';\n\nclass ElementPlusError extends Error {\n  constructor(m) {\n    super(m);\n    this.name = \"ElementPlusError\";\n  }\n}\nfunction throwError(scope, m) {\n  throw new ElementPlusError(`[${scope}] ${m}`);\n}\nfunction debugWarn(scope, message) {\n  if (process.env.NODE_ENV !== \"production\") {\n    const error = isString(scope) ? new ElementPlusError(`[${scope}] ${message}`) : scope;\n    console.warn(error);\n  }\n}\n\nexport { debugWarn, throwError };\n//# sourceMappingURL=error.mjs.map\n",
+      "start": 1709707872397,
+      "end": 1709707872868,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707872868,
+      "end": 1709707872868,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707872868,
+      "end": 1709707872869,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707872869,
+      "end": 1709707872869,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707872869,
+      "end": 1709707872869,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import \"./types.mjs\";\nimport { isString } from \"@vue/shared\";\nclass ElementPlusError extends Error {\n  constructor(m) {\n    super(m);\n    this.name = \"ElementPlusError\";\n  }\n}\nfunction throwError(scope, m) {\n  throw new ElementPlusError(`[${scope}] ${m}`);\n}\nfunction debugWarn(scope, message) {\n  if (false) {\n    const error = isString(scope) ? new ElementPlusError(`[${scope}] ${message}`) : scope;\n    console.warn(error);\n  }\n}\nexport { debugWarn, throwError };\n",
+      "start": 1709707872869,
+      "end": 1709707872932,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707872932,
+      "end": 1709707872932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707872932,
+      "end": 1709707872932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707872932,
+      "end": 1709707872932,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707872932,
+      "end": 1709707872932,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707872935,
+      "end": 1709707872935,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707872935,
+      "end": 1709707872935,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707872935,
+      "end": 1709707872935,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707872935,
+      "end": 1709707872935,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707872935,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707872936,
+      "end": 1709707872936,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707872936,
+      "end": 1709707872937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707872937,
+      "end": 1709707872937,
+      "order": "normal"
+    }
+  ]
+}

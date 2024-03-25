@@ -1,0 +1,17 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/node_modules/element-plus/theme-chalk/el-tooltip.css",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "",
+      "start": 1709707894729,
+      "end": 1709707894729
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707894729,
+      "end": 1709707894729,
+      "order": "normal"
+    }
+  ]
+}

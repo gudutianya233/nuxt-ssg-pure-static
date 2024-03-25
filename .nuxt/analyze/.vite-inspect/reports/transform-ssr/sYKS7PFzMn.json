@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/index.vue?vue&type=style&index=0&scoped=c9a02a16&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-top: 1rem;\r\n    display: flex;\r\n\r\n    .hosptial_bg2 {\r\n        width: 50%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n\r\n        img {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n    }\r\n\r\n    .hosptial_keyword {\r\n        width: 40%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        padding-left: 10%;\r\n\r\n        .hosptial_keywords {\r\n            display: flex;\r\n            height: 13%;\r\n            width: 100%;\r\n            text-align: left;\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n        .hosptial_keyword_img {\r\n            width: 10%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n\r\n        .hosptial_keyword_text {\r\n            width: 80%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_honor {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_honor_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_honor_img {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        margin-top: 1rem;\r\n       .hosptial_honor_imgs {\r\n        width: 25%;\r\n        height: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-bottom: 2rem;\r\n            img {\r\n                height: 70%;\r\n                width: 50%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_environment {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_environment_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_environment_img {\r\n        margin: auto;\r\n        height: 300px;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-top: 1rem;\r\n\r\n        .hosptial_show {\r\n            height: 300px;\r\n            width: 100%;\r\n\r\n            img {\r\n                width: 100%;\r\n                height: 100%;\r\n                object-fit: cover;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_service {\r\n    margin-top: 2rem;\r\n\r\n    .hosptial_service_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_service_body {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        width: 80%;\r\n        margin: auto;\r\n\r\n        .hosptial_service_body_item {\r\n            height: 130px;\r\n            width: 20%;\r\n            margin-right: 5%;\r\n            margin-top: 2rem;\r\n            background-image: url(/img/hosptial_service_bg.png);\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            color: #721b0e;\r\n            font-size: 2rem;\r\n\r\n            &:hover {\r\n                color: white;\r\n                background-color: #721b0e;\r\n            }\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.hosptial_target_body {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 80%;\r\n    margin: auto;\r\n    height: 250px;\r\n    margin-top: 3rem;\r\n\r\n    .hosptial_target_body_item {\r\n        height: 130px;\r\n        width: 20%;\r\n        margin-right: 5%;\r\n        margin-top: 2rem;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        flex-direction: column;\r\n\r\n        .hosptial_target_body_item1 {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            margin-top: 1rem;\r\n        }\r\n\r\n        .hosptial_target_body_item2 {\r\n            color: #721b0e;\r\n            text-transform: capitalize;\r\n            margin-top: 1rem;\r\n            font-size: 1.5rem;\r\n        }\r\n\r\n        .hosptial_target_body_item3 {\r\n            margin-top: 0.5rem;\r\n            margin-bottom: 0.5rem;\r\n            font-size: 2rem;\r\n        }\r\n\r\n        .hosptial_target_body_item4,\r\n        .hosptial_target_body_item5 {\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.hosptial_swiper {\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    width: 80%;\r\n    height: 20%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}",
+      "start": 1709707892652,
+      "end": 1709707892652,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/pages/index.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/pages/index.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n        <div>\r\n      <Head>\r\n      <Title>重庆铭博医院简介-重庆铭博中医肿瘤医院</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院简介，重庆铭博中医肿瘤医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院历史悠久、底蕴深厚。坚持“传承创新、中西并重”的发展理念，重点建设中医、中医肿瘤科、中医疑难综合科等核心的多学科诊疗平台，更好地为患者服务。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"hosptial_bg\">\r\n            <img src=\"/img/hosptial_bg.jpg\" alt=\"\">\r\n        </div>\r\n        <div class=\"hosptial\">\r\n            <div class=\"hosptial_bg2\">\r\n                <img src=\"/img/hosptial_bg2.png\" alt=\"\">\r\n            </div>\r\n            <div class=\"hosptial_keyword\">\r\n                <div class=\"hosptial_keywords\" v-for=\"item in keywords\">\r\n                    <div class=\"hosptial_keyword_img\"> <img src=\"/img/hosptial_keyword.png\" /></div>\r\n                    <div class=\"hosptial_keyword_text\"><span>{{ item.name }}</span></div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_honor\">\r\n            <div class=\"hosptial_honor_title\">\r\n                <img src=\"/img/hosptial_honor.png\" />\r\n            </div>\r\n            <div class=\"hosptial_honor_img\">\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor1.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor2.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor3.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor4.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor5.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor6.jpg' /></div>\r\n                <div class=\"hosptial_honor_imgs\"><img src='/img/hosptial_honor7.jpg' /></div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_environment\">\r\n            <div class=\"hosptial_environment_title\">\r\n                <img src=\"/img/hosptial_environment.png\" />\r\n            </div>\r\n            <div class=\"hosptial_environment_img\">\r\n                <swiper :modules=\"modules\" :loop=\"true\" :space-between=\"20\" :slides-per-view=\"4\" :slides-per-group=\"1\"\r\n                    :loop-fill-group-with-blank=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                    :autoplay=\"{ delay: 2000, disableOnInteraction: false }\">\r\n                    <swiper-slide v-for=\"item in hosptial_show\" :key=\"item.id\">\r\n                        <div class=\"hosptial_show\">\r\n                            <img :src=\"item.url\" />\r\n                        </div>\r\n                    </swiper-slide>\r\n                    <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n                </swiper>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_service\">\r\n            <div class=\"hosptial_service_title\">\r\n                <img src=\"/img/hosptial_service.png\" />\r\n            </div>\r\n            <div class=\"hosptial_service_body\">\r\n                <div class=\"hosptial_service_body_item\" v-for=\"item in hosptial_service\" :key=\"item.id\">\r\n                    <span>{{ item.name }}</span>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_target\">\r\n            <div class=\"hosptial_target_body\">\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target1.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital training</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院愿景</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>以\"优质的服务\"</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>显著的疗效\"服务于民\"</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target2.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital concept</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院使命</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>关爱生命促进健康</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>传承创新造福社会</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target3.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>bbusiness purpose</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>经营宗旨</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>弘扬重庆铭博医院</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>服务大众健康</span>\r\n                    </div>\r\n                </div>\r\n                <div class=\"hosptial_target_body_item\">\r\n                    <div class=\"hosptial_target_body_item1\">\r\n                        <img src=\"/img/hosptial_target4.png\" />\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item2\">\r\n                        <span>hospital values</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item3\">\r\n                        <span>医院价值观</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item4\">\r\n                        <span>坚持\"传承创新“</span>\r\n                    </div>\r\n                    <div class=\"hosptial_target_body_item5\">\r\n                        <span>\"中西并重\"</span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"hosptial_swiper\">\r\n            <swiper :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 2000, disableOnInteraction: true }\">\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner1.jpg\" />\r\n                </swiper-slide>\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner4.jpg\" />\r\n                </swiper-slide>\r\n                <swiper-slide>\r\n                    <img src=\"/img/hosptial_banner2.jpg\" />\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { Pagination, Autoplay } from 'swiper'\r\nimport { Swiper, SwiperSlide } from 'vue-awesome-swiper'\r\nimport 'swiper/swiper-bundle.css'\r\nimport 'swiper/css/pagination'\r\nconst modules = [Pagination, Autoplay]\r\nconst keywords = [\r\n    { id: 1, name: '一切以患者为中心' },\r\n    { id: 2, name: '医保定点单位' },\r\n    { id: 3, name: '远程会诊 智慧药房' },\r\n    { id: 4, name: '特色科室 以名医带动名科' },\r\n    { id: 5, name: '国际医疗新模式  吸引高端学科人才' },\r\n    { id: 6, name: '国际国内先进设备 高品质医疗服务保障' },\r\n    { id: 7, name: '温馨舒适就医环境' },\r\n]\r\nconst hosptial_show = [\r\n    { id: 1, url: '/img/yyhj1.jpg' },\r\n    { id: 2, url: '/img/yyhj2.jpg' },\r\n    { id: 3, url: '/img/yyhj3.jpg' },\r\n    { id: 4, url: '/img/yyhj4.jpg' },\r\n    { id: 5, url: '/img/yyhj5.jpg' },\r\n    { id: 6, url: '/img/yyhj6.jpg' },\r\n    { id: 7, url: '/img/yyhj7.jpg' },\r\n    { id: 8, url: '/img/yyhj8.jpg' },\r\n    { id: 9, url: '/img/yyhj9.jpg' },\r\n    { id: 10, url: '/img/yyhj10.jpg' },\r\n    { id: 11, url: '/img/yyhj11.jpg' },\r\n    { id: 12, url: '/img/yyhj12.jpg' },\r\n    { id: 13, url: '/img/yyhj13.jpg' },\r\n    { id: 14, url: '/img/yyhj14.jpg' },\r\n]\r\nconst hosptial_service = [\r\n    { id: 1, name: '医保惠民政策' },\r\n    { id: 1, name: '中西医结合' },\r\n    { id: 1, name: '一对一问诊' },\r\n    { id: 1, name: '预约制服务' },\r\n    { id: 1, name: '家属可陪同' },\r\n    { id: 1, name: '诊后回访' },\r\n]\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-top: 1rem;\r\n    display: flex;\r\n\r\n    .hosptial_bg2 {\r\n        width: 50%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n\r\n        img {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n    }\r\n\r\n    .hosptial_keyword {\r\n        width: 40%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        padding-left: 10%;\r\n\r\n        .hosptial_keywords {\r\n            display: flex;\r\n            height: 13%;\r\n            width: 100%;\r\n            text-align: left;\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n        .hosptial_keyword_img {\r\n            width: 10%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n\r\n        .hosptial_keyword_text {\r\n            width: 80%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_honor {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_honor_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_honor_img {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        margin-top: 1rem;\r\n       .hosptial_honor_imgs {\r\n        width: 25%;\r\n        height: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-bottom: 2rem;\r\n            img {\r\n                height: 70%;\r\n                width: 50%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_environment {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_environment_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_environment_img {\r\n        margin: auto;\r\n        height: 300px;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-top: 1rem;\r\n\r\n        .hosptial_show {\r\n            height: 300px;\r\n            width: 100%;\r\n\r\n            img {\r\n                width: 100%;\r\n                height: 100%;\r\n                object-fit: cover;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_service {\r\n    margin-top: 2rem;\r\n\r\n    .hosptial_service_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_service_body {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        width: 80%;\r\n        margin: auto;\r\n\r\n        .hosptial_service_body_item {\r\n            height: 130px;\r\n            width: 20%;\r\n            margin-right: 5%;\r\n            margin-top: 2rem;\r\n            background-image: url(/img/hosptial_service_bg.png);\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            color: #721b0e;\r\n            font-size: 2rem;\r\n\r\n            &:hover {\r\n                color: white;\r\n                background-color: #721b0e;\r\n            }\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.hosptial_target_body {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 80%;\r\n    margin: auto;\r\n    height: 250px;\r\n    margin-top: 3rem;\r\n\r\n    .hosptial_target_body_item {\r\n        height: 130px;\r\n        width: 20%;\r\n        margin-right: 5%;\r\n        margin-top: 2rem;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        flex-direction: column;\r\n\r\n        .hosptial_target_body_item1 {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            margin-top: 1rem;\r\n        }\r\n\r\n        .hosptial_target_body_item2 {\r\n            color: #721b0e;\r\n            text-transform: capitalize;\r\n            margin-top: 1rem;\r\n            font-size: 1.5rem;\r\n        }\r\n\r\n        .hosptial_target_body_item3 {\r\n            margin-top: 0.5rem;\r\n            margin-bottom: 0.5rem;\r\n            font-size: 2rem;\r\n        }\r\n\r\n        .hosptial_target_body_item4,\r\n        .hosptial_target_body_item5 {\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.hosptial_swiper {\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    width: 80%;\r\n    height: 20%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892652,
+      "end": 1709707892652,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892652,
+      "end": 1709707892652,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892653,
+      "end": 1709707892653,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892653,
+      "end": 1709707892653,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892653,
+      "end": 1709707892653,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".hosptial_bg{height:500px;width:100%}.hosptial_bg img{height:100%;width:100%}.hosptial{display:flex;margin:1rem auto auto;width:80%}.hosptial .hosptial_bg2{align-items:center;display:flex;justify-content:center;width:50%}.hosptial .hosptial_bg2 img{height:100%;width:100%}.hosptial .hosptial_keyword{display:flex;flex-direction:column;justify-content:center;padding-left:10%;width:40%}.hosptial .hosptial_keyword .hosptial_keywords{display:flex;font-size:1.3rem;height:13%;text-align:left;width:100%}.hosptial .hosptial_keyword .hosptial_keyword_img{align-items:center;display:flex;width:10%}.hosptial .hosptial_keyword .hosptial_keyword_text{align-items:center;display:flex;width:80%}.hosptial_honor{margin-top:1rem}.hosptial_honor .hosptial_honor_title{text-align:center}.hosptial_honor .hosptial_honor_img{display:flex;flex-wrap:wrap;margin-top:1rem}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs{align-items:center;display:flex;height:100%;justify-content:center;margin-bottom:2rem;width:25%}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs img{height:70%;width:50%}.hosptial_environment{margin-top:1rem}.hosptial_environment .hosptial_environment_title{text-align:center}.hosptial_environment .hosptial_environment_img{align-items:center;display:flex;height:300px;justify-content:center;margin:1rem auto auto;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show{height:300px;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.hosptial_service{margin-top:2rem}.hosptial_service .hosptial_service_title{text-align:center}.hosptial_service .hosptial_service_body{display:flex;flex-wrap:wrap;margin:auto;width:80%}.hosptial_service .hosptial_service_body .hosptial_service_body_item{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__15307164__);background-repeat:no-repeat;background-size:100% 100%;color:#721b0e;display:flex;font-size:2rem;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_service .hosptial_service_body .hosptial_service_body_item:hover{background-color:#721b0e;color:#fff}.hosptial_target_body{display:flex;flex-wrap:wrap;height:250px;margin:3rem auto auto;width:80%}.hosptial_target_body .hosptial_target_body_item{align-items:center;display:flex;flex-direction:column;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item1{align-items:center;display:flex;justify-content:center;margin-top:1rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item2{color:#721b0e;font-size:1.5rem;margin-top:1rem;text-transform:capitalize}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item3{font-size:2rem;margin-bottom:.5rem;margin-top:.5rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item4,.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item5{font-size:1.3rem}.hosptial_swiper{height:20%;margin:auto auto 2rem;width:80%}.hosptial_swiper img{height:100%;width:100%}",
+      "start": 1709707892654,
+      "end": 1709707892673,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/pages/index.vue",
+        "mappings": "AACA,aACI,aACA,WAFJ,iBAIQ,YACA,WAIR,UAII,aADA,sBAFA,UADJ,wBAUQ,mBAFA,aACA,uBAFA,UAPR,4BAaY,YACA,WAdZ,4BAoBQ,aACA,sBACA,uBACA,iBAJA,UAnBR,+CA0BY,aAIA,iBAHA,WAEA,gBADA,WA5BZ,kDAoCY,mBADA,aADA,UAlCZ,mDA0CY,mBADA,aADA,UAOZ,gBACI,gBADJ,sCAIQ,kBAJR,oCAQQ,aACA,eACA,gBAVR,yDAgBQ,mBAFA,aADA,YAEA,uBAEA,mBALA,UAZR,6DAmBgB,WACA,UAMhB,sBACI,gBADJ,kDAIQ,kBAJR,gDAaQ,mBAFA,aAFA,aAGA,uBAEA,sBAJA,WAVR,+DAiBY,aACA,WAlBZ,mEAsBgB,YACA,qCAFA,WAQhB,kBACI,gBADJ,0CAIQ,kBAJR,yCAQQ,aACA,eAEA,YADA,UAVR,qEAuBY,mBALA,sDAEA,4BADA,0BAKA,cAHA,aAIA,eAXA,aAQA,uBANA,gBACA,gBAFA,UAYA,2EAEI,yBADA,WAQhB,sBACI,aACA,eAGA,aACA,sBAHA,UAHJ,iDAeQ,mBAFA,aAGA,sBAPA,aAKA,uBAHA,gBACA,gBAFA,UAVR,6EAqBY,mBAFA,aACA,uBAEA,gBAtBZ,6EA0BY,cAGA,iBADA,gBADA,0BA3BZ,6EAmCY,eADA,oBADA,iBAjCZ,0JAwCY,iBAMZ,iBAII,WAFA,sBACA,UAHJ,qBAOQ,YACA",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/index.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892673,
+      "end": 1709707892673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892674,
+      "end": 1709707892674,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892674,
+      "end": 1709707892674,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".hosptial_bg[data-v-c9a02a16]{height:500px;width:100%}.hosptial_bg img[data-v-c9a02a16]{height:100%;width:100%}.hosptial[data-v-c9a02a16]{display:flex;margin:1rem auto auto;width:80%}.hosptial .hosptial_bg2[data-v-c9a02a16]{align-items:center;display:flex;justify-content:center;width:50%}.hosptial .hosptial_bg2 img[data-v-c9a02a16]{height:100%;width:100%}.hosptial .hosptial_keyword[data-v-c9a02a16]{display:flex;flex-direction:column;justify-content:center;padding-left:10%;width:40%}.hosptial .hosptial_keyword .hosptial_keywords[data-v-c9a02a16]{display:flex;font-size:1.3rem;height:13%;text-align:left;width:100%}.hosptial .hosptial_keyword .hosptial_keyword_img[data-v-c9a02a16]{align-items:center;display:flex;width:10%}.hosptial .hosptial_keyword .hosptial_keyword_text[data-v-c9a02a16]{align-items:center;display:flex;width:80%}.hosptial_honor[data-v-c9a02a16]{margin-top:1rem}.hosptial_honor .hosptial_honor_title[data-v-c9a02a16]{text-align:center}.hosptial_honor .hosptial_honor_img[data-v-c9a02a16]{display:flex;flex-wrap:wrap;margin-top:1rem}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs[data-v-c9a02a16]{align-items:center;display:flex;height:100%;justify-content:center;margin-bottom:2rem;width:25%}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs img[data-v-c9a02a16]{height:70%;width:50%}.hosptial_environment[data-v-c9a02a16]{margin-top:1rem}.hosptial_environment .hosptial_environment_title[data-v-c9a02a16]{text-align:center}.hosptial_environment .hosptial_environment_img[data-v-c9a02a16]{align-items:center;display:flex;height:300px;justify-content:center;margin:1rem auto auto;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show[data-v-c9a02a16]{height:300px;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show img[data-v-c9a02a16]{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.hosptial_service[data-v-c9a02a16]{margin-top:2rem}.hosptial_service .hosptial_service_title[data-v-c9a02a16]{text-align:center}.hosptial_service .hosptial_service_body[data-v-c9a02a16]{display:flex;flex-wrap:wrap;margin:auto;width:80%}.hosptial_service .hosptial_service_body .hosptial_service_body_item[data-v-c9a02a16]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__15307164__);background-repeat:no-repeat;background-size:100% 100%;color:#721b0e;display:flex;font-size:2rem;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_service .hosptial_service_body .hosptial_service_body_item[data-v-c9a02a16]:hover{background-color:#721b0e;color:#fff}.hosptial_target_body[data-v-c9a02a16]{display:flex;flex-wrap:wrap;height:250px;margin:3rem auto auto;width:80%}.hosptial_target_body .hosptial_target_body_item[data-v-c9a02a16]{align-items:center;display:flex;flex-direction:column;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item1[data-v-c9a02a16]{align-items:center;display:flex;justify-content:center;margin-top:1rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item2[data-v-c9a02a16]{color:#721b0e;font-size:1.5rem;margin-top:1rem;text-transform:capitalize}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item3[data-v-c9a02a16]{font-size:2rem;margin-bottom:.5rem;margin-top:.5rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item4[data-v-c9a02a16],.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item5[data-v-c9a02a16]{font-size:1.3rem}.hosptial_swiper[data-v-c9a02a16]{height:20%;margin:auto auto 2rem;width:80%}.hosptial_swiper img[data-v-c9a02a16]{height:100%;width:100%}",
+      "start": 1709707892674,
+      "end": 1709707892679,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/pages/index.vue",
+        "mappings": "AAAA,8BAAa,YAAY,CAAC,UAAU,CAAC,kCAAiB,WAAW,CAAC,UAAU,CAAC,2BAAU,YAAY,CAAC,qBAAqB,CAAC,SAAS,CAAC,yCAAwB,kBAAkB,CAAC,YAAY,CAAC,sBAAsB,CAAC,SAAS,CAAC,6CAA4B,WAAW,CAAC,UAAU,CAAC,6CAA4B,YAAY,CAAC,qBAAqB,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,SAAS,CAAC,gEAA+C,YAAY,CAAC,gBAAgB,CAAC,UAAU,CAAC,eAAe,CAAC,UAAU,CAAC,mEAAkD,kBAAkB,CAAC,YAAY,CAAC,SAAS,CAAC,oEAAmD,kBAAkB,CAAC,YAAY,CAAC,SAAS,CAAC,iCAAgB,eAAe,CAAC,uDAAsC,iBAAiB,CAAC,qDAAoC,YAAY,CAAC,cAAc,CAAC,eAAe,CAAC,0EAAyD,kBAAkB,CAAC,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,kBAAkB,CAAC,SAAS,CAAC,8EAA6D,UAAU,CAAC,SAAS,CAAC,uCAAsB,eAAe,CAAC,mEAAkD,iBAAiB,CAAC,iEAAgD,kBAAkB,CAAC,YAAY,CAAC,YAAY,CAAC,sBAAsB,CAAC,qBAAqB,CAAC,UAAU,CAAC,gFAA+D,YAAY,CAAC,UAAU,CAAC,oFAAmE,WAAW,CAAC,mBAAmB,CAAC,gBAAgB,CAAC,UAAU,CAAC,mCAAkB,eAAe,CAAC,2DAA0C,iBAAiB,CAAC,0DAAyC,YAAY,CAAC,cAAc,CAAC,WAAW,CAAC,SAAS,CAAC,sFAAqE,kBAAkB,CAAC,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,aAAa,CAAC,YAAY,CAAC,cAAc,CAAC,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,eAAe,CAAC,SAAS,CAAC,4FAA2E,wBAAwB,CAAC,UAAU,CAAC,uCAAsB,YAAY,CAAC,cAAc,CAAC,YAAY,CAAC,qBAAqB,CAAC,SAAS,CAAC,kEAAiD,kBAAkB,CAAC,YAAY,CAAC,qBAAqB,CAAC,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,eAAe,CAAC,SAAS,CAAC,8FAA6E,kBAAkB,CAAC,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,8FAA6E,aAAa,CAAC,gBAAgB,CAAC,eAAe,CAAC,yBAAyB,CAAC,8FAA6E,cAAc,CAAC,mBAAmB,CAAC,gBAAgB,CAAC,4LAA0J,gBAAgB,CAAC,kCAAiB,UAAU,CAAC,qBAAqB,CAAC,SAAS,CAAC,sCAAqB,WAAW,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/index.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707892679,
+      "end": 1709707892679,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892679,
+      "end": 1709707892679,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892679,
+      "end": 1709707892679,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892684,
+      "end": 1709707892685,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892684,
+      "end": 1709707892685,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707892686,
+      "end": 1709707892686,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892691,
+      "end": 1709707892691,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707892692,
+      "end": 1709707892716,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707892717,
+      "end": 1709707892717,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707892717,
+      "end": 1709707892717,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707892717,
+      "end": 1709707892717,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707892717,
+      "end": 1709707892718,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707892718,
+      "end": 1709707892718,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707892721,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707892722,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707892722,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892727,
+      "end": 1709707892727,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892727,
+      "end": 1709707892727,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892729,
+      "end": 1709707892729,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892729,
+      "end": 1709707892729,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892731,
+      "end": 1709707892732,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892731,
+      "end": 1709707892732,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892732,
+      "end": 1709707892733,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892732,
+      "end": 1709707892734,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707892736,
+      "end": 1709707892737,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707892737,
+      "end": 1709707892737,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707892738,
+      "end": 1709707892738,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707892738,
+      "end": 1709707892740,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707892741,
+      "end": 1709707892741,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707892743,
+      "end": 1709707892743,
+      "order": "normal"
+    }
+  ]
+}

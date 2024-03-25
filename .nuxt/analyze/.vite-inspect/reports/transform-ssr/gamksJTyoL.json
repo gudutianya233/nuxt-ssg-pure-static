@@ -1,0 +1,256 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/welfare_activities.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院-重庆铭博中医院</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院，重庆铭博中医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院作为“互联网+智慧医疗”领域先行者，依托寻医问药网提供的全国优质医疗资源，以互联网技术赋能线下医疗，开启智慧医疗新格局。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"enter_hosptial_bg\">\r\n            <img src=\"/img/media_coverage_bg.jpg\" alt=\"\">\r\n        </div>\r\n        <div class=\"enter_hosptial_img\">\r\n            <img src=\"/img/media_coverage_img.png\" />\r\n        </div>\r\n            <div class=\"relational_information\">\r\n                <!-- 公益活动 -->\r\n                <div>\r\n                    <div  class=\"relational_information_content\" v-for=\"item in HospitalDevelopment_list\" :key=\"item.id\">\r\n                        <div  class=\"relational_information_content_title\" >\r\n                           <img src=\"/img/hosptial_keyword.png\"/><span>{{ item.title }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_title\"  @click=\"welfare_activities_detail(item.id)\">\r\n                            <span >{{ item.titles }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_seek\">\r\n                            <div @click=\"welfare_activities_detail(item.id)\">【详情】</div>\r\n                            <div><img src=\"/img/ask_seek.png\"  @click=\"ask_seek\"/></div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"pagination\">\r\n                        共{{ total }}篇文章 \r\n                        第{{ page }} / {{ Math.ceil(total / perPage) }}页\r\n                        <a   v-if=\"page > 1\" @click=\"page--, getWelfareActivitiess()\">上一页</a>\r\n                        <a  v-if=\"page < Math.ceil(total / perPage)\" @click=\"page++, getWelfareActivitiess()\">下一页</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { HospitalDevelopment } from '~/entities/hospitalDevelopment';\r\nimport { useRouter } from 'vue-router'\r\nconst page=ref(1)//页码\r\nconst perPage = ref(4) // 每页显示的文章数\r\nconst total = ref(0) // 总文章数\r\nconst router = useRouter()\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst HospitalDevelopment_list: Ref<HospitalDevelopment[]> = ref([])\r\n\r\nconst { data } = await useAsyncData( \r\n    () =>$fetch(`${baseURL}/hospital/getWelfareActivitiess`,\r\n    {\r\n        method: 'POST',\r\n        body: {\r\n            page: page.value,\r\n            pageSize:perPage.value,\r\n        }\r\n    }\r\n    )\r\n)\r\nconst getWelfareActivitiess=async ()=>{\r\nawait $fetch(`${baseURL}/hospital/getWelfareActivitiess`, {\r\n        method: 'POST',\r\n        body: {\r\n          page: page.value,\r\n          pageSize: perPage.value,\r\n        },\r\n      }).then(res => {\r\n        HospitalDevelopment_list.value = (res as any).data;\r\n        total.value = (res as any).total;\r\n      })\r\n}\r\n\r\nonMounted(() => {\r\n   const res1=JSON.stringify(data.value)\r\n   HospitalDevelopment_list.value=JSON.parse(res1).data\r\n   total.value=JSON.parse(res1).total\r\n})\r\n\r\nconst ask_seek=()=>{\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn'\r\n}\r\n\r\nconst welfare_activities_detail=(id:number)=>{\r\n    router.push({ path: `/article/welfare_activities_detail/${id}`})\r\n}\r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.enter_hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.enter_hosptial_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_navigation {\r\n    display: flex;\r\n    width: 100%;\r\n    margin-top: 2rem;\r\n    margin-bottom: 2rem;\r\n    .hosptial_navigation1,\r\n    .hosptial_navigation2,\r\n    .hosptial_navigation3 {\r\n        width: 33%;\r\n        font-size: 1.5rem;\r\n        text-align: center;\r\n        display: flex;\r\n        justify-content: center;\r\n\r\n        .hosptial_navigations {\r\n            width: 50%;\r\n            height: 4rem;\r\n            line-height: 4rem;\r\n            background-image: url('/img/enter_hosptial.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .active {\r\n            background-image: url('/img/enter_hosptial_active.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            color: white;\r\n        }\r\n    }\r\n}\r\n\r\n.relational_information_content {\r\n    height: auto;\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    padding: 2rem;\r\n    background-image: url('/img/information_content_bg.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    padding-left: 5rem;\r\n    padding-right: 5rem;\r\n    .relational_information_content_title{\r\n        text-align: left;\r\n        display: flex;\r\n        padding-left: 0.8rem;\r\n        img{\r\n            height: 2rem;\r\n            width: 2rem;\r\n            margin-right: 1rem;\r\n        }\r\n        span{\r\n            cursor: pointer;\r\n            font-size:1.5rem;\r\n            color: black;\r\n        }\r\n    }\r\n    .relational_information_content_seek{\r\n        cursor: pointer;\r\n        margin-top: 1rem;\r\n            font-size:1.5rem;\r\n            color: #721B0E;\r\n        display: flex;\r\n        justify-content: space-between\r\n    }\r\n}\r\n.pagination{\r\n    text-align: right;\r\n    width: 90%;\r\n    margin-bottom: 2rem;\r\n}\r\n</style>",
+      "start": 1709707891008,
+      "end": 1709707891180,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707891181,
+      "end": 1709707891181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/welfare_activities.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/welfare_activities.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/welfare_activities.vue?vue&type=style&index=0&scoped=c0a2a47e&lang.less\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/welfare_activities.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-c0a2a47e\"]]);\n",
+      "start": 1709707891181,
+      "end": 1709707891279,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707891279,
+      "end": 1709707891279,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891280,
+      "end": 1709707891280,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707891282,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707891290,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707891290,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707891290,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707891290,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707891290,
+      "end": 1709707891290,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707891291,
+      "end": 1709707891292,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707891292,
+      "end": 1709707891292,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707891292,
+      "end": 1709707891292,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891292,
+      "end": 1709707891292,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891292,
+      "end": 1709707891292,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891293,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891293,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891295,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891295,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891295,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891295,
+      "end": 1709707891295,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707891296,
+      "end": 1709707891296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707891296,
+      "end": 1709707891296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707891296,
+      "end": 1709707891296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707891296,
+      "end": 1709707891296,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707891296,
+      "end": 1709707891299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707891299,
+      "end": 1709707891299,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/hospital_introduce.vue?vue&type=style&index=0&scoped=4e80f72f&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.div_swiper {\r\n    display: flex;\r\n    overflow: hidden;\r\n    width: 84%;\r\n    padding-top: 1rem;\r\n    padding-right: 1rem;\r\n    margin: auto;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.information {\r\n    margin-top: 2rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    p {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.information_list {\r\n    margin-top: 1rem;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    img {\r\n        width: 25%;\r\n        height: 80%;\r\n        padding-right: 2rem;\r\n        cursor: pointer;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    margin: auto;\r\n    height: 600px;\r\n    width: 750px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    .hosptial_show {\r\n        height: 600px;\r\n        width: 750px;\r\n        img {\r\n            width: 100%;\r\n            height: 100%;\r\n            object-fit: cover;\r\n        }\r\n    }\r\n}\r\n.special_list{\r\n    display: flex;\r\n    width: 90%;\r\n    margin: auto;\r\n    justify-content: center;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    .special_lists{\r\n        width: 20%;\r\n        display: flex;\r\n        justify-content: center;\r\n         align-items: center;\r\n         background-image: url('/img/special_list_bg1.png');\r\n         background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: center center;\r\n        margin-right: 5%;\r\n        padding:1rem;\r\n         img{\r\n            height: 90%;\r\n            width: 90%;\r\n        }\r\n        &:hover {\r\n            background-image: url('/img/special_list_bg2.png');\r\n        }\r\n    }\r\n}\r\n.hospital_introduce_video{\r\n    height: 550px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    background-image: url('/img/backgroun.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    .hospital_introduce_video_title{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 30%;\r\n        width: 100%;\r\n    }\r\n    .hospital_introduce_video_body{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 70%;\r\n        width: 100%;\r\n        .hospital_introduce_video_bodys{\r\n         height: 100%;\r\n         width: 35%;\r\n         video{\r\n            height: 80%;\r\n            width: 80%;\r\n            border: 10px solid #f5f5f5;\r\n            box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n            padding: 10px;\r\n         }\r\n        }\r\n        .hospital_introduce_report_body{\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n             align-items: center;\r\n             img{\r\n                cursor: pointer;\r\n             }\r\n        }\r\n    }\r\n\r\n}\r\n",
+      "start": 1709707892696,
+      "end": 1709707892696,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_introduce.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/pages/hospital_introduce.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n        <div>\r\n       <Head>\r\n      <Title>重庆铭博医院-重庆中医肿瘤医院-重庆老中医</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院,重庆中医肿瘤医院,重庆肿瘤医院，重庆中医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院始终坚持发展中医中药、传统医疗项目为特色，以中医科、肿瘤科，中西医结合科为主，采用“扶正固本”的诊疗方法，汇集国内资深老中医，通过传承名老中医学术思想和临床经验，为患者提供切实有效的中医诊疗服务。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"div_swiper\">\r\n            <!-- <swiper  :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 1700, disableOnInteraction: true }\">\r\n                <swiper-slide  v-for=\"item in swiperImages\" :key=\"item.id\">\r\n                    <img :src=\"item.url\" />\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper> -->\r\n            <swiper :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\">\r\n                <swiper-slide  >\r\n                    <img src=\"/img/bann2.jpg\" />\r\n                </swiper-slide>\r\n            </swiper>\r\n        </div>\r\n        <div class=\"hospital_introduce_video\">\r\n            <div class=\"hospital_introduce_video_title\">\r\n                <img src=\"/img/hospital_introduce_video.png\" />\r\n            </div>\r\n            <div class=\"hospital_introduce_video_body\">\r\n                <div class=\"hospital_introduce_video_bodys\">\r\n                    <video src=\"/video/hospital_introduce.mp4\"  controls autoplay=\"true\" loop=\"true\"></video>\r\n                </div>\r\n                <div class=\"hospital_introduce_report_body\">\r\n                    <img src=\"/img/media_coverage.png\" @click=\"media_coverage\" />\r\n                    <img src=\"/img/welfare_activities.png\"  @click=\"welfare_activities\" />\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/information.png\" />\r\n            <p>见证传承与创新，展示中医药品牌力量</p>\r\n        </div>\r\n        <div class=\"information_list\">\r\n            <img src=\"/img/information_list1.png\" @click=\"ask\"/>\r\n            <img src=\"/img/information_list2.png\" @click=\"ask\"/>\r\n            <img src=\"/img/information_list3.png\" @click=\"ask\"/>\r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/hosptial.png\" />\r\n            <p>传承创新，中西并重;汇聚各派医生，普济重庆百姓</p>\r\n        </div>\r\n        <div class=\"hosptial\">\r\n            <swiper v-if=\"hosptial_show\" :modules=\"modules\" :loop=\"true\" :pagination=\"{ clickable: true, dynamicBullets: true }\"\r\n                :autoplay=\"{ delay: 2000, disableOnInteraction: false }\">\r\n                <swiper-slide v-for=\"item in hosptial_show\" :key=\"item.id\">\r\n                    <div class=\"hosptial_show\">\r\n                        <img :src=\"item.url\" />\r\n                    </div>\r\n                </swiper-slide>\r\n                <div class=\"swiper-pagination\" slot=\"pagination\"></div>\r\n            </swiper> \r\n        </div>\r\n        <div class=\"information\">\r\n            <img src=\"/img/special.png\" />\r\n            <p>传承精华，守正创新；踔厉奋发，勇毅前行</p>\r\n        </div>\r\n        <div class=\"special_list\">\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list1.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list2.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list3.jpg\" /></div>\r\n            <div class=\"special_lists\"><img  src=\"/img/special_list4.jpg\" /></div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { Pagination, Autoplay } from 'swiper'\r\nimport { Swiper, SwiperSlide } from 'vue-awesome-swiper'\r\nimport { useRouter } from 'vue-router'\r\nimport 'swiper/swiper-bundle.css'\r\nimport 'swiper/css/pagination'\r\nconst router = useRouter()\r\n// import { getReleaseSwiper } from '~/request';\r\n// import type{ Swipers } from '~/entities/swiper';\r\nconst modules = [Pagination, Autoplay]\r\nconst hosptial_show = [\r\n    { id: 1, url: '/img/yyhj1.jpg' },\r\n    { id: 2, url: '/img/yyhj2.jpg' },\r\n    { id: 3, url: '/img/yyhj3.jpg' },\r\n    { id: 4, url: '/img/yyhj4.jpg' },\r\n    { id: 5, url: '/img/yyhj5.jpg' },\r\n    { id: 6, url: '/img/yyhj6.jpg' },\r\n    { id: 7, url: '/img/yyhj7.jpg' },\r\n    { id: 8, url: '/img/yyhj8.jpg' },\r\n    { id: 9, url: '/img/yyhj9.jpg' },\r\n    { id: 10, url: '/img/yyhj10.jpg' },\r\n    { id: 11, url: '/img/yyhj11.jpg' },\r\n    { id: 12, url: '/img/yyhj12.jpg' },\r\n    { id: 13, url: '/img/yyhj13.jpg' },\r\n    { id: 14, url: '/img/yyhj14.jpg' },\r\n]\r\n// //轮播图\r\n// const swiperImages: Ref<Swipers[]> = ref([]);\r\n// await useAsyncData(async () => {\r\n//     const res: any =await getReleaseSwiper()\r\n//     swiperImages.value = res.data\r\n// })\r\nconst ask=()=>{\r\n     window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n//公益活动\r\nconst welfare_activities=()=>{\r\n    router.push({ path: 'welfare_activities'})\r\n}\r\n//媒体报道\r\nconst media_coverage=()=>{\r\n    router.push({ path: 'media_coverage'})\r\n}\r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.div_swiper {\r\n    display: flex;\r\n    overflow: hidden;\r\n    width: 84%;\r\n    padding-top: 1rem;\r\n    padding-right: 1rem;\r\n    margin: auto;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.information {\r\n    margin-top: 2rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    p {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.information_list {\r\n    margin-top: 1rem;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    img {\r\n        width: 25%;\r\n        height: 80%;\r\n        padding-right: 2rem;\r\n        cursor: pointer;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    margin: auto;\r\n    height: 600px;\r\n    width: 750px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    .hosptial_show {\r\n        height: 600px;\r\n        width: 750px;\r\n        img {\r\n            width: 100%;\r\n            height: 100%;\r\n            object-fit: cover;\r\n        }\r\n    }\r\n}\r\n.special_list{\r\n    display: flex;\r\n    width: 90%;\r\n    margin: auto;\r\n    justify-content: center;\r\n    margin-top: 1rem;\r\n    margin-bottom: 1rem;\r\n    .special_lists{\r\n        width: 20%;\r\n        display: flex;\r\n        justify-content: center;\r\n         align-items: center;\r\n         background-image: url('/img/special_list_bg1.png');\r\n         background-size: cover;\r\n        background-repeat: no-repeat;\r\n        background-position: center center;\r\n        margin-right: 5%;\r\n        padding:1rem;\r\n         img{\r\n            height: 90%;\r\n            width: 90%;\r\n        }\r\n        &:hover {\r\n            background-image: url('/img/special_list_bg2.png');\r\n        }\r\n    }\r\n}\r\n.hospital_introduce_video{\r\n    height: 550px;\r\n    width: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n    background-image: url('/img/backgroun.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    .hospital_introduce_video_title{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 30%;\r\n        width: 100%;\r\n    }\r\n    .hospital_introduce_video_body{\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        height: 70%;\r\n        width: 100%;\r\n        .hospital_introduce_video_bodys{\r\n         height: 100%;\r\n         width: 35%;\r\n         video{\r\n            height: 80%;\r\n            width: 80%;\r\n            border: 10px solid #f5f5f5;\r\n            box-shadow: 0 0 10px rgba(0,0,0,0.5);\r\n            padding: 10px;\r\n         }\r\n        }\r\n        .hospital_introduce_report_body{\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: space-between;\r\n             align-items: center;\r\n             img{\r\n                cursor: pointer;\r\n             }\r\n        }\r\n    }\r\n\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892697,
+      "end": 1709707892697,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892697,
+      "end": 1709707892697,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892699,
+      "end": 1709707892699,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892699,
+      "end": 1709707892700,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892700,
+      "end": 1709707892700,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".div_swiper{display:flex;margin:auto;overflow:hidden;padding-right:1rem;padding-top:1rem;width:84%}.div_swiper img{height:100%;width:100%}.information{align-items:center;display:flex;flex-direction:column;justify-content:center;margin-top:2rem}.information p{font-size:1.5rem}.information_list{align-items:center;display:flex;justify-content:center;margin-top:1rem}.information_list img{cursor:pointer;height:80%;padding-right:2rem;width:25%}.hosptial{align-items:center;display:flex;justify-content:center;margin:auto}.hosptial,.hosptial .hosptial_show{height:600px;width:750px}.hosptial .hosptial_show img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.special_list{display:flex;justify-content:center;margin:1rem auto;width:90%}.special_list .special_lists{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__001cae5a__);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;margin-right:5%;padding:1rem;width:20%}.special_list .special_lists img{height:90%;width:90%}.special_list .special_lists:hover{background-image:url(__VITE_PUBLIC_ASSET__41df82c8__)}.hospital_introduce_video{background-image:url(__VITE_PUBLIC_ASSET__f2ee01c6__);background-repeat:no-repeat;background-size:100% 100%;display:flex;flex-direction:column;height:550px;text-align:center;width:100%}.hospital_introduce_video .hospital_introduce_video_title{align-items:center;display:flex;height:30%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body{align-items:center;display:flex;height:70%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys{height:100%;width:35%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys video{border:10px solid #f5f5f5;box-shadow:0 0 10px rgba(0,0,0,.5);height:80%;padding:10px;width:80%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body{align-items:center;display:flex;height:100%;justify-content:space-between;width:40%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body img{cursor:pointer}",
+      "start": 1709707892700,
+      "end": 1709707892717,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/pages/hospital_introduce.vue",
+        "mappings": "AACA,YACI,aAKA,YAJA,gBAGA,mBADA,iBADA,UAHJ,gBAQQ,YACA,WAIR,aAKI,mBAHA,aACA,sBACA,uBAHA,gBADJ,eAQQ,iBAIR,kBAII,mBAFA,aACA,uBAFA,gBADJ,sBAUQ,eAFA,WACA,mBAFA,UAOR,UAMI,mBAFA,aACA,uBAJA,YADJ,mCAEI,aACA,YAHJ,6BAaY,YACA,qCAFA,WAMZ,cACI,aAGA,uBAEA,iBAJA,UAFJ,6BAWS,mBACA,sDAGD,wBADA,4BADC,sBAJD,aACA,uBAMA,gBACA,aATA,UARR,iCAmBY,WACA,UAEJ,mCACI,sDAIZ,0BAMI,sDAEA,4BADA,0BAJA,aACA,sBAHA,aAIA,kBAHA,WAFJ,0DAWQ,mBADA,aAGA,WADA,uBAEA,WAdR,yDAkBQ,mBADA,aAGA,WADA,uBAEA,WArBR,yFAuBS,YACA,UAxBT,+FA4BY,0BACA,mCAHA,WAIA,aAHA,UA3BZ,yFAsCa,mBAFD,aADA,YAEA,8BAHA,UAlCZ,6FAwCgB",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_introduce.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892717,
+      "end": 1709707892717,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892717,
+      "end": 1709707892717,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892718,
+      "end": 1709707892718,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".div_swiper[data-v-4e80f72f]{display:flex;margin:auto;overflow:hidden;padding-right:1rem;padding-top:1rem;width:84%}.div_swiper img[data-v-4e80f72f]{height:100%;width:100%}.information[data-v-4e80f72f]{align-items:center;display:flex;flex-direction:column;justify-content:center;margin-top:2rem}.information p[data-v-4e80f72f]{font-size:1.5rem}.information_list[data-v-4e80f72f]{align-items:center;display:flex;justify-content:center;margin-top:1rem}.information_list img[data-v-4e80f72f]{cursor:pointer;height:80%;padding-right:2rem;width:25%}.hosptial[data-v-4e80f72f]{align-items:center;display:flex;justify-content:center;margin:auto}.hosptial[data-v-4e80f72f],.hosptial .hosptial_show[data-v-4e80f72f]{height:600px;width:750px}.hosptial .hosptial_show img[data-v-4e80f72f]{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.special_list[data-v-4e80f72f]{display:flex;justify-content:center;margin:1rem auto;width:90%}.special_list .special_lists[data-v-4e80f72f]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__001cae5a__);background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center;margin-right:5%;padding:1rem;width:20%}.special_list .special_lists img[data-v-4e80f72f]{height:90%;width:90%}.special_list .special_lists[data-v-4e80f72f]:hover{background-image:url(__VITE_PUBLIC_ASSET__41df82c8__)}.hospital_introduce_video[data-v-4e80f72f]{background-image:url(__VITE_PUBLIC_ASSET__f2ee01c6__);background-repeat:no-repeat;background-size:100% 100%;display:flex;flex-direction:column;height:550px;text-align:center;width:100%}.hospital_introduce_video .hospital_introduce_video_title[data-v-4e80f72f]{align-items:center;display:flex;height:30%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body[data-v-4e80f72f]{align-items:center;display:flex;height:70%;justify-content:center;width:100%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys[data-v-4e80f72f]{height:100%;width:35%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_video_bodys video[data-v-4e80f72f]{border:10px solid #f5f5f5;box-shadow:0 0 10px rgba(0,0,0,.5);height:80%;padding:10px;width:80%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body[data-v-4e80f72f]{align-items:center;display:flex;height:100%;justify-content:space-between;width:40%}.hospital_introduce_video .hospital_introduce_video_body .hospital_introduce_report_body img[data-v-4e80f72f]{cursor:pointer}",
+      "start": 1709707892718,
+      "end": 1709707892721,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/pages/hospital_introduce.vue",
+        "mappings": "AAAA,6BAAY,YAAY,CAAC,WAAW,CAAC,eAAe,CAAC,kBAAkB,CAAC,gBAAgB,CAAC,SAAS,CAAC,iCAAgB,WAAW,CAAC,UAAU,CAAC,8BAAa,kBAAkB,CAAC,YAAY,CAAC,qBAAqB,CAAC,sBAAsB,CAAC,eAAe,CAAC,gCAAe,gBAAgB,CAAC,mCAAkB,kBAAkB,CAAC,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,uCAAsB,cAAc,CAAC,UAAU,CAAC,kBAAkB,CAAC,SAAS,CAAC,2BAAU,kBAAkB,CAAC,YAAY,CAAC,sBAAsB,CAAC,WAAW,CAAC,qEAAmC,YAAY,CAAC,WAAW,CAAC,8CAA6B,WAAW,CAAC,mBAAmB,CAAC,gBAAgB,CAAC,UAAU,CAAC,+BAAc,YAAY,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,SAAS,CAAC,8CAA6B,kBAAkB,CAAC,qDAAqD,CAAC,uBAAuB,CAAC,2BAA2B,CAAC,qBAAqB,CAAC,YAAY,CAAC,sBAAsB,CAAC,eAAe,CAAC,YAAY,CAAC,SAAS,CAAC,kDAAiC,UAAU,CAAC,SAAS,CAAC,oDAAmC,qDAAqD,CAAC,2CAA0B,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,YAAY,CAAC,qBAAqB,CAAC,YAAY,CAAC,iBAAiB,CAAC,UAAU,CAAC,2EAA0D,kBAAkB,CAAC,YAAY,CAAC,UAAU,CAAC,sBAAsB,CAAC,UAAU,CAAC,0EAAyD,kBAAkB,CAAC,YAAY,CAAC,UAAU,CAAC,sBAAsB,CAAC,UAAU,CAAC,0GAAyF,WAAW,CAAC,SAAS,CAAC,gHAA+F,yBAAyB,CAAC,kCAAkC,CAAC,UAAU,CAAC,YAAY,CAAC,SAAS,CAAC,0GAAyF,kBAAkB,CAAC,YAAY,CAAC,WAAW,CAAC,6BAA6B,CAAC,SAAS,CAAC,8GAA6F,cAAc",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/hospital_introduce.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707892722,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892722,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892722,
+      "end": 1709707892722,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892726,
+      "end": 1709707892727,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892726,
+      "end": 1709707892727,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707892729,
+      "end": 1709707892729,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892730,
+      "end": 1709707892731,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707892732,
+      "end": 1709707892759,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707892760,
+      "end": 1709707892760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707892760,
+      "end": 1709707892760,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707892760,
+      "end": 1709707892760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707892760,
+      "end": 1709707892760,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707892761,
+      "end": 1709707892761,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707892763,
+      "end": 1709707892764,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707892764,
+      "end": 1709707892764,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707892764,
+      "end": 1709707892764,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892765,
+      "end": 1709707892765,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707892766,
+      "end": 1709707892766,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707892766,
+      "end": 1709707892766,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707892766,
+      "end": 1709707892766,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707892766,
+      "end": 1709707892766,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707892767,
+      "end": 1709707892767,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707892767,
+      "end": 1709707892767,
+      "order": "normal"
+    }
+  ]
+}

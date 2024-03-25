@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/doctor_team.vue?vue&type=style&index=0&scoped=d84e9ff0&lang.less?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.doctor_team_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.doctor_team_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.doctor_list {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 70%;\r\n    margin: auto;\r\n    padding-bottom: 2rem;\r\n\r\n    .doctor {\r\n        width: 100%;\r\n        height:90%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        margin-top: 2rem;\r\n        background-image: url(\"/img/doctor_bg.png\");\r\n        background-size: 100% 100%;\r\n        background-repeat: no-repeat;\r\n        cursor: pointer;\r\n        margin-bottom: 1rem;\r\n        .doctor_img {\r\n            height:69%;\r\n            width: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n\r\n            img {\r\n                height: 95%;\r\n                width: 95%;\r\n            }\r\n        }\r\n\r\n        .doctor_information {\r\n            display: flex;\r\n            flex-direction: column;\r\n            justify-content: center;\r\n            align-items: center;\r\n            height: 29%;\r\n            width: 94%;\r\n            margin-left: 3%;\r\n            background-color: #721B0E;\r\n            color: white;\r\n\r\n            .doctor_information_title {\r\n                height: 30%;\r\n                width: 80%;\r\n                display: flex;\r\n                align-items: center;\r\n                font-size: 1.3rem;\r\n                justify-content: space-between;\r\n                margin-bottom: 0.5rem;\r\n                margin-top: 0.5rem;\r\n            }\r\n\r\n            .doctor_information_body {\r\n                height: 70%;\r\n                width: 100%;\r\n                text-align: left;\r\n                font-size: 1.1rem;\r\n                img{\r\n                    height: 100%;\r\n                    width: 100%;\r\n                }\r\n\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.doctor_footer{\r\n        width: 80%;\r\n        margin: auto;\r\n        height:6%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        .doctor_footer_more,\r\n        .doctor_footer_reservation {\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            cursor: pointer;\r\n            background-image: url(\"/img/doctor_footer1.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat;      \r\n        }\r\n        .doctor_footer_more:hover,.doctor_footer_reservation:hover{\r\n            background-image: url(\"/img/doctor_footer2.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat; \r\n            color: white;\r\n        }\r\n        \r\n}\r\n",
+      "start": 1709707892289,
+      "end": 1709707892289,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/pages/doctor_team.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/pages/doctor_team.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院专家-重庆老中医-重庆中医肿瘤专家</Title>\r\n      <Meta name=\"keywords\" content=\"重庆中医院，重庆名老中医，重庆铭博医院，重庆名老中医\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院汇聚蔡东辉，操良玉，徐有强，於广武，杨志平，匡建华等国内名老中医常年坐诊，整理历代中医名方，并结合临床实践，在肿瘤，常见病、高发疾病、慢性病和复杂并发症的治疗领域，取得了重大突破。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"doctor_team_bg\">\r\n            <img src=\"/img/doctor_team_bg.png\" alt=\"\">\r\n        </div>\r\n        <div class=\"doctor_team_img\">\r\n            <img src=\"/img/doctor_team_img.png\" />\r\n        </div>\r\n        <div class=\"doctor_list\">\r\n            <div style=\"width: 28%;margin-right:5%;height: 800px;\" v-for=\"item in doctor_list\">\r\n                <div class=\"doctor\" @click=\"docotr_detail(item.id)\">\r\n                    <div class=\"doctor_img\">\r\n                        <img :src=\"item.head_picture\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"doctor_information\">\r\n                        <div class=\"doctor_information_title\">\r\n                            <div>{{ item.name }}</div>\r\n                            <div>{{ item.title }}</div>\r\n                        </div>\r\n                        <div class=\"doctor_information_body\">\r\n                            <img :src=\"item.achieve_url\" />\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"doctor_footer\">\r\n                    <div class=\"doctor_footer_more\" @click=\"docotr_detail(item.id)\">了解更多</div>\r\n                    <div class=\"doctor_footer_reservation\" @click=\"docotr_reservation()\">预约专家</div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { Doctor } from '~/entities/doctor'\r\nimport { useRouter } from 'vue-router'\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst router = useRouter()\r\nconst doctor_list: Ref<Doctor[]> = ref([])\r\nconst { data: data1 } = await useAsyncData(\r\n    () => $fetch(`${baseURL}/doctor/getDoctorInformation`)\r\n)\r\nonMounted(() => {\r\n    const res1 = JSON.stringify(data1.value)\r\n    doctor_list.value = JSON.parse(res1).data\r\n    console.log(doctor_list.value)\r\n})\r\nconst docotr_reservation=()=>[\r\nwindow.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n]\r\nconst docotr_detail=(id:number)=>{\r\n    router.push({ path: `/article/doctor_detail/${id}`})\r\n}\r\n</script>\r\n<style lang=\"less\" scoped>\r\n.doctor_team_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.doctor_team_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.doctor_list {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 70%;\r\n    margin: auto;\r\n    padding-bottom: 2rem;\r\n\r\n    .doctor {\r\n        width: 100%;\r\n        height:90%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        margin-top: 2rem;\r\n        background-image: url(\"/img/doctor_bg.png\");\r\n        background-size: 100% 100%;\r\n        background-repeat: no-repeat;\r\n        cursor: pointer;\r\n        margin-bottom: 1rem;\r\n        .doctor_img {\r\n            height:69%;\r\n            width: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n\r\n            img {\r\n                height: 95%;\r\n                width: 95%;\r\n            }\r\n        }\r\n\r\n        .doctor_information {\r\n            display: flex;\r\n            flex-direction: column;\r\n            justify-content: center;\r\n            align-items: center;\r\n            height: 29%;\r\n            width: 94%;\r\n            margin-left: 3%;\r\n            background-color: #721B0E;\r\n            color: white;\r\n\r\n            .doctor_information_title {\r\n                height: 30%;\r\n                width: 80%;\r\n                display: flex;\r\n                align-items: center;\r\n                font-size: 1.3rem;\r\n                justify-content: space-between;\r\n                margin-bottom: 0.5rem;\r\n                margin-top: 0.5rem;\r\n            }\r\n\r\n            .doctor_information_body {\r\n                height: 70%;\r\n                width: 100%;\r\n                text-align: left;\r\n                font-size: 1.1rem;\r\n                img{\r\n                    height: 100%;\r\n                    width: 100%;\r\n                }\r\n\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.doctor_footer{\r\n        width: 80%;\r\n        margin: auto;\r\n        height:6%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        .doctor_footer_more,\r\n        .doctor_footer_reservation {\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            cursor: pointer;\r\n            background-image: url(\"/img/doctor_footer1.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat;      \r\n        }\r\n        .doctor_footer_more:hover,.doctor_footer_reservation:hover{\r\n            background-image: url(\"/img/doctor_footer2.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat; \r\n            color: white;\r\n        }\r\n        \r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892292,
+      "end": 1709707892292,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892292,
+      "end": 1709707892292,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892293,
+      "end": 1709707892293,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892293,
+      "end": 1709707892293,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892294,
+      "end": 1709707892294,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".doctor_team_bg{height:500px;width:100%}.doctor_team_bg img{height:100%;width:100%}.doctor_team_img{margin-top:2rem;text-align:center}.doctor_list{display:flex;flex-wrap:wrap;margin:auto;padding-bottom:2rem;width:70%}.doctor_list .doctor{background-image:url(__VITE_PUBLIC_ASSET__7fbe48f9__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;flex-direction:column;height:90%;margin-bottom:1rem;margin-top:2rem;width:100%}.doctor_list .doctor .doctor_img{align-items:center;display:flex;height:69%;justify-content:center;width:100%}.doctor_list .doctor .doctor_img img{height:95%;width:95%}.doctor_list .doctor .doctor_information{align-items:center;background-color:#721b0e;color:#fff;display:flex;flex-direction:column;height:29%;justify-content:center;margin-left:3%;width:94%}.doctor_list .doctor .doctor_information .doctor_information_title{align-items:center;display:flex;font-size:1.3rem;height:30%;justify-content:space-between;margin-bottom:.5rem;margin-top:.5rem;width:80%}.doctor_list .doctor .doctor_information .doctor_information_body{font-size:1.1rem;height:70%;text-align:left;width:100%}.doctor_list .doctor .doctor_information .doctor_information_body img{height:100%;width:100%}.doctor_footer{display:flex;height:6%;justify-content:space-between;margin:auto;width:80%}.doctor_footer .doctor_footer_more,.doctor_footer .doctor_footer_reservation{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__4043c0ff__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;height:100%;justify-content:center;width:40%}.doctor_footer .doctor_footer_more:hover,.doctor_footer .doctor_footer_reservation:hover{background-image:url(__VITE_PUBLIC_ASSET__ab69ce50__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}",
+      "start": 1709707892294,
+      "end": 1709707892320,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/pages/doctor_team.vue",
+        "mappings": "AACA,gBACI,aACA,WAFJ,oBAKQ,YACA,WAIR,iBAEI,gBADA,kBAIJ,aACI,aACA,eAEA,YACA,oBAFA,UAHJ,qBAaQ,sDAEA,4BADA,0BAEA,eANA,aACA,sBAFA,WAQA,mBALA,gBAJA,WARR,iCAuBY,mBAFA,aAFA,WAGA,uBAFA,WApBZ,qCA0BgB,WACA,UA3BhB,yCAmCY,mBAIA,yBACA,WARA,aACA,sBAGA,WAFA,uBAIA,eADA,UArCZ,mEA8CgB,mBADA,aAEA,iBAJA,WAKA,8BACA,oBACA,iBANA,UA5ChB,kEAyDgB,iBAHA,WAEA,gBADA,WAvDhB,sEA2DoB,YACA,WASpB,eAIQ,aADA,UAEA,8BAHA,YADA,UADR,6EAYY,mBAEA,sDAEC,4BADD,0BAFA,eAHA,aADA,YAEA,uBAHA,UARZ,yFAmBY,sDAEC,4BADD,0BAEA",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/doctor_team.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892322,
+      "end": 1709707892322,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892325,
+      "end": 1709707892325,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892326,
+      "end": 1709707892326,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".doctor_team_bg[data-v-d84e9ff0]{height:500px;width:100%}.doctor_team_bg img[data-v-d84e9ff0]{height:100%;width:100%}.doctor_team_img[data-v-d84e9ff0]{margin-top:2rem;text-align:center}.doctor_list[data-v-d84e9ff0]{display:flex;flex-wrap:wrap;margin:auto;padding-bottom:2rem;width:70%}.doctor_list .doctor[data-v-d84e9ff0]{background-image:url(__VITE_PUBLIC_ASSET__7fbe48f9__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;flex-direction:column;height:90%;margin-bottom:1rem;margin-top:2rem;width:100%}.doctor_list .doctor .doctor_img[data-v-d84e9ff0]{align-items:center;display:flex;height:69%;justify-content:center;width:100%}.doctor_list .doctor .doctor_img img[data-v-d84e9ff0]{height:95%;width:95%}.doctor_list .doctor .doctor_information[data-v-d84e9ff0]{align-items:center;background-color:#721b0e;color:#fff;display:flex;flex-direction:column;height:29%;justify-content:center;margin-left:3%;width:94%}.doctor_list .doctor .doctor_information .doctor_information_title[data-v-d84e9ff0]{align-items:center;display:flex;font-size:1.3rem;height:30%;justify-content:space-between;margin-bottom:.5rem;margin-top:.5rem;width:80%}.doctor_list .doctor .doctor_information .doctor_information_body[data-v-d84e9ff0]{font-size:1.1rem;height:70%;text-align:left;width:100%}.doctor_list .doctor .doctor_information .doctor_information_body img[data-v-d84e9ff0]{height:100%;width:100%}.doctor_footer[data-v-d84e9ff0]{display:flex;height:6%;justify-content:space-between;margin:auto;width:80%}.doctor_footer .doctor_footer_more[data-v-d84e9ff0],.doctor_footer .doctor_footer_reservation[data-v-d84e9ff0]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__4043c0ff__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;height:100%;justify-content:center;width:40%}.doctor_footer .doctor_footer_more[data-v-d84e9ff0]:hover,.doctor_footer .doctor_footer_reservation[data-v-d84e9ff0]:hover{background-image:url(__VITE_PUBLIC_ASSET__ab69ce50__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}",
+      "start": 1709707892326,
+      "end": 1709707892330,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/pages/doctor_team.vue",
+        "mappings": "AAAA,iCAAgB,YAAY,CAAC,UAAU,CAAC,qCAAoB,WAAW,CAAC,UAAU,CAAC,kCAAiB,eAAe,CAAC,iBAAiB,CAAC,8BAAa,YAAY,CAAC,cAAc,CAAC,WAAW,CAAC,mBAAmB,CAAC,SAAS,CAAC,sCAAqB,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,cAAc,CAAC,YAAY,CAAC,qBAAqB,CAAC,UAAU,CAAC,kBAAkB,CAAC,eAAe,CAAC,UAAU,CAAC,kDAAiC,kBAAkB,CAAC,YAAY,CAAC,UAAU,CAAC,sBAAsB,CAAC,UAAU,CAAC,sDAAqC,UAAU,CAAC,SAAS,CAAC,0DAAyC,kBAAkB,CAAC,wBAAwB,CAAC,UAAU,CAAC,YAAY,CAAC,qBAAqB,CAAC,UAAU,CAAC,sBAAsB,CAAC,cAAc,CAAC,SAAS,CAAC,oFAAmE,kBAAkB,CAAC,YAAY,CAAC,gBAAgB,CAAC,UAAU,CAAC,6BAA6B,CAAC,mBAAmB,CAAC,gBAAgB,CAAC,SAAS,CAAC,mFAAkE,gBAAgB,CAAC,UAAU,CAAC,eAAe,CAAC,UAAU,CAAC,uFAAsE,WAAW,CAAC,UAAU,CAAC,gCAAe,YAAY,CAAC,SAAS,CAAC,6BAA6B,CAAC,WAAW,CAAC,SAAS,CAAC,+GAA6E,kBAAkB,CAAC,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,cAAc,CAAC,YAAY,CAAC,WAAW,CAAC,sBAAsB,CAAC,SAAS,CAAC,2HAAyF,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,UAAU",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/doctor_team.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707892331,
+      "end": 1709707892331,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892331,
+      "end": 1709707892331,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892331,
+      "end": 1709707892331,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892331,
+      "end": 1709707892331,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892331,
+      "end": 1709707892331,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707892332,
+      "end": 1709707892332,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892332,
+      "end": 1709707892333,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707892333,
+      "end": 1709707892333,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707892333,
+      "end": 1709707892333,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".doctor_team_bg[data-v-d84e9ff0]{height:500px;width:100%}.doctor_team_bg img[data-v-d84e9ff0]{height:100%;width:100%}.doctor_team_img[data-v-d84e9ff0]{margin-top:2rem;text-align:center}.doctor_list[data-v-d84e9ff0]{display:flex;flex-wrap:wrap;margin:auto;padding-bottom:2rem;width:70%}.doctor_list .doctor[data-v-d84e9ff0]{background-image:url(__VITE_PUBLIC_ASSET__7fbe48f9__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;flex-direction:column;height:90%;margin-bottom:1rem;margin-top:2rem;width:100%}.doctor_list .doctor .doctor_img[data-v-d84e9ff0]{align-items:center;display:flex;height:69%;justify-content:center;width:100%}.doctor_list .doctor .doctor_img img[data-v-d84e9ff0]{height:95%;width:95%}.doctor_list .doctor .doctor_information[data-v-d84e9ff0]{align-items:center;background-color:#721b0e;color:#fff;display:flex;flex-direction:column;height:29%;justify-content:center;margin-left:3%;width:94%}.doctor_list .doctor .doctor_information .doctor_information_title[data-v-d84e9ff0]{align-items:center;display:flex;font-size:1.3rem;height:30%;justify-content:space-between;margin-bottom:.5rem;margin-top:.5rem;width:80%}.doctor_list .doctor .doctor_information .doctor_information_body[data-v-d84e9ff0]{font-size:1.1rem;height:70%;text-align:left;width:100%}.doctor_list .doctor .doctor_information .doctor_information_body img[data-v-d84e9ff0]{height:100%;width:100%}.doctor_footer[data-v-d84e9ff0]{display:flex;height:6%;justify-content:space-between;margin:auto;width:80%}.doctor_footer .doctor_footer_more[data-v-d84e9ff0],.doctor_footer .doctor_footer_reservation[data-v-d84e9ff0]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__4043c0ff__);background-repeat:no-repeat;background-size:100% 100%;cursor:pointer;display:flex;height:100%;justify-content:center;width:40%}.doctor_footer .doctor_footer_more[data-v-d84e9ff0]:hover,.doctor_footer .doctor_footer_reservation[data-v-d84e9ff0]:hover{background-image:url(__VITE_PUBLIC_ASSET__ab69ce50__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}\"",
+      "start": 1709707892333,
+      "end": 1709707892333,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707892333,
+      "end": 1709707892333,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707892334,
+      "end": 1709707892334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707892334,
+      "end": 1709707892334,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707892334,
+      "end": 1709707892334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707892334,
+      "end": 1709707892334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707892334,
+      "end": 1709707892334,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707892335,
+      "end": 1709707892335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707892335,
+      "end": 1709707892336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707892336,
+      "end": 1709707892336,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707892336,
+      "end": 1709707892336,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707892336,
+      "end": 1709707892336,
+      "order": "normal"
+    }
+  ]
+}

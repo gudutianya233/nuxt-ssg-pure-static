@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/welfare_activities.vue?vue&type=style&index=0&scoped=c0a2a47e&lang.less?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.enter_hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.enter_hosptial_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_navigation {\r\n    display: flex;\r\n    width: 100%;\r\n    margin-top: 2rem;\r\n    margin-bottom: 2rem;\r\n    .hosptial_navigation1,\r\n    .hosptial_navigation2,\r\n    .hosptial_navigation3 {\r\n        width: 33%;\r\n        font-size: 1.5rem;\r\n        text-align: center;\r\n        display: flex;\r\n        justify-content: center;\r\n\r\n        .hosptial_navigations {\r\n            width: 50%;\r\n            height: 4rem;\r\n            line-height: 4rem;\r\n            background-image: url('/img/enter_hosptial.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .active {\r\n            background-image: url('/img/enter_hosptial_active.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            color: white;\r\n        }\r\n    }\r\n}\r\n\r\n.relational_information_content {\r\n    height: auto;\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    padding: 2rem;\r\n    background-image: url('/img/information_content_bg.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    padding-left: 5rem;\r\n    padding-right: 5rem;\r\n    .relational_information_content_title{\r\n        text-align: left;\r\n        display: flex;\r\n        padding-left: 0.8rem;\r\n        img{\r\n            height: 2rem;\r\n            width: 2rem;\r\n            margin-right: 1rem;\r\n        }\r\n        span{\r\n            cursor: pointer;\r\n            font-size:1.5rem;\r\n            color: black;\r\n        }\r\n    }\r\n    .relational_information_content_seek{\r\n        cursor: pointer;\r\n        margin-top: 1rem;\r\n            font-size:1.5rem;\r\n            color: #721B0E;\r\n        display: flex;\r\n        justify-content: space-between\r\n    }\r\n}\r\n.pagination{\r\n    text-align: right;\r\n    width: 90%;\r\n    margin-bottom: 2rem;\r\n}\r\n",
+      "start": 1709707892557,
+      "end": 1709707892557,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/pages/welfare_activities.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/pages/welfare_activities.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院-重庆铭博中医院</Title>\r\n      <Meta name=\"keywords\" content=\"重庆铭博医院，重庆铭博中医院\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院作为“互联网+智慧医疗”领域先行者，依托寻医问药网提供的全国优质医疗资源，以互联网技术赋能线下医疗，开启智慧医疗新格局。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"enter_hosptial_bg\">\r\n            <img src=\"/img/media_coverage_bg.jpg\" alt=\"\">\r\n        </div>\r\n        <div class=\"enter_hosptial_img\">\r\n            <img src=\"/img/media_coverage_img.png\" />\r\n        </div>\r\n            <div class=\"relational_information\">\r\n                <!-- 公益活动 -->\r\n                <div>\r\n                    <div  class=\"relational_information_content\" v-for=\"item in HospitalDevelopment_list\" :key=\"item.id\">\r\n                        <div  class=\"relational_information_content_title\" >\r\n                           <img src=\"/img/hosptial_keyword.png\"/><span>{{ item.title }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_title\"  @click=\"welfare_activities_detail(item.id)\">\r\n                            <span >{{ item.titles }}</span>\r\n                        </div>\r\n                        <div class=\"relational_information_content_seek\">\r\n                            <div @click=\"welfare_activities_detail(item.id)\">【详情】</div>\r\n                            <div><img src=\"/img/ask_seek.png\"  @click=\"ask_seek\"/></div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"pagination\">\r\n                        共{{ total }}篇文章 \r\n                        第{{ page }} / {{ Math.ceil(total / perPage) }}页\r\n                        <a   v-if=\"page > 1\" @click=\"page--, getWelfareActivitiess()\">上一页</a>\r\n                        <a  v-if=\"page < Math.ceil(total / perPage)\" @click=\"page++, getWelfareActivitiess()\">下一页</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { HospitalDevelopment } from '~/entities/hospitalDevelopment';\r\nimport { useRouter } from 'vue-router'\r\nconst page=ref(1)//页码\r\nconst perPage = ref(4) // 每页显示的文章数\r\nconst total = ref(0) // 总文章数\r\nconst router = useRouter()\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst HospitalDevelopment_list: Ref<HospitalDevelopment[]> = ref([])\r\n\r\nconst { data } = await useAsyncData( \r\n    () =>$fetch(`${baseURL}/hospital/getWelfareActivitiess`,\r\n    {\r\n        method: 'POST',\r\n        body: {\r\n            page: page.value,\r\n            pageSize:perPage.value,\r\n        }\r\n    }\r\n    )\r\n)\r\nconst getWelfareActivitiess=async ()=>{\r\nawait $fetch(`${baseURL}/hospital/getWelfareActivitiess`, {\r\n        method: 'POST',\r\n        body: {\r\n          page: page.value,\r\n          pageSize: perPage.value,\r\n        },\r\n      }).then(res => {\r\n        HospitalDevelopment_list.value = (res as any).data;\r\n        total.value = (res as any).total;\r\n      })\r\n}\r\n\r\nonMounted(() => {\r\n   const res1=JSON.stringify(data.value)\r\n   HospitalDevelopment_list.value=JSON.parse(res1).data\r\n   total.value=JSON.parse(res1).total\r\n})\r\n\r\nconst ask_seek=()=>{\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn'\r\n}\r\n\r\nconst welfare_activities_detail=(id:number)=>{\r\n    router.push({ path: `/article/welfare_activities_detail/${id}`})\r\n}\r\n\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.enter_hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.enter_hosptial_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.hosptial_navigation {\r\n    display: flex;\r\n    width: 100%;\r\n    margin-top: 2rem;\r\n    margin-bottom: 2rem;\r\n    .hosptial_navigation1,\r\n    .hosptial_navigation2,\r\n    .hosptial_navigation3 {\r\n        width: 33%;\r\n        font-size: 1.5rem;\r\n        text-align: center;\r\n        display: flex;\r\n        justify-content: center;\r\n\r\n        .hosptial_navigations {\r\n            width: 50%;\r\n            height: 4rem;\r\n            line-height: 4rem;\r\n            background-image: url('/img/enter_hosptial.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n        }\r\n\r\n        .active {\r\n            background-image: url('/img/enter_hosptial_active.png');\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            color: white;\r\n        }\r\n    }\r\n}\r\n\r\n.relational_information_content {\r\n    height: auto;\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    padding: 2rem;\r\n    background-image: url('/img/information_content_bg.png');\r\n    background-size: 100% 100%;\r\n    background-repeat: no-repeat;\r\n    padding-left: 5rem;\r\n    padding-right: 5rem;\r\n    .relational_information_content_title{\r\n        text-align: left;\r\n        display: flex;\r\n        padding-left: 0.8rem;\r\n        img{\r\n            height: 2rem;\r\n            width: 2rem;\r\n            margin-right: 1rem;\r\n        }\r\n        span{\r\n            cursor: pointer;\r\n            font-size:1.5rem;\r\n            color: black;\r\n        }\r\n    }\r\n    .relational_information_content_seek{\r\n        cursor: pointer;\r\n        margin-top: 1rem;\r\n            font-size:1.5rem;\r\n            color: #721B0E;\r\n        display: flex;\r\n        justify-content: space-between\r\n    }\r\n}\r\n.pagination{\r\n    text-align: right;\r\n    width: 90%;\r\n    margin-bottom: 2rem;\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892559,
+      "end": 1709707892559,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707892559,
+      "end": 1709707892559,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892563,
+      "end": 1709707892563,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707892563,
+      "end": 1709707892564,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707892566,
+      "end": 1709707892566,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".enter_hosptial_bg{height:500px;width:100%}.enter_hosptial_bg img{height:100%;width:100%}.enter_hosptial_img{margin-top:2rem;text-align:center}.hosptial_navigation{display:flex;margin-bottom:2rem;margin-top:2rem;width:100%}.hosptial_navigation .hosptial_navigation1,.hosptial_navigation .hosptial_navigation2,.hosptial_navigation .hosptial_navigation3{display:flex;font-size:1.5rem;justify-content:center;text-align:center;width:33%}.hosptial_navigation .hosptial_navigation1 .hosptial_navigations,.hosptial_navigation .hosptial_navigation2 .hosptial_navigations,.hosptial_navigation .hosptial_navigation3 .hosptial_navigations{background-image:url(__VITE_PUBLIC_ASSET__02318f28__);background-repeat:no-repeat;background-size:100% 100%;height:4rem;line-height:4rem;width:50%}.hosptial_navigation .hosptial_navigation1 .active,.hosptial_navigation .hosptial_navigation2 .active,.hosptial_navigation .hosptial_navigation3 .active{background-image:url(__VITE_PUBLIC_ASSET__ea4d0736__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}.relational_information_content{background-image:url(__VITE_PUBLIC_ASSET__8886470d__);background-repeat:no-repeat;background-size:100% 100%;height:auto;margin:auto auto 2rem;padding:2rem 5rem;width:80%}.relational_information_content .relational_information_content_title{display:flex;padding-left:.8rem;text-align:left}.relational_information_content .relational_information_content_title img{height:2rem;margin-right:1rem;width:2rem}.relational_information_content .relational_information_content_title span{color:#000;cursor:pointer;font-size:1.5rem}.relational_information_content .relational_information_content_seek{color:#721b0e;cursor:pointer;display:flex;font-size:1.5rem;justify-content:space-between;margin-top:1rem}.pagination{margin-bottom:2rem;text-align:right;width:90%}",
+      "start": 1709707892567,
+      "end": 1709707892584,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/pages/welfare_activities.vue",
+        "mappings": "AACA,mBACI,aACA,WAFJ,uBAKQ,YACA,WAIR,oBAEI,gBADA,kBAIJ,qBACI,aAGA,mBADA,gBADA,WAFJ,iIAWQ,aAFA,iBAGA,uBAFA,kBAFA,UARR,mMAkBY,sDAEA,4BADA,0BAHA,YACA,iBAFA,UAfZ,yJAwBY,sDAEA,4BADA,0BAEA,WAKZ,gCAMI,sDAEA,4BADA,0BANA,YAGA,sBAMA,kBARA,UAFJ,sEAaQ,aACA,mBAFA,gBAZR,0EAgBY,YAEA,kBADA,WAjBZ,2EAuBY,WAFA,eACA,iBAtBZ,qEA8BY,cAHJ,eAIA,aAFI,iBAGJ,8BAJA,gBAOR,YAGI,mBAFA,iBACA",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/welfare_activities.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707892584,
+      "end": 1709707892584,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707892584,
+      "end": 1709707892584,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707892585,
+      "end": 1709707892585,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".enter_hosptial_bg[data-v-c0a2a47e]{height:500px;width:100%}.enter_hosptial_bg img[data-v-c0a2a47e]{height:100%;width:100%}.enter_hosptial_img[data-v-c0a2a47e]{margin-top:2rem;text-align:center}.hosptial_navigation[data-v-c0a2a47e]{display:flex;margin-bottom:2rem;margin-top:2rem;width:100%}.hosptial_navigation .hosptial_navigation1[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3[data-v-c0a2a47e]{display:flex;font-size:1.5rem;justify-content:center;text-align:center;width:33%}.hosptial_navigation .hosptial_navigation1 .hosptial_navigations[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2 .hosptial_navigations[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3 .hosptial_navigations[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__02318f28__);background-repeat:no-repeat;background-size:100% 100%;height:4rem;line-height:4rem;width:50%}.hosptial_navigation .hosptial_navigation1 .active[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2 .active[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3 .active[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__ea4d0736__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}.relational_information_content[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__8886470d__);background-repeat:no-repeat;background-size:100% 100%;height:auto;margin:auto auto 2rem;padding:2rem 5rem;width:80%}.relational_information_content .relational_information_content_title[data-v-c0a2a47e]{display:flex;padding-left:.8rem;text-align:left}.relational_information_content .relational_information_content_title img[data-v-c0a2a47e]{height:2rem;margin-right:1rem;width:2rem}.relational_information_content .relational_information_content_title span[data-v-c0a2a47e]{color:#000;cursor:pointer;font-size:1.5rem}.relational_information_content .relational_information_content_seek[data-v-c0a2a47e]{color:#721b0e;cursor:pointer;display:flex;font-size:1.5rem;justify-content:space-between;margin-top:1rem}.pagination[data-v-c0a2a47e]{margin-bottom:2rem;text-align:right;width:90%}",
+      "start": 1709707892585,
+      "end": 1709707892588,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/pages/welfare_activities.vue",
+        "mappings": "AAAA,oCAAmB,YAAY,CAAC,UAAU,CAAC,wCAAuB,WAAW,CAAC,UAAU,CAAC,qCAAoB,eAAe,CAAC,iBAAiB,CAAC,sCAAqB,YAAY,CAAC,kBAAkB,CAAC,eAAe,CAAC,UAAU,CAAC,oLAAiI,YAAY,CAAC,gBAAgB,CAAC,sBAAsB,CAAC,iBAAiB,CAAC,SAAS,CAAC,sPAAmM,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,WAAW,CAAC,gBAAgB,CAAC,SAAS,CAAC,4MAAyJ,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,UAAU,CAAC,iDAAgC,qDAAqD,CAAC,2BAA2B,CAAC,yBAAyB,CAAC,WAAW,CAAC,qBAAqB,CAAC,iBAAiB,CAAC,SAAS,CAAC,uFAAsE,YAAY,CAAC,kBAAkB,CAAC,eAAe,CAAC,2FAA0E,WAAW,CAAC,iBAAiB,CAAC,UAAU,CAAC,4FAA2E,UAAU,CAAC,cAAc,CAAC,gBAAgB,CAAC,sFAAqE,aAAa,CAAC,cAAc,CAAC,YAAY,CAAC,gBAAgB,CAAC,6BAA6B,CAAC,eAAe,CAAC,6BAAY,kBAAkB,CAAC,gBAAgB,CAAC,SAAS",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/pages/welfare_activities.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707892588,
+      "end": 1709707892588,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707892588,
+      "end": 1709707892589,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707892589,
+      "end": 1709707892589,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707892589,
+      "end": 1709707892589,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".enter_hosptial_bg[data-v-c0a2a47e]{height:500px;width:100%}.enter_hosptial_bg img[data-v-c0a2a47e]{height:100%;width:100%}.enter_hosptial_img[data-v-c0a2a47e]{margin-top:2rem;text-align:center}.hosptial_navigation[data-v-c0a2a47e]{display:flex;margin-bottom:2rem;margin-top:2rem;width:100%}.hosptial_navigation .hosptial_navigation1[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3[data-v-c0a2a47e]{display:flex;font-size:1.5rem;justify-content:center;text-align:center;width:33%}.hosptial_navigation .hosptial_navigation1 .hosptial_navigations[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2 .hosptial_navigations[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3 .hosptial_navigations[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__02318f28__);background-repeat:no-repeat;background-size:100% 100%;height:4rem;line-height:4rem;width:50%}.hosptial_navigation .hosptial_navigation1 .active[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation2 .active[data-v-c0a2a47e],.hosptial_navigation .hosptial_navigation3 .active[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__ea4d0736__);background-repeat:no-repeat;background-size:100% 100%;color:#fff}.relational_information_content[data-v-c0a2a47e]{background-image:url(__VITE_PUBLIC_ASSET__8886470d__);background-repeat:no-repeat;background-size:100% 100%;height:auto;margin:auto auto 2rem;padding:2rem 5rem;width:80%}.relational_information_content .relational_information_content_title[data-v-c0a2a47e]{display:flex;padding-left:.8rem;text-align:left}.relational_information_content .relational_information_content_title img[data-v-c0a2a47e]{height:2rem;margin-right:1rem;width:2rem}.relational_information_content .relational_information_content_title span[data-v-c0a2a47e]{color:#000;cursor:pointer;font-size:1.5rem}.relational_information_content .relational_information_content_seek[data-v-c0a2a47e]{color:#721b0e;cursor:pointer;display:flex;font-size:1.5rem;justify-content:space-between;margin-top:1rem}.pagination[data-v-c0a2a47e]{margin-bottom:2rem;text-align:right;width:90%}\"",
+      "start": 1709707892589,
+      "end": 1709707892589,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707892589,
+      "end": 1709707892589,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707892590,
+      "end": 1709707892590,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707892590,
+      "end": 1709707892590,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707892590,
+      "end": 1709707892590,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707892590,
+      "end": 1709707892590,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707892591,
+      "end": 1709707892591,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707892591,
+      "end": 1709707892592,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707892592,
+      "end": 1709707892592,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707892592,
+      "end": 1709707892592,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707892592,
+      "end": 1709707892592,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/components/article_ask.vue?vue&type=style&index=0&scoped=f7efc5b8&lang.less?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.article_ask {\r\n    width: 70%;\r\n    margin: auto;\r\n    display: flex;\r\n    font-size: 1.2rem;\r\n    height: 45px;\r\n    line-height: 45px;\r\n    margin-bottom: 2rem;\r\n    img {\r\n        height: 24px;\r\n        width: 20px;\r\n        margin-right: 0.5rem;\r\n    }\r\n\r\n    .call_phone,\r\n    .network_registration,\r\n    .ask_online {\r\n        width: 18%;\r\n        margin-right: 15%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        color: white;\r\n        border-radius: 10px;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .call_phone {\r\n        background-color: #FFAB19;\r\n    }\r\n\r\n    .network_registration {\r\n        background-color: #721B0E;\r\n    }\r\n\r\n    .ask_online {\r\n        background-color: #A9907A;\r\n    }\r\n\r\n}",
+      "start": 1709707893976,
+      "end": 1709707893976,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "E:/cqmbyy/zypc/components/article_ask.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n        <div class=\"article_ask\">\r\n            <div class=\"call_phone\" @click=\"call_phone\">\r\n                <img src=\"/img/call_phone.png\" />\r\n                免费拨打\r\n            </div>\r\n            <div class=\"network_registration\" @click=\"network_registration\">\r\n                <img src=\"/img/network_registration.png\" />\r\n                网络挂号</div>\r\n            <div class=\"ask_online\" @click=\"ask_online\">\r\n                <img src=\"/img/ask_online.png\" />\r\n                在线咨询</div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nconst call_phone = () => {\r\n    window.location.href = 'tel://023-86868333';\r\n}\r\nconst network_registration = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\nconst ask_online = () => {\r\n    window.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n}\r\n</script>\r\n\r\n<style lang=\"less\" scoped>\r\n.article_ask {\r\n    width: 70%;\r\n    margin: auto;\r\n    display: flex;\r\n    font-size: 1.2rem;\r\n    height: 45px;\r\n    line-height: 45px;\r\n    margin-bottom: 2rem;\r\n    img {\r\n        height: 24px;\r\n        width: 20px;\r\n        margin-right: 0.5rem;\r\n    }\r\n\r\n    .call_phone,\r\n    .network_registration,\r\n    .ask_online {\r\n        width: 18%;\r\n        margin-right: 15%;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        color: white;\r\n        border-radius: 10px;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .call_phone {\r\n        background-color: #FFAB19;\r\n    }\r\n\r\n    .network_registration {\r\n        background-color: #721B0E;\r\n    }\r\n\r\n    .ask_online {\r\n        background-color: #A9907A;\r\n    }\r\n\r\n}</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707893976,
+      "end": 1709707893976,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707893976,
+      "end": 1709707893976,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707893976,
+      "end": 1709707893976,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707893976,
+      "end": 1709707893976,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707893977,
+      "end": 1709707893977,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".article_ask{display:flex;font-size:1.2rem;height:45px;line-height:45px;margin:auto auto 2rem;width:70%}.article_ask img{height:24px;margin-right:.5rem;width:20px}.article_ask .ask_online,.article_ask .call_phone,.article_ask .network_registration{align-items:center;border-radius:10px;color:#fff;cursor:pointer;display:flex;justify-content:center;margin-right:15%;width:18%}.article_ask .call_phone{background-color:#ffab19}.article_ask .network_registration{background-color:#721b0e}.article_ask .ask_online{background-color:#a9907a}",
+      "start": 1709707893977,
+      "end": 1709707893985,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "E:/cqmbyy/zypc/components/article_ask.vue",
+        "mappings": "AACA,aAGI,aACA,iBACA,YACA,iBACA,sBANA,UADJ,iBASQ,YAEA,mBADA,WAVR,qFAoBQ,mBAGA,mBADA,WAEA,eALA,aAEA,uBAHA,iBADA,UAjBR,yBA4BQ,yBA5BR,mCAgCQ,yBAhCR,yBAoCQ",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue"
+        ],
+        "sourcesContent": [
+          null
+        ]
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707893986,
+      "end": 1709707893986,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707893986,
+      "end": 1709707893986,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707893986,
+      "end": 1709707893986,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".article_ask[data-v-f7efc5b8]{display:flex;font-size:1.2rem;height:45px;line-height:45px;margin:auto auto 2rem;width:70%}.article_ask img[data-v-f7efc5b8]{height:24px;margin-right:.5rem;width:20px}.article_ask .ask_online[data-v-f7efc5b8],.article_ask .call_phone[data-v-f7efc5b8],.article_ask .network_registration[data-v-f7efc5b8]{align-items:center;border-radius:10px;color:#fff;cursor:pointer;display:flex;justify-content:center;margin-right:15%;width:18%}.article_ask .call_phone[data-v-f7efc5b8]{background-color:#ffab19}.article_ask .network_registration[data-v-f7efc5b8]{background-color:#721b0e}.article_ask .ask_online[data-v-f7efc5b8]{background-color:#a9907a}",
+      "start": 1709707893986,
+      "end": 1709707893988,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "E:/cqmbyy/zypc/components/article_ask.vue",
+        "mappings": "AAAA,8BAAa,YAAY,CAAC,gBAAgB,CAAC,WAAW,CAAC,gBAAgB,CAAC,qBAAqB,CAAC,SAAS,CAAC,kCAAiB,WAAW,CAAC,kBAAkB,CAAC,UAAU,CAAC,wIAAqF,kBAAkB,CAAC,kBAAkB,CAAC,UAAU,CAAC,cAAc,CAAC,YAAY,CAAC,sBAAsB,CAAC,gBAAgB,CAAC,SAAS,CAAC,0CAAyB,wBAAwB,CAAC,oDAAmC,wBAAwB,CAAC,0CAAyB,wBAAwB",
+        "names": [],
+        "sources": [
+          "E:/cqmbyy/zypc/components/article_ask.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707893988,
+      "end": 1709707893988,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".article_ask[data-v-f7efc5b8]{display:flex;font-size:1.2rem;height:45px;line-height:45px;margin:auto auto 2rem;width:70%}.article_ask img[data-v-f7efc5b8]{height:24px;margin-right:.5rem;width:20px}.article_ask .ask_online[data-v-f7efc5b8],.article_ask .call_phone[data-v-f7efc5b8],.article_ask .network_registration[data-v-f7efc5b8]{align-items:center;border-radius:10px;color:#fff;cursor:pointer;display:flex;justify-content:center;margin-right:15%;width:18%}.article_ask .call_phone[data-v-f7efc5b8]{background-color:#ffab19}.article_ask .network_registration[data-v-f7efc5b8]{background-color:#721b0e}.article_ask .ask_online[data-v-f7efc5b8]{background-color:#a9907a}\"",
+      "start": 1709707893988,
+      "end": 1709707893989,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707893989,
+      "end": 1709707893989,
+      "order": "normal"
+    }
+  ]
+}

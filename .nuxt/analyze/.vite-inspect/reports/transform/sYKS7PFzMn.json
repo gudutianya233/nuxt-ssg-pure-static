@@ -1,0 +1,227 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/index.vue?vue&type=style&index=0&scoped=c9a02a16&lang.less",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.hosptial_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.hosptial {\r\n    width: 80%;\r\n    margin: auto;\r\n    margin-top: 1rem;\r\n    display: flex;\r\n\r\n    .hosptial_bg2 {\r\n        width: 50%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n\r\n        img {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n    }\r\n\r\n    .hosptial_keyword {\r\n        width: 40%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n        padding-left: 10%;\r\n\r\n        .hosptial_keywords {\r\n            display: flex;\r\n            height: 13%;\r\n            width: 100%;\r\n            text-align: left;\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n        .hosptial_keyword_img {\r\n            width: 10%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n\r\n        .hosptial_keyword_text {\r\n            width: 80%;\r\n            display: flex;\r\n            align-items: center;\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_honor {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_honor_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_honor_img {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        margin-top: 1rem;\r\n       .hosptial_honor_imgs {\r\n        width: 25%;\r\n        height: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-bottom: 2rem;\r\n            img {\r\n                height: 70%;\r\n                width: 50%;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_environment {\r\n    margin-top: 1rem;\r\n\r\n    .hosptial_environment_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_environment_img {\r\n        margin: auto;\r\n        height: 300px;\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        margin-top: 1rem;\r\n\r\n        .hosptial_show {\r\n            height: 300px;\r\n            width: 100%;\r\n\r\n            img {\r\n                width: 100%;\r\n                height: 100%;\r\n                object-fit: cover;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.hosptial_service {\r\n    margin-top: 2rem;\r\n\r\n    .hosptial_service_title {\r\n        text-align: center;\r\n    }\r\n\r\n    .hosptial_service_body {\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        width: 80%;\r\n        margin: auto;\r\n\r\n        .hosptial_service_body_item {\r\n            height: 130px;\r\n            width: 20%;\r\n            margin-right: 5%;\r\n            margin-top: 2rem;\r\n            background-image: url(/img/hosptial_service_bg.png);\r\n            background-size: 100% 100%;\r\n            background-repeat: no-repeat;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            color: #721b0e;\r\n            font-size: 2rem;\r\n\r\n            &:hover {\r\n                color: white;\r\n                background-color: #721b0e;\r\n            }\r\n        }\r\n    }\r\n\r\n}\r\n\r\n.hosptial_target_body {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 80%;\r\n    margin: auto;\r\n    height: 250px;\r\n    margin-top: 3rem;\r\n\r\n    .hosptial_target_body_item {\r\n        height: 130px;\r\n        width: 20%;\r\n        margin-right: 5%;\r\n        margin-top: 2rem;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        flex-direction: column;\r\n\r\n        .hosptial_target_body_item1 {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            margin-top: 1rem;\r\n        }\r\n\r\n        .hosptial_target_body_item2 {\r\n            color: #721b0e;\r\n            text-transform: capitalize;\r\n            margin-top: 1rem;\r\n            font-size: 1.5rem;\r\n        }\r\n\r\n        .hosptial_target_body_item3 {\r\n            margin-top: 0.5rem;\r\n            margin-bottom: 0.5rem;\r\n            font-size: 2rem;\r\n        }\r\n\r\n        .hosptial_target_body_item4,\r\n        .hosptial_target_body_item5 {\r\n            font-size: 1.3rem;\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.hosptial_swiper {\r\n    margin: auto;\r\n    margin-bottom: 2rem;\r\n    width: 80%;\r\n    height: 20%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}",
+      "start": 1709707871868,
+      "end": 1709707871868
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707871868,
+      "end": 1709707871868,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707871868,
+      "end": 1709707871868,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707871868,
+      "end": 1709707871868,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".hosptial_bg{height:500px;width:100%}.hosptial_bg img{height:100%;width:100%}.hosptial{display:flex;margin:1rem auto auto;width:80%}.hosptial .hosptial_bg2{align-items:center;display:flex;justify-content:center;width:50%}.hosptial .hosptial_bg2 img{height:100%;width:100%}.hosptial .hosptial_keyword{display:flex;flex-direction:column;justify-content:center;padding-left:10%;width:40%}.hosptial .hosptial_keyword .hosptial_keywords{display:flex;font-size:1.3rem;height:13%;text-align:left;width:100%}.hosptial .hosptial_keyword .hosptial_keyword_img{align-items:center;display:flex;width:10%}.hosptial .hosptial_keyword .hosptial_keyword_text{align-items:center;display:flex;width:80%}.hosptial_honor{margin-top:1rem}.hosptial_honor .hosptial_honor_title{text-align:center}.hosptial_honor .hosptial_honor_img{display:flex;flex-wrap:wrap;margin-top:1rem}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs{align-items:center;display:flex;height:100%;justify-content:center;margin-bottom:2rem;width:25%}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs img{height:70%;width:50%}.hosptial_environment{margin-top:1rem}.hosptial_environment .hosptial_environment_title{text-align:center}.hosptial_environment .hosptial_environment_img{align-items:center;display:flex;height:300px;justify-content:center;margin:1rem auto auto;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show{height:300px;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.hosptial_service{margin-top:2rem}.hosptial_service .hosptial_service_title{text-align:center}.hosptial_service .hosptial_service_body{display:flex;flex-wrap:wrap;margin:auto;width:80%}.hosptial_service .hosptial_service_body .hosptial_service_body_item{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__15307164__);background-repeat:no-repeat;background-size:100% 100%;color:#721b0e;display:flex;font-size:2rem;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_service .hosptial_service_body .hosptial_service_body_item:hover{background-color:#721b0e;color:#fff}.hosptial_target_body{display:flex;flex-wrap:wrap;height:250px;margin:3rem auto auto;width:80%}.hosptial_target_body .hosptial_target_body_item{align-items:center;display:flex;flex-direction:column;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item1{align-items:center;display:flex;justify-content:center;margin-top:1rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item2{color:#721b0e;font-size:1.5rem;margin-top:1rem;text-transform:capitalize}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item3{font-size:2rem;margin-bottom:.5rem;margin-top:.5rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item4,.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item5{font-size:1.3rem}.hosptial_swiper{height:20%;margin:auto auto 2rem;width:80%}.hosptial_swiper img{height:100%;width:100%}",
+      "start": 1709707871868,
+      "end": 1709707871901,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707871901,
+      "end": 1709707871901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707871901,
+      "end": 1709707871901,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707871902,
+      "end": 1709707871902,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".hosptial_bg[data-v-c9a02a16]{height:500px;width:100%}.hosptial_bg img[data-v-c9a02a16]{height:100%;width:100%}.hosptial[data-v-c9a02a16]{display:flex;margin:1rem auto auto;width:80%}.hosptial .hosptial_bg2[data-v-c9a02a16]{align-items:center;display:flex;justify-content:center;width:50%}.hosptial .hosptial_bg2 img[data-v-c9a02a16]{height:100%;width:100%}.hosptial .hosptial_keyword[data-v-c9a02a16]{display:flex;flex-direction:column;justify-content:center;padding-left:10%;width:40%}.hosptial .hosptial_keyword .hosptial_keywords[data-v-c9a02a16]{display:flex;font-size:1.3rem;height:13%;text-align:left;width:100%}.hosptial .hosptial_keyword .hosptial_keyword_img[data-v-c9a02a16]{align-items:center;display:flex;width:10%}.hosptial .hosptial_keyword .hosptial_keyword_text[data-v-c9a02a16]{align-items:center;display:flex;width:80%}.hosptial_honor[data-v-c9a02a16]{margin-top:1rem}.hosptial_honor .hosptial_honor_title[data-v-c9a02a16]{text-align:center}.hosptial_honor .hosptial_honor_img[data-v-c9a02a16]{display:flex;flex-wrap:wrap;margin-top:1rem}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs[data-v-c9a02a16]{align-items:center;display:flex;height:100%;justify-content:center;margin-bottom:2rem;width:25%}.hosptial_honor .hosptial_honor_img .hosptial_honor_imgs img[data-v-c9a02a16]{height:70%;width:50%}.hosptial_environment[data-v-c9a02a16]{margin-top:1rem}.hosptial_environment .hosptial_environment_title[data-v-c9a02a16]{text-align:center}.hosptial_environment .hosptial_environment_img[data-v-c9a02a16]{align-items:center;display:flex;height:300px;justify-content:center;margin:1rem auto auto;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show[data-v-c9a02a16]{height:300px;width:100%}.hosptial_environment .hosptial_environment_img .hosptial_show img[data-v-c9a02a16]{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.hosptial_service[data-v-c9a02a16]{margin-top:2rem}.hosptial_service .hosptial_service_title[data-v-c9a02a16]{text-align:center}.hosptial_service .hosptial_service_body[data-v-c9a02a16]{display:flex;flex-wrap:wrap;margin:auto;width:80%}.hosptial_service .hosptial_service_body .hosptial_service_body_item[data-v-c9a02a16]{align-items:center;background-image:url(__VITE_PUBLIC_ASSET__15307164__);background-repeat:no-repeat;background-size:100% 100%;color:#721b0e;display:flex;font-size:2rem;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_service .hosptial_service_body .hosptial_service_body_item[data-v-c9a02a16]:hover{background-color:#721b0e;color:#fff}.hosptial_target_body[data-v-c9a02a16]{display:flex;flex-wrap:wrap;height:250px;margin:3rem auto auto;width:80%}.hosptial_target_body .hosptial_target_body_item[data-v-c9a02a16]{align-items:center;display:flex;flex-direction:column;height:130px;justify-content:center;margin-right:5%;margin-top:2rem;width:20%}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item1[data-v-c9a02a16]{align-items:center;display:flex;justify-content:center;margin-top:1rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item2[data-v-c9a02a16]{color:#721b0e;font-size:1.5rem;margin-top:1rem;text-transform:capitalize}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item3[data-v-c9a02a16]{font-size:2rem;margin-bottom:.5rem;margin-top:.5rem}.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item4[data-v-c9a02a16],.hosptial_target_body .hosptial_target_body_item .hosptial_target_body_item5[data-v-c9a02a16]{font-size:1.3rem}.hosptial_swiper[data-v-c9a02a16]{height:20%;margin:auto auto 2rem;width:80%}.hosptial_swiper img[data-v-c9a02a16]{height:100%;width:100%}",
+      "start": 1709707871902,
+      "end": 1709707871909,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707871909,
+      "end": 1709707871909,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707871910,
+      "end": 1709707871910,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707871914,
+      "end": 1709707871922,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709707871924,
+      "end": 1709707871924,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707871925,
+      "end": 1709707871925,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707871928,
+      "end": 1709707871928,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707871933,
+      "end": 1709707871935,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707871936,
+      "end": 1709707871936,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1709707871936,
+      "end": 1709707871936,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707871937,
+      "end": 1709707871937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707871937,
+      "end": 1709707871937,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707871937,
+      "end": 1709707871937,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707871940,
+      "end": 1709707871940,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707871940,
+      "end": 1709707871940,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707871941,
+      "end": 1709707871941,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707871941,
+      "end": 1709707871941,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707871941,
+      "end": 1709707871941,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707871941,
+      "end": 1709707871941,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707871941,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709707871942,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707871942,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709707871942,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707871942,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707871942,
+      "end": 1709707871942,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707871943,
+      "end": 1709707871943,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707871943,
+      "end": 1709707871943,
+      "order": "normal"
+    }
+  ]
+}

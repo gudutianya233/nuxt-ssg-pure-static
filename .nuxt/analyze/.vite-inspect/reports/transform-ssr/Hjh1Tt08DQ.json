@@ -1,0 +1,256 @@
+{
+  "resolvedId": "E:/cqmbyy/zypc/pages/doctor_team.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n        <Head>\r\n      <Title>重庆铭博医院专家-重庆老中医-重庆中医肿瘤专家</Title>\r\n      <Meta name=\"keywords\" content=\"重庆中医院，重庆名老中医，重庆铭博医院，重庆名老中医\" />\r\n      <Meta name=\"description\" content=\"重庆铭博医院汇聚蔡东辉，操良玉，徐有强，於广武，杨志平，匡建华等国内名老中医常年坐诊，整理历代中医名方，并结合临床实践，在肿瘤，常见病、高发疾病、慢性病和复杂并发症的治疗领域，取得了重大突破。\" />\r\n      </Head>\r\n    </div>\r\n    <div>\r\n        <div class=\"doctor_team_bg\">\r\n            <img src=\"/img/doctor_team_bg.png\" alt=\"\">\r\n        </div>\r\n        <div class=\"doctor_team_img\">\r\n            <img src=\"/img/doctor_team_img.png\" />\r\n        </div>\r\n        <div class=\"doctor_list\">\r\n            <div style=\"width: 28%;margin-right:5%;height: 800px;\" v-for=\"item in doctor_list\">\r\n                <div class=\"doctor\" @click=\"docotr_detail(item.id)\">\r\n                    <div class=\"doctor_img\">\r\n                        <img :src=\"item.head_picture\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"doctor_information\">\r\n                        <div class=\"doctor_information_title\">\r\n                            <div>{{ item.name }}</div>\r\n                            <div>{{ item.title }}</div>\r\n                        </div>\r\n                        <div class=\"doctor_information_body\">\r\n                            <img :src=\"item.achieve_url\" />\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"doctor_footer\">\r\n                    <div class=\"doctor_footer_more\" @click=\"docotr_detail(item.id)\">了解更多</div>\r\n                    <div class=\"doctor_footer_reservation\" @click=\"docotr_reservation()\">预约专家</div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport type { Doctor } from '~/entities/doctor'\r\nimport { useRouter } from 'vue-router'\r\nconst { public: { baseURL } } = useRuntimeConfig()\r\nconst router = useRouter()\r\nconst doctor_list: Ref<Doctor[]> = ref([])\r\nconst { data: data1 } = await useAsyncData(\r\n    () => $fetch(`${baseURL}/doctor/getDoctorInformation`)\r\n)\r\nonMounted(() => {\r\n    const res1 = JSON.stringify(data1.value)\r\n    doctor_list.value = JSON.parse(res1).data\r\n    console.log(doctor_list.value)\r\n})\r\nconst docotr_reservation=()=>[\r\nwindow.location.href ='http://dvt.zoosnet.net/LR/Chatpre.aspx?id=DVT34093088&lng=cn' \r\n]\r\nconst docotr_detail=(id:number)=>{\r\n    router.push({ path: `/article/doctor_detail/${id}`})\r\n}\r\n</script>\r\n<style lang=\"less\" scoped>\r\n.doctor_team_bg {\r\n    height: 500px;\r\n    width: 100%;\r\n\r\n    img {\r\n        height: 100%;\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n.doctor_team_img {\r\n    text-align: center;\r\n    margin-top: 2rem;\r\n}\r\n\r\n.doctor_list {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 70%;\r\n    margin: auto;\r\n    padding-bottom: 2rem;\r\n\r\n    .doctor {\r\n        width: 100%;\r\n        height:90%;\r\n        display: flex;\r\n        flex-direction: column;\r\n        margin-top: 2rem;\r\n        background-image: url(\"/img/doctor_bg.png\");\r\n        background-size: 100% 100%;\r\n        background-repeat: no-repeat;\r\n        cursor: pointer;\r\n        margin-bottom: 1rem;\r\n        .doctor_img {\r\n            height:69%;\r\n            width: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n\r\n            img {\r\n                height: 95%;\r\n                width: 95%;\r\n            }\r\n        }\r\n\r\n        .doctor_information {\r\n            display: flex;\r\n            flex-direction: column;\r\n            justify-content: center;\r\n            align-items: center;\r\n            height: 29%;\r\n            width: 94%;\r\n            margin-left: 3%;\r\n            background-color: #721B0E;\r\n            color: white;\r\n\r\n            .doctor_information_title {\r\n                height: 30%;\r\n                width: 80%;\r\n                display: flex;\r\n                align-items: center;\r\n                font-size: 1.3rem;\r\n                justify-content: space-between;\r\n                margin-bottom: 0.5rem;\r\n                margin-top: 0.5rem;\r\n            }\r\n\r\n            .doctor_information_body {\r\n                height: 70%;\r\n                width: 100%;\r\n                text-align: left;\r\n                font-size: 1.1rem;\r\n                img{\r\n                    height: 100%;\r\n                    width: 100%;\r\n                }\r\n\r\n            }\r\n        }\r\n\r\n    }\r\n}\r\n\r\n.doctor_footer{\r\n        width: 80%;\r\n        margin: auto;\r\n        height:6%;\r\n        display: flex;\r\n        justify-content: space-between;\r\n        .doctor_footer_more,\r\n        .doctor_footer_reservation {\r\n            width: 40%;\r\n            height: 100%;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            cursor: pointer;\r\n            background-image: url(\"/img/doctor_footer1.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat;      \r\n        }\r\n        .doctor_footer_more:hover,.doctor_footer_reservation:hover{\r\n            background-image: url(\"/img/doctor_footer2.png\");\r\n            background-size: 100% 100%;\r\n             background-repeat: no-repeat; \r\n            color: white;\r\n        }\r\n        \r\n}\r\n</style>",
+      "start": 1709707890949,
+      "end": 1709707891149,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709707891149,
+      "end": 1709707891149,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import _sfc_main from \"E:/cqmbyy/zypc/pages/doctor_team.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"E:/cqmbyy/zypc/pages/doctor_team.vue?vue&type=script&setup=true&lang.ts\";\nimport \"E:/cqmbyy/zypc/pages/doctor_team.vue?vue&type=style&index=0&scoped=d84e9ff0&lang.less\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"pages/doctor_team.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"__scopeId\", \"data-v-d84e9ff0\"]]);\n",
+      "start": 1709707891149,
+      "end": 1709707891197,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709707891197,
+      "end": 1709707891197,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709707891198,
+      "end": 1709707891198,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709707891198,
+      "end": 1709707891198,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709707891200,
+      "end": 1709707891209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709707891209,
+      "end": 1709707891209,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709707891210,
+      "end": 1709707891210,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709707891211,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709707891213,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709707891213,
+      "end": 1709707891213,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891214,
+      "end": 1709707891214,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709707891214,
+      "end": 1709707891214,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891214,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709707891214,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "element-plus:transform",
+      "start": 1709707891217,
+      "end": 1709707891217,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1709707891218,
+      "end": 1709707891218,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709707891223,
+      "end": 1709707891223,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709707891223,
+      "end": 1709707891223,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709707891223,
+      "end": 1709707891226,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709707891226,
+      "end": 1709707891226,
+      "order": "normal"
+    }
+  ]
+}
