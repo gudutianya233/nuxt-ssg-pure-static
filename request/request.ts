@@ -3,7 +3,6 @@ import axios from 'axios'
 // 创建axios实例
 const requests = axios.create({
     baseURL: 'http://localhost:3001',// 本地地址
-    //baseURL: 'http://api.cqmbyy.com',// 服务器地址
     timeout: 80000, // 请求超时时间(毫秒)
     withCredentials: false,// 异步请求携带cookie
 })
